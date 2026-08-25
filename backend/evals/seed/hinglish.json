@@ -1,0 +1,170 @@
+[
+  {
+    "id": "eval-hin-001",
+    "subject": "physics",
+    "category": "hinglish",
+    "question": "Bhai mechanics me pseudo force kab lagana hota hai aur iska direction kaise decide karte hain?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Non-inertial Reference Frame", "Pseudo Force F_p = -m a_frame", "Inertial Observer vs Accelerating Observer", "Direction Opposite to Frame Acceleration"],
+    "critical_relationships": ["defines", "explains", "highlights"],
+    "known_traps": ["Applying pseudo force from ground / inertial frame", "Applying pseudo force in the same direction as frame acceleration"],
+    "expected_language": "hinglish",
+    "golden": {
+      "min_required_concepts": ["pseudo force tab lagate hain jab observer non-inertial (accelerating) frame me ho", "magnitude F_p = m \\cdot a_{frame}", "direction frame ke acceleration ke theek opposite hoti hai", "ground frame (inertial) me pseudo force kabhi nahi lagta"],
+      "forbidden_misconceptions": ["pseudo force ground frame se lagaya ja sakta hai", "pseudo force real contact force hai jiska Newton's third law reaction pair hota hai"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "explains", "highlights"]
+    }
+  },
+  {
+    "id": "eval-hin-002",
+    "subject": "physics",
+    "category": "hinglish",
+    "question": "Jab temperature badhta hai toh liquid aur gas dono ki viscosity me opposite behavior kyu hota hai?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "no",
+    "key_concepts": ["Liquid Viscosity vs Gas Viscosity", "Intermolecular Cohesive Forces in Liquids", "Molecular Momentum Transfer in Gases", "Temperature Dependence (Liquid decreases, Gas increases)"],
+    "critical_relationships": ["contrasts_with", "explains", "defines"],
+    "known_traps": ["Assuming temperature increase decreases viscosity for both liquids and gases", "Ignoring molecular collision frequency in gases"],
+    "expected_language": "hinglish",
+    "golden": {
+      "min_required_concepts": ["liquids me viscosity cohesive intermolecular forces ki wajah se hoti hai, temp badhne par bonds break hote hain toh viscosity decrease hoti hai", "gases me viscosity molecules ke random thermal motion aur momentum exchange se aati hai", "temp badhne par gas molecules ki speed aur momentum transfer badhta hai isliye gas viscosity increase hoti hai"],
+      "forbidden_misconceptions": ["gas viscosity temperature badhne se ghat-ti hai", "liquid aur gas dono ka viscosity mechanism same hai"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "explains", "defines"]
+    }
+  },
+  {
+    "id": "eval-hin-003",
+    "subject": "chemistry",
+    "category": "hinglish",
+    "question": "SN1 reaction me carbocation rearrangement kab kab possible hota hai? Hydride shift aur methyl shift ka intuition batao.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Carbocation Rearrangement", "1,2-Hydride Shift", "1,2-Methyl Shift", "Thermodynamic Driving Force (1 -> 2 -> 3 or Resonance)", "Hyperconjugation Stability"],
+    "critical_relationships": ["explains", "derives_from", "highlights"],
+    "known_traps": ["Shifting from a more stable carbocation to a less stable one", "Attempting 1,3-shifts in a single step"],
+    "expected_language": "hinglish",
+    "golden": {
+      "min_required_concepts": ["rearrangement tab hota hai jab less stable carbocation more stable (e.g. 1 degree to 2/3 degree ya resonance stabilized) me convert ho sake", "1,2-hydride shift me H(-) apne electron pair ke saath adjacent positive carbon par jata hai", "1,2-methyl/alkyl shift tab hota hai jab hydride shift se better stability na mile (e.g. neopentyl carbocation)", "rearrangement hamesha carbocation stability badhane ke liye hota hai"],
+      "forbidden_misconceptions": ["SN2 reaction me carbocation rearrangement hota hai", "3 degree carbocation 1 degree carbocation me rearrange karega"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["explains", "derives_from", "highlights"]
+    }
+  },
+  {
+    "id": "eval-hin-004",
+    "subject": "mathematics",
+    "category": "hinglish",
+    "question": "Conic sections me tangent and normal ki equations (T=0 form vs slope form) ko samajhne ka systematic approach kya hai?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Tangent Replacement Rule T=0", "Point Form (x_1, y_1)", "Parametric Form", "Slope Form y = mx + c with Condition of Tangency", "Normal Equation from Orthogonal Slope"],
+    "critical_relationships": ["defines", "explains", "uses"],
+    "known_traps": ["Using T=0 when point (x_1, y_1) lies outside the conic (gives chord of contact, not tangent)", "Forgetting tangency condition c = a/m for parabola vs c = +/- sqrt(a^2m^2+b^2) for ellipse"],
+    "expected_language": "hinglish",
+    "golden": {
+      "min_required_concepts": ["T=0 rule point form ke liye lagta hai jab point curve par ho (x^2 -> xx_1, y^2 -> yy_1, 2x -> x+x_1)", "agar point curve ke bahar hai toh T=0 chord of contact deta hai", "slope form me curve aur line y=mx+c ka discriminant D=0 karke condition of tangency nikalte hain", "normal ki equation tangent ke perpendicular slope (-1/m) se banti hai"],
+      "forbidden_misconceptions": ["T=0 hamesha tangent deta hai chahe point curve par ho ya bahar", "normal ka slope tangent ke slope ke barabar hota hai"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "explains", "uses"]
+    }
+  },
+  {
+    "id": "eval-hin-005",
+    "subject": "physics",
+    "category": "hinglish",
+    "question": "Friction hamesha motion ko oppose karta hai ya relative motion ko? Real-life example se samjhao jaise walk karna ya car accelerate hona.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Static Friction as Driving Force", "Relative Motion Opposition vs Absolute Motion Assistance", "Walking Mechanics (Ground pushes forward)", "Car Wheel Rolling without Slipping"],
+    "critical_relationships": ["explains", "defines", "highlights"],
+    "known_traps": ["Believing friction can never increase kinetic energy or assist motion", "Assuming friction always acts backwards on all moving objects"],
+    "expected_language": "hinglish",
+    "golden": {
+      "min_required_concepts": ["friction absolute motion ko oppose nahi karta, balki do surfaces ke beech ki relative motion (ya tendency of slipping) ko oppose karta hai", "jab hum chalte hain toh pair ground ko peeche push karta hai, reaction me static friction hume aage push karta hai (friction drives motion)", "car ke driving wheels par static friction forward direction me act karta hai jisse car accelerate hoti hai"],
+      "forbidden_misconceptions": ["friction hamesha object ko rokne ki koshish karta hai aur kabhi speed nahi badha sakta", "walking me air drag chalata hai friction nahi"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["explains", "defines", "highlights"]
+    }
+  },
+  {
+    "id": "eval-hin-006",
+    "subject": "physics",
+    "category": "hinglish",
+    "question": "If a particle is moving in uniform circular motion, why is the work done by centripetal force zero? Hindi me crisp derivation ke saath explain karo.",
+    "expected_intent": "derivation",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "COMPACT_EXPLANATION",
+    "visual_expected": "no",
+    "key_concepts": ["Work-Energy Theorem", "Centripetal Force F_c perpendicular to Velocity v", "Dot Product W = int F . dr = 0", "cos(90 deg) = 0", "Constant Kinetic Energy in UCM"],
+    "critical_relationships": ["derives_from", "defines", "explains"],
+    "known_traps": ["Claiming work done is non-zero in non-uniform circular motion (centripetal still does zero work, tangential does work)", "Confusing displacement with distance"],
+    "expected_language": "hinglish",
+    "golden": {
+      "min_required_concepts": ["uniform circular motion me centripetal force hamesha center ki taraf (radially inward) hota hai", "velocity vector displacement dr hamesha tangent ke along hota hai", "F aur dr ke beech ka angle \\theta = 90^\\circ hota hai", "dW = \\vec{F} \\cdot d\\vec{r} = F ds \\cos(90^\\circ) = 0", "kinetic energy constant rehti hai toh work-energy theorem se total work done zero"],
+      "forbidden_misconceptions": ["centripetal force tangential acceleration produce karta hai", "work done is zero because particle has zero acceleration"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "concise",
+      "expected_relationship_types": ["derives_from", "defines", "explains"]
+    }
+  },
+  {
+    "id": "eval-hin-007",
+    "subject": "chemistry",
+    "category": "hinglish",
+    "question": "How to determine the order of reaction using the initial rate method? Practical shortcut aur intuition explain karo.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Initial Rate Method", "Differential Rate Law Rate = k [A]^x [B]^y", "Isolation of Variable Concentration", "Log Ratio / Direct Multiplier Shortcut", "Overall Order = x + y"],
+    "critical_relationships": ["defines", "derives_from", "explains"],
+    "known_traps": ["Determining order directly from stoichiometric coefficients of balanced overall equation", "Changing multiple reactant concentrations simultaneously without isolating one"],
+    "expected_language": "hinglish",
+    "golden": {
+      "min_required_concepts": ["rate law: Rate = k[A]^x[B]^y", "order theoretical balanced equation se nahi nikalta, experimental data se nikalta hai", "shortcut: ek reactant [B] ko constant rakho aur [A] ko n-times karo, agar rate m-times ho jaye toh n^x = m se x nikal lo", "overall order = x + y"],
+      "forbidden_misconceptions": ["reaction order hamesha stoichiometric coefficient ke barabar hota hai", "order fraction ya zero nahi ho sakta"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "derives_from", "explains"]
+    }
+  },
+  {
+    "id": "eval-hin-008",
+    "subject": "chemistry",
+    "category": "hinglish",
+    "question": "Explain the difference between path functions and state functions in thermodynamics with simple enthalpy and work done examples.",
+    "expected_intent": "comparison",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "no",
+    "key_concepts": ["State Function (Internal Energy U, Enthalpy H, Entropy S)", "Path Function (Work W, Heat q)", "Exact vs Inexact Differentials", "First Law of Thermodynamics Delta U = q + w", "Cyclic Integral of State Function is Zero"],
+    "critical_relationships": ["contrasts_with", "defines", "explains"],
+    "known_traps": ["Treating heat q or work w as state functions", "Claiming Delta H depends on the path taken between two equilibrium states"],
+    "expected_language": "hinglish",
+    "golden": {
+      "min_required_concepts": ["state function sirf initial aur final state par depend karta hai, path par nahi (e.g. Enthalpy H, Internal Energy U, Gibbs Free Energy G)", "path function is baat par depend karta hai ki process kis path se carry out hua (e.g. Work w aur Heat q)", "cyclic process me state function ka net change \\oint dX = 0 hota hai jabki work done non-zero ho sakta hai", "first law: \\Delta U = q + w me U state function hai jabki q aur w path functions hain"],
+      "forbidden_misconceptions": ["work is a state function", "heat content is stored as heat in a system at equilibrium"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "defines", "explains"]
+    }
+  }
+]

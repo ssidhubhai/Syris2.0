@@ -1,0 +1,282 @@
+{
+  "document_id": "doc-3c500330",
+  "session_id": "sess-eval-511da683",
+  "title": "Horizontal Force on a Wedge to Prevent Block Sliding",
+  "intent": "problem_solving",
+  "subject": "physics",
+  "language": "english",
+  "nodes": [
+    {
+      "id": "node-head-1",
+      "type": "heading",
+      "content": {
+        "text": "Problem Analysis & Free Body Diagrams",
+        "level": 1,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-text-1",
+      "type": "text",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "To keep the block of mass $m$ stationary relative to the smooth wedge of mass $M$, the entire system (wedge + block) must be accelerated horizontally with a specific acceleration $a$. In the non-inertial frame of the wedge, a pseudo-force acts horizontally on the block.",
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "supporting",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-def-1",
+      "type": "definition",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Normal Reaction and Component Forces",
+        "latex": "N \\cos\\theta = mg, \\quad N \\sin\\theta = ma",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": "Resolving forces vertically and horizontally in the ground frame for the block of mass m.",
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "split_left"
+    },
+    {
+      "id": "node-eq-1",
+      "type": "equation",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": "Acceleration of the system",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": "Eq. (1)",
+        "label": "Acceleration of the system",
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "split_right"
+    },
+    {
+      "id": "node-deriv-1",
+      "type": "derivation_step",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": "\\text{Step 1}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": 1,
+        "explanation": "Algebraic derivation step 1",
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-eq-2",
+      "type": "equation",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": "Required Force F",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": "Eq. (2)",
+        "label": "Required Force F",
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-conc-1",
+      "type": "conclusion",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Final Answer",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": true,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "node-def-1",
+      "to": "node-eq-1",
+      "type": "derives_from",
+      "label": "Divide horizontal equation by vertical equation"
+    },
+    {
+      "from": "node-eq-1",
+      "to": "node-deriv-1",
+      "type": "substitutes_into",
+      "label": "Use acceleration in total force equation"
+    },
+    {
+      "from": "node-deriv-1",
+      "to": "node-eq-2",
+      "type": "follows_from",
+      "label": "Calculate total mass times acceleration"
+    },
+    {
+      "from": "node-eq-2",
+      "to": "node-conc-1",
+      "type": "highlights",
+      "label": "Final derived result"
+    }
+  ],
+  "layout_hints": {
+    "recommended_layout": "split_left_right",
+    "primary_channel_nodes": [
+      "node-head-1",
+      "node-text-1",
+      "node-eq-2",
+      "node-conc-1"
+    ],
+    "context_channel_nodes": [
+      "node-def-1",
+      "node-eq-1",
+      "node-deriv-1"
+    ],
+    "sticky_header_nodes": [
+      "node-head-1"
+    ]
+  },
+  "validation": {
+    "math_verified": false,
+    "domain_verified": false,
+    "verifier_used": "semantic_validator_phase4a",
+    "flagged_issues": []
+  },
+  "source_metadata": {
+    "provider": "google",
+    "model": "gemini-3.5-flash-lite",
+    "generation_time_ms": 3822,
+    "prompt_version": "v1.0"
+  }
+}

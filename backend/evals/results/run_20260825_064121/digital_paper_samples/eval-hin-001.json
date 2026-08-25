@@ -1,0 +1,264 @@
+{
+  "document_id": "doc-34aa97d5",
+  "session_id": "sess-eval-a4bea771",
+  "title": "Concept of Pseudo Force in Mechanics",
+  "intent": "concept_explanation",
+  "subject": "physics",
+  "language": "hinglish",
+  "nodes": [
+    {
+      "id": "node-head-1",
+      "type": "heading",
+      "content": {
+        "text": "Kab aur Kaise Lagayein Pseudo Force?",
+        "level": 1,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-text-1",
+      "type": "text",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "Jab bhi aap kisi aisi frame of reference se problems solve karte hain jo khud accelerate kar rahi ho (non-inertial frame), toh Newton ke laws directly apply nahi hote. Is problem ko fix karne ke liye hume ek fictitious force lagana padta hai jise **Pseudo Force** kehte hain.",
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-def-1",
+      "type": "definition",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Pseudo Force Formula",
+        "latex": "F_{\\text{pseudo}} = -m \\vec{a}_{0}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": "Yahan m observer ki frame ka mass nahi balki object ka mass hai, aur a_0 frame ka acceleration hai.",
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "split_left"
+    },
+    {
+      "id": "node-callout-1",
+      "type": "callout",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "Important concept regarding tip.",
+        "description": null,
+        "subtitle": null,
+        "title": "tip",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": "tip",
+        "canvas_type": null,
+        "purpose": "Direction Rule for Hinglish Students \u0939\u093f\u0928\u094d\u0926\u0940 \u092e\u0947\u0902 \u0928\u093f\u092f\u092e: \u091c\u093f\u0938 direction \u092e\u0947\u0902 reference frame accelerate karegi, pseudo force uske theek **opposite** direction mein lagana hai. Jaise lift upar accelerate karegi toh pseudo force neeche lagega!"
+      },
+      "importance": "critical",
+      "layout_preference": "split_right"
+    },
+    {
+      "id": "node-comp-1",
+      "type": "comparison",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Inertial vs Non-Inertial Frame",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": "Inertial Frame (Ground)",
+        "left_points": [
+          "Frame at rest or moving with constant velocity",
+          "a = 0",
+          "No pseudo force needed",
+          "Only real forces (gravity, normal, tension) applied"
+        ],
+        "right_title": "Non-Inertial Frame (Accelerating)",
+        "right_points": [
+          "Frame is accelerating with a_0",
+          "a != 0",
+          "Pseudo force (-m * a_0) must be included",
+          "Makes calculations easier from observer's point of view"
+        ],
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "supporting",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-conc-1",
+      "type": "conclusion",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Golden Rule for JEE",
+        "latex": "\\sum \\vec{F}_{\\text{effective}} = \\vec{F}_{\\text{real}} - m\\vec{a}_{0} = m\\vec{a}_{\\text{rel}}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": true,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "node-head-1",
+      "to": "node-text-1",
+      "type": "follows_from",
+      "label": null
+    },
+    {
+      "from": "node-text-1",
+      "to": "node-def-1",
+      "type": "defines",
+      "label": null
+    },
+    {
+      "from": "node-def-1",
+      "to": "node-callout-1",
+      "type": "highlights",
+      "label": null
+    },
+    {
+      "from": "node-text-1",
+      "to": "node-comp-1",
+      "type": "contrasts_with",
+      "label": null
+    },
+    {
+      "from": "node-def-1",
+      "to": "node-conc-1",
+      "type": "derives_from",
+      "label": null
+    }
+  ],
+  "layout_hints": {
+    "recommended_layout": "vertical_flow",
+    "primary_channel_nodes": [
+      "node-head-1",
+      "node-text-1",
+      "node-def-1",
+      "node-comp-1",
+      "node-conc-1"
+    ],
+    "context_channel_nodes": [
+      "node-callout-1"
+    ],
+    "sticky_header_nodes": null
+  },
+  "validation": {
+    "math_verified": false,
+    "domain_verified": false,
+    "verifier_used": "semantic_validator_phase4a",
+    "flagged_issues": []
+  },
+  "source_metadata": {
+    "provider": "google",
+    "model": "gemini-3.5-flash-lite",
+    "generation_time_ms": 4482,
+    "prompt_version": "v1.0"
+  }
+}

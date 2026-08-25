@@ -1,0 +1,218 @@
+{
+  "document_id": "doc-9106b852",
+  "session_id": "sess-eval-b1699f4c",
+  "title": "Comparison of SN1 and SN2 Mechanisms for (R)-2-bromobutane",
+  "intent": "comparison",
+  "subject": "chemistry",
+  "language": "english",
+  "nodes": [
+    {
+      "id": "node-head-1",
+      "type": "heading",
+      "content": {
+        "text": "Comparison of SN1 and SN2 Mechanisms for (R)-2-bromobutane",
+        "level": 1,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-def-1",
+      "type": "definition",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Substrate Definition",
+        "latex": "\\text{CH}_3-\\text{CH(Br)}-\\text{CH}_2-\\text{CH}_3",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": "(R)-2-bromobutane is a secondary alkyl halide, making it capable of undergoing both SN1 and SN2 pathways depending on conditions like solvent and nucleophile strength.",
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "supporting",
+      "layout_preference": "auto"
+    },
+    {
+      "id": "node-comp-1",
+      "type": "comparison",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "SN1 vs SN2 Detailed Comparison",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": "SN1 Mechanism (Unimolecular)",
+        "left_points": [
+          "Kinetics: Rate = k[Substrate], first-order overall.",
+          "Carbocation Rearrangement: Occurs via a planar secondary carbocation, which can undergo 1,2-hydride or 1,2-methyl shifts to form a more stable tertiary carbocation if possible.",
+          "Stereochemical Outcome: Racemization (formation of a racemic mixture of (R) and (S) enantiomers) due to attack from either face of the planar carbocation, though often with slight retention due to ion-pairing."
+        ],
+        "right_title": "SN2 Mechanism (Bimolecular)",
+        "right_points": [
+          "Kinetics: Rate = k[Substrate][Nucleophile], second-order overall.",
+          "Carbocation Rearrangement: No carbocation intermediate is formed; thus, no carbocation rearrangements take place.",
+          "Stereochemical Outcome: Complete Walden inversion of configuration (e.g., starting with (R)-2-bromobutane yields (S)-butan-2-ol)."
+        ],
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-callout-1",
+      "type": "callout",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "Important concept regarding trap.",
+        "description": null,
+        "subtitle": null,
+        "title": "trap",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": "trap",
+        "canvas_type": null,
+        "purpose": "JEE Exam Warning regarding secondary halides and rearrangements in SN1/SN2 conditions."
+      },
+      "importance": "critical",
+      "layout_preference": "auto"
+    },
+    {
+      "id": "node-conc-1",
+      "type": "conclusion",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Key Takeaway",
+        "latex": "\\text{SN1} \\rightarrow \\text{Racemization + Rearrangement}, \\quad \\text{SN2} \\rightarrow \\text{Inversion (No Rearrangement)}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": true,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "node-def-1",
+      "to": "node-comp-1",
+      "type": "defines",
+      "label": "substrate context"
+    },
+    {
+      "from": "node-comp-1",
+      "to": "node-callout-1",
+      "type": "highlights",
+      "label": "exam pitfall"
+    },
+    {
+      "from": "node-comp-1",
+      "to": "node-conc-1",
+      "type": "derives_from",
+      "label": "summary"
+    }
+  ],
+  "layout_hints": {
+    "recommended_layout": "split_left",
+    "primary_channel_nodes": [
+      "node-head-1",
+      "node-comp-1",
+      "node-conc-1"
+    ],
+    "context_channel_nodes": [
+      "node-def-1",
+      "node-callout-1"
+    ],
+    "sticky_header_nodes": null
+  },
+  "validation": {
+    "math_verified": false,
+    "domain_verified": false,
+    "verifier_used": "semantic_validator_phase4a",
+    "flagged_issues": []
+  },
+  "source_metadata": {
+    "provider": "google",
+    "model": "gemini-3.5-flash-lite",
+    "generation_time_ms": 4140,
+    "prompt_version": "v1.0"
+  }
+}

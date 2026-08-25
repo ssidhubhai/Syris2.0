@@ -1,0 +1,247 @@
+{
+  "run_id": "eval_run_20260825_064526",
+  "timestamp": "2026-08-25T06:45:35.809495Z",
+  "mode": "live_gemini",
+  "model_ids": [
+    "gemini-3.5-flash"
+  ],
+  "prompt_version": "v1.0",
+  "total_cases_evaluated": 3,
+  "successful_cases": 0,
+  "failed_cases": 3,
+  "case_results": [
+    {
+      "case_id": "eval-chem-008",
+      "subject": "chemistry",
+      "category": "mechanism",
+      "question": "Compare the mechanism, carbocation rearrangement, and stereochemical outcome (inversion vs racemization) of (R)-2-bromobutane reacting via SN1 vs SN2.",
+      "model_id": "gemini-3.5-flash",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "Google Gemini service unavailable (503): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 2119.54,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.32,
+          "prompt_prep_time_ms": 0.05,
+          "gemini_request_time_ms": 0.0,
+          "response_parse_time_ms": 0.0,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 2119.54
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: Google Gemini service unavailable (503): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-math-006",
+      "subject": "mathematics",
+      "category": "derivation",
+      "question": "Derive the formula for Integration by Parts from the product rule of differentiation and explain the ILATE priority rule.",
+      "model_id": "gemini-3.5-flash",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "Google Gemini service unavailable (503): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 4445.86,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.37,
+          "prompt_prep_time_ms": 0.12,
+          "gemini_request_time_ms": 0.0,
+          "response_parse_time_ms": 0.0,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4445.86
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: Google Gemini service unavailable (503): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-006",
+      "subject": "physics",
+      "category": "derivation",
+      "question": "Derive the escape velocity from the surface of a spherical planet of mass M and radius R using gravitational potential energy.",
+      "model_id": "gemini-3.5-flash",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "Google Gemini service unavailable (503): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 2252.57,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.34,
+          "prompt_prep_time_ms": 0.11,
+          "gemini_request_time_ms": 0.0,
+          "response_parse_time_ms": 0.0,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 2252.57
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: Google Gemini service unavailable (503): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        }
+      ],
+      "human_scorecard": null
+    }
+  ],
+  "model_summaries": [
+    {
+      "model_id": "gemini-3.5-flash",
+      "total_cases": 3,
+      "success_count": 0,
+      "failure_count": 3,
+      "avg_latency_ms": 0.0,
+      "avg_node_count": 0.0,
+      "avg_relationship_count": 0.0,
+      "avg_concept_coverage_rate": 0.0,
+      "unnecessary_visual_count": 0,
+      "missing_visual_count": 0,
+      "critical_error_count": 0
+    }
+  ],
+  "latency_summary": {
+    "avg_total_ms": 0.0,
+    "avg_gemini_request_ms": 0.0,
+    "avg_preprocessing_ms": 0.0
+  },
+  "failure_distribution": {
+    "J_SCHEMA_FAILURE": 3
+  }
+}

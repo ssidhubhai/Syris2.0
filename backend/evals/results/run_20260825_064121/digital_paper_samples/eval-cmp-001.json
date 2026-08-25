@@ -1,0 +1,241 @@
+{
+  "document_id": "doc-70327766",
+  "session_id": "sess-eval-7dcedbf4",
+  "title": "Adiabatic Process Definition & Ideal Gas Equation",
+  "intent": "definition",
+  "subject": "physics",
+  "language": "english",
+  "nodes": [
+    {
+      "id": "node-head-1",
+      "type": "heading",
+      "content": {
+        "text": "Adiabatic Thermodynamic Process",
+        "level": 1,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-def-1",
+      "type": "definition",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Adiabatic Process",
+        "latex": "dQ = 0",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": "An adiabatic process is a thermodynamic process in which no heat is exchanged between the system and its surroundings.",
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-text-1",
+      "type": "text",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "In such processes, temperature changes occur solely due to expansion or compression which performs work on or by the system. This typically happens either because the system is thermally insulated perfectly or because the process occurs extremely fast (such as sound waves propagating through a gas).",
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "supporting",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-eq-1",
+      "type": "equation",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": "Governing Equation for Ideal Gas",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": "Eq. (1)",
+        "label": "Governing Equation for Ideal Gas",
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-eq-latex",
+      "type": "equation",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": "PV^\\gamma = \\text{constant}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": "Eq. (2)",
+        "label": "Poisson's Equation",
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-callout-1",
+      "type": "callout",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "Important concept regarding info.",
+        "description": null,
+        "subtitle": null,
+        "title": "info",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": "info",
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "note",
+      "layout_preference": "full_width"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "node-head-1",
+      "to": "node-def-1",
+      "type": "defines",
+      "label": null
+    },
+    {
+      "from": "node-def-1",
+      "to": "node-text-1",
+      "type": "explains",
+      "label": null
+    },
+    {
+      "from": "node-text-1",
+      "to": "node-eq-latex",
+      "type": "derives_from",
+      "label": null
+    }
+  ],
+  "layout_hints": {
+    "recommended_layout": "compact",
+    "primary_channel_nodes": [
+      "node-head-1",
+      "node-def-1",
+      "node-text-1",
+      "node-eq-latex"
+    ],
+    "context_channel_nodes": [],
+    "sticky_header_nodes": [
+      "node-head-1"
+    ]
+  },
+  "validation": {
+    "math_verified": false,
+    "domain_verified": false,
+    "verifier_used": "semantic_validator_phase4a",
+    "flagged_issues": []
+  },
+  "source_metadata": {
+    "provider": "google",
+    "model": "gemini-3.5-flash-lite",
+    "generation_time_ms": 3498,
+    "prompt_version": "v1.0"
+  }
+}

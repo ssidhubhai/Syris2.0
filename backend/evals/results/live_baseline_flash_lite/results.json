@@ -1,0 +1,737 @@
+{
+  "run_id": "eval_run_20260825_063735",
+  "timestamp": "2026-08-25T06:38:30.028573Z",
+  "mode": "live_gemini",
+  "model_ids": [
+    "gemini-3.5-flash-lite"
+  ],
+  "prompt_version": "v1.0",
+  "total_cases_evaluated": 10,
+  "successful_cases": 0,
+  "failed_cases": 10,
+  "case_results": [
+    {
+      "case_id": "eval-chem-001",
+      "subject": "chemistry",
+      "category": "conceptual",
+      "question": "Explain the geometry, hybridization, and exact see-saw shape of sulfur tetrafluoride (SF_4) based on VSEPR theory.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Derivation step 'node-deriv-1' must have non-empty 'latex'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 7081.7,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.41,
+          "prompt_prep_time_ms": 0.09,
+          "gemini_request_time_ms": 7078.63,
+          "response_parse_time_ms": 1.21,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 7081.7
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Derivation step 'node-deriv-1' must have non-empty 'latex'."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-chem-008",
+      "subject": "chemistry",
+      "category": "mechanism",
+      "question": "Compare the mechanism, carbocation rearrangement, and stereochemical outcome (inversion vs racemization) of (R)-2-bromobutane reacting via SN1 vs SN2.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Callout node 'node-callout-1' must have non-empty 'markdown'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 4413.24,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.35,
+          "prompt_prep_time_ms": 0.11,
+          "gemini_request_time_ms": 4410.71,
+          "response_parse_time_ms": 0.94,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4413.24
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Callout node 'node-callout-1' must have non-empty 'markdown'."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-cmp-001",
+      "subject": "physics",
+      "category": "compact",
+      "question": "Define an adiabatic thermodynamic process and state its governing governing equation for an ideal gas.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Callout node 'node-callout-1' must have non-empty 'markdown'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 3662.62,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.32,
+          "prompt_prep_time_ms": 0.11,
+          "gemini_request_time_ms": 3660.09,
+          "response_parse_time_ms": 1.0,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 3662.62
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Callout node 'node-callout-1' must have non-empty 'markdown'."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-hin-001",
+      "subject": "physics",
+      "category": "hinglish",
+      "question": "Bhai mechanics me pseudo force kab lagana hota hai aur iska direction kaise decide karte hain?",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Callout node 'node-callout-1' must have non-empty 'markdown'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 4286.08,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.35,
+          "prompt_prep_time_ms": 0.13,
+          "gemini_request_time_ms": 4283.77,
+          "response_parse_time_ms": 0.9,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4286.08
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Callout node 'node-callout-1' must have non-empty 'markdown'."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-math-001",
+      "subject": "mathematics",
+      "category": "conceptual",
+      "question": "Explain the geometric and physical meaning of the derivative f'(a) and why continuity is a necessary but not sufficient condition for differentiability.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Callout node 'node-callout-1' must have non-empty 'markdown'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 4795.64,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.36,
+          "prompt_prep_time_ms": 0.1,
+          "gemini_request_time_ms": 4794.11,
+          "response_parse_time_ms": 0.46,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4795.64
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Callout node 'node-callout-1' must have non-empty 'markdown'."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-math-006",
+      "subject": "mathematics",
+      "category": "derivation",
+      "question": "Derive the formula for Integration by Parts from the product rule of differentiation and explain the ILATE priority rule.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Derivation step 'node-deriv-1' must have non-empty 'latex'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 13842.21,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.16,
+          "prompt_prep_time_ms": 0.05,
+          "gemini_request_time_ms": 13840.26,
+          "response_parse_time_ms": 0.84,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 13842.21
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Derivation step 'node-deriv-1' must have non-empty 'latex'."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-001",
+      "subject": "physics",
+      "category": "conceptual",
+      "question": "Why does Lenz's Law naturally follow from the principle of conservation of energy?",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Derivation step 'node-deriv-1' must have non-empty 'latex'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 4168.8,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.34,
+          "prompt_prep_time_ms": 0.1,
+          "gemini_request_time_ms": 4166.27,
+          "response_parse_time_ms": 1.0,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4168.8
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Derivation step 'node-deriv-1' must have non-empty 'latex'."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-006",
+      "subject": "physics",
+      "category": "derivation",
+      "question": "Derive the escape velocity from the surface of a spherical planet of mass M and radius R using gravitational potential energy.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Derivation step 'node-deriv-1' must have non-empty 'latex'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 3550.05,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.34,
+          "prompt_prep_time_ms": 0.1,
+          "gemini_request_time_ms": 3547.83,
+          "response_parse_time_ms": 0.9,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 3550.05
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Derivation step 'node-deriv-1' must have non-empty 'latex'."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-011",
+      "subject": "physics",
+      "category": "diagram",
+      "question": "A block of mass m rests on a smooth wedge of mass M and angle theta on a horizontal table. What horizontal force F must be applied to the wedge so that the block does not slide?",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Derivation step 'node-deriv-1' must have non-empty 'latex'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 5383.14,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.38,
+          "prompt_prep_time_ms": 0.1,
+          "gemini_request_time_ms": 5381.56,
+          "response_parse_time_ms": 0.53,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 5383.14
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Derivation step 'node-deriv-1' must have non-empty 'latex'."
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-014",
+      "subject": "physics",
+      "category": "comparison",
+      "question": "Compare perfectly elastic collision and perfectly inelastic collision in 1D mechanics with respect to momentum, kinetic energy, and coefficient of restitution.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": false,
+      "error_message": "422: Callout node 'node-callout-1' must have non-empty 'markdown'.",
+      "document": null,
+      "metrics": {
+        "structural": {
+          "schema_valid": false,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "pedagogically_acceptable",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 0,
+          "relationship_count": 0,
+          "total_word_count": 0,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 2965.96,
+          "provider_error_rate": 1.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "total_tokens": null
+        },
+        "concept_signal": {
+          "matched_concepts": [],
+          "missing_concepts": [],
+          "concept_coverage_rate": 0.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.16,
+          "prompt_prep_time_ms": 0.05,
+          "gemini_request_time_ms": 2964.2,
+          "response_parse_time_ms": 0.74,
+          "validation_time_ms": 0.0,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 2965.96
+        }
+      },
+      "failures": [
+        {
+          "category_code": "J_SCHEMA_FAILURE",
+          "title": "Schema or Technical Generation Failure",
+          "description": "Model generation or validation failed: 422: Callout node 'node-callout-1' must have non-empty 'markdown'."
+        }
+      ],
+      "human_scorecard": null
+    }
+  ],
+  "model_summaries": [
+    {
+      "model_id": "gemini-3.5-flash-lite",
+      "total_cases": 10,
+      "success_count": 0,
+      "failure_count": 10,
+      "avg_latency_ms": 0.0,
+      "avg_node_count": 0.0,
+      "avg_relationship_count": 0.0,
+      "avg_concept_coverage_rate": 0.0,
+      "unnecessary_visual_count": 0,
+      "missing_visual_count": 0,
+      "critical_error_count": 0
+    }
+  ],
+  "latency_summary": {
+    "avg_total_ms": 0.0,
+    "avg_gemini_request_ms": 0.0,
+    "avg_preprocessing_ms": 0.0
+  },
+  "failure_distribution": {
+    "J_SCHEMA_FAILURE": 10
+  }
+}

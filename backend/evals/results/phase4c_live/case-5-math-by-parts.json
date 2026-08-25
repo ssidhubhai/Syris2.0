@@ -1,0 +1,319 @@
+{
+  "case_id": "case-5-math-by-parts",
+  "title": "Integration by Parts Formula Derivation",
+  "subject": "mathematics",
+  "category": "derivation",
+  "query": "Derive the integration by parts formula \\int u \\, dv = uv - \\int v \\, du starting from the product rule of differentiation.",
+  "model_id": "gemini-3.5-flash-lite",
+  "prompt_version": "v1.0",
+  "status": "PASS",
+  "error_message": null,
+  "token_usage": {
+    "input_tokens": 1213,
+    "output_tokens": 1090,
+    "total_tokens": 2303
+  },
+  "latency_breakdown": {
+    "preprocessing_time_ms": 0.25,
+    "prompt_prep_time_ms": 0.1,
+    "gemini_request_time_ms": 3456.25,
+    "response_parse_time_ms": 0.68,
+    "validation_time_ms": 0.2,
+    "persistence_time_ms": 0.0,
+    "total_pipeline_time_ms": 3458.37
+  },
+  "document": {
+    "document_id": "doc-44394f24",
+    "session_id": "sess-p4c-d60d43a4",
+    "title": "Derivation of Integration by Parts Formula",
+    "intent": "derivation",
+    "subject": "mathematics",
+    "language": "english",
+    "nodes": [
+      {
+        "id": "node-head-1",
+        "type": "heading",
+        "content": {
+          "text": "Derivation of Integration by Parts Formula",
+          "level": 1,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": null,
+          "latex": null,
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "full_width"
+      },
+      {
+        "id": "node-text-1",
+        "type": "text",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": "The integration by parts formula is a fundamental technique in integral calculus used for integrating products of functions. It originates directly from the product rule of differentiation.",
+          "description": null,
+          "subtitle": null,
+          "title": null,
+          "latex": null,
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "supporting",
+        "layout_preference": "full_width"
+      },
+      {
+        "id": "node-eq-1",
+        "type": "equation",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": null,
+          "latex": "Product Rule of Differentiation",
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": "Eq. (1)",
+          "label": "Product Rule of Differentiation",
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "full_width"
+      },
+      {
+        "id": "node-deriv-1",
+        "type": "derivation_step",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": null,
+          "latex": "\\text{Step 1}",
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": 1,
+          "explanation": "Algebraic derivation step 1",
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "full_width"
+      },
+      {
+        "id": "node-deriv-2",
+        "type": "derivation_step",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": null,
+          "latex": "\\text{Step 2}",
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": 2,
+          "explanation": "Algebraic derivation step 2",
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "full_width"
+      },
+      {
+        "id": "node-conc-1",
+        "type": "conclusion",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": "Integration by Parts Formula",
+          "latex": "\\int u \\, dv = uv - \\int v \\, du",
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": true,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "full_width"
+      },
+      {
+        "id": "node-callout-1",
+        "type": "callout",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": "Important concept regarding tip.",
+          "description": null,
+          "subtitle": null,
+          "title": "tip",
+          "latex": null,
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": "tip",
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "note",
+        "layout_preference": "full_width"
+      }
+    ],
+    "relationships": [
+      {
+        "from": "node-head-1",
+        "to": "node-text-1",
+        "type": "follows_from",
+        "label": null
+      },
+      {
+        "from": "node-text-1",
+        "to": "node-eq-1",
+        "type": "uses",
+        "label": null
+      },
+      {
+        "from": "node-eq-1",
+        "to": "node-deriv-1",
+        "type": "substitutes_into",
+        "label": null
+      },
+      {
+        "from": "node-deriv-1",
+        "to": "node-deriv-2",
+        "type": "derives_from",
+        "label": null
+      },
+      {
+        "from": "node-deriv-2",
+        "to": "node-conc-1",
+        "type": "derives_from",
+        "label": null
+      },
+      {
+        "from": "node-conc-1",
+        "to": "node-callout-1",
+        "type": "highlights",
+        "label": null
+      }
+    ],
+    "layout_hints": {
+      "recommended_layout": "vertical_flow",
+      "primary_channel_nodes": [
+        "node-head-1",
+        "node-text-1",
+        "node-eq-1",
+        "node-deriv-1",
+        "node-deriv-2",
+        "node-conc-1"
+      ],
+      "context_channel_nodes": [
+        "node-callout-1"
+      ],
+      "sticky_header_nodes": [
+        "node-head-1"
+      ]
+    },
+    "validation": {
+      "math_verified": false,
+      "domain_verified": false,
+      "verifier_used": "semantic_validator_phase4a",
+      "flagged_issues": []
+    },
+    "source_metadata": {
+      "provider": "google",
+      "model": "gemini-3.5-flash-lite",
+      "generation_time_ms": 3455,
+      "prompt_version": "v1.0"
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "case_id": "case-3-chem-sn1-sn2",
+  "title": "SN1 vs SN2 Mechanisms Comparison",
+  "subject": "chemistry",
+  "category": "comparison",
+  "query": "What is the difference between SN1 and SN2 reaction mechanisms in organic chemistry? Compare kinetics, intermediate, solvent, and stereochemistry.",
+  "model_id": "gemini-3.5-flash-lite",
+  "prompt_version": "v1.0",
+  "status": "PASS",
+  "error_message": null,
+  "token_usage": {
+    "input_tokens": 1206,
+    "output_tokens": 937,
+    "total_tokens": 2143
+  },
+  "latency_breakdown": {
+    "preprocessing_time_ms": 0.27,
+    "prompt_prep_time_ms": 0.12,
+    "gemini_request_time_ms": 3941.07,
+    "response_parse_time_ms": 0.82,
+    "validation_time_ms": 0.21,
+    "persistence_time_ms": 0.0,
+    "total_pipeline_time_ms": 3943.55
+  },
+  "document": {
+    "document_id": "doc-584a7108",
+    "session_id": "sess-p4c-01faf4ae",
+    "title": "Comparison of SN1 and SN2 Reaction Mechanisms",
+    "intent": "comparison",
+    "subject": "chemistry",
+    "language": "english",
+    "nodes": [
+      {
+        "id": "node-head-1",
+        "type": "heading",
+        "content": {
+          "text": "Nucleophilic Substitution Mechanisms: SN1 vs SN2",
+          "level": 1,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": null,
+          "latex": null,
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "full_width"
+      },
+      {
+        "id": "node-def-sn1",
+        "type": "definition",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": "SN1 Mechanism (Substitution Nucleophilic Unimolecular)",
+          "latex": "\\text{Rate} = k[R-X]",
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": "Two-step process involving a planar carbocation intermediate.",
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "auto"
+      },
+      {
+        "id": "node-def-sn2",
+        "type": "definition",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": "SN2 Mechanism (Substitution Nucleophilic Bimolecular)",
+          "latex": "\\text{Rate} = k[R-X][\\text{Nu}^-]",
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": "Concerted single-step process with a pentavalent transition state and Walden inversion.",
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "auto"
+      },
+      {
+        "id": "node-comp-1",
+        "type": "comparison",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": "Comprehensive Feature Comparison",
+          "latex": null,
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": "SN1 Mechanism",
+          "left_points": [
+            "Kinetics: First-order overall (Rate = k[Substrate])",
+            "Intermediate: Stable planar carbocation",
+            "Solvent: Polar protic solvents stabilize carbocation",
+            "Stereochemistry: Racemization (mixture of inversion and retention)"
+          ],
+          "right_title": "SN2 Mechanism",
+          "right_points": [
+            "Kinetics: Second-order overall (Rate = k[Substrate][Nucleophile])",
+            "Intermediate: No intermediate (concerted transition state)",
+            "Solvent: Polar aprotic solvents enhance nucleophile strength",
+            "Stereochemistry: Complete inversion of configuration (Walden Inversion)"
+          ],
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "full_width"
+      },
+      {
+        "id": "node-callout-1",
+        "type": "callout",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": "Important concept regarding trap.",
+          "description": null,
+          "subtitle": null,
+          "title": "trap",
+          "latex": null,
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": "trap",
+          "canvas_type": null,
+          "purpose": "Common JEE Trap regarding substrate steric hindrance and carbocation rearrangement stability in SN1/SN2 questions."
+        },
+        "importance": "note",
+        "layout_preference": "full_width"
+      }
+    ],
+    "relationships": [
+      {
+        "from": "node-head-1",
+        "to": "node-def-sn1",
+        "type": "explains",
+        "label": null
+      },
+      {
+        "from": "node-head-1",
+        "to": "node-def-sn2",
+        "type": "explains",
+        "label": null
+      },
+      {
+        "from": "node-def-sn1",
+        "to": "node-comp-1",
+        "type": "contrasts_with",
+        "label": null
+      },
+      {
+        "from": "node-def-sn2",
+        "to": "node-comp-1",
+        "type": "contrasts_with",
+        "label": null
+      },
+      {
+        "from": "node-comp-1",
+        "to": "node-callout-1",
+        "type": "highlights",
+        "label": null
+      }
+    ],
+    "layout_hints": {
+      "recommended_layout": "split_columns",
+      "primary_channel_nodes": null,
+      "context_channel_nodes": null,
+      "sticky_header_nodes": null
+    },
+    "validation": {
+      "math_verified": false,
+      "domain_verified": false,
+      "verifier_used": "semantic_validator_phase4a",
+      "flagged_issues": []
+    },
+    "source_metadata": {
+      "provider": "google",
+      "model": "gemini-3.5-flash-lite",
+      "generation_time_ms": 3940,
+      "prompt_version": "v1.0"
+    }
+  }
+}

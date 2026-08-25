@@ -1,0 +1,255 @@
+{
+  "document_id": "doc-692a45a8",
+  "session_id": "sess-eval-474c94fa",
+  "title": "Pseudo Force in Mechanics: When and How to Apply",
+  "intent": "concept_explanation",
+  "subject": "physics",
+  "language": "hinglish",
+  "nodes": [
+    {
+      "id": "node-head-1",
+      "type": "heading",
+      "content": {
+        "text": "Pseudo Force (Fictitious Force) in Mechanics",
+        "level": 1,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-def-1",
+      "type": "definition",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "What is Pseudo Force?",
+        "latex": "\\vec{F}_{pseudo} = -m \\vec{a}_{frame}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": "m is the mass of the object and a_frame is the acceleration of the non-inertial reference frame.",
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-text-1",
+      "type": "text",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "Jab aap kisi aise frame (observer) se problem solve kar rahe hain jo khud accelerate kar raha hai (jaise accelerating lift, rotating car, ya accelerating wedge), toh Newton's Laws direct apply nahi hote kyunki woh sirf **Inertial Frames** ke liye valid hain. Non-inertial frame me Newton's laws ko valid banane ke liye ek fictitious force (pseudo force) introduce karni padti hai.",
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-eq-1",
+      "type": "equation",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": "Magnitude of Pseudo Force",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": "Eq. (1)",
+        "label": "Magnitude of Pseudo Force",
+        "highlight": null,
+        "step_number": null,
+        "explanation": "Magnitude mass times acceleration of frame ke barabar hoti hai.",
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": "governing_equation"
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-callout-1",
+      "type": "callout",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "Important concept regarding trap.",
+        "description": null,
+        "subtitle": null,
+        "title": "trap",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": "trap",
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-conc-1",
+      "type": "conclusion",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Golden Rule for Direction",
+        "latex": "\\text{Direction of } \\vec{F}_{pseudo} = \\text{Opposite to direction of } \\vec{a}_{frame}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": true,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "node-head-1",
+      "to": "node-def-1",
+      "type": "defines",
+      "label": null
+    },
+    {
+      "from": "node-def-1",
+      "to": "node-text-1",
+      "type": "explains",
+      "label": null
+    },
+    {
+      "from": "node-text-1",
+      "to": "node-eq-1",
+      "type": "uses",
+      "label": null
+    },
+    {
+      "from": "node-eq-1",
+      "to": "node-callout-1",
+      "type": "highlights",
+      "label": null
+    },
+    {
+      "from": "node-callout-1",
+      "to": "node-conc-1",
+      "type": "derives_from",
+      "label": null
+    }
+  ],
+  "layout_hints": {
+    "recommended_layout": "linear_vertical",
+    "primary_channel_nodes": [
+      "node-head-1",
+      "node-def-1",
+      "node-text-1",
+      "node-eq-1",
+      "node-callout-1",
+      "node-conc-1"
+    ],
+    "context_channel_nodes": [],
+    "sticky_header_nodes": [
+      "node-head-1"
+    ]
+  },
+  "validation": {
+    "math_verified": false,
+    "domain_verified": false,
+    "verifier_used": "semantic_validator_phase4a",
+    "flagged_issues": []
+  },
+  "source_metadata": {
+    "provider": "google",
+    "model": "gemini-3.5-flash-lite",
+    "generation_time_ms": 4452,
+    "prompt_version": "v1.0"
+  }
+}

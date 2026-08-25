@@ -1,0 +1,226 @@
+{
+  "document_id": "doc-8e0a161d",
+  "session_id": "sess-eval-2d6f50ae",
+  "title": "Mechanism and Stereochemical Comparison of SN1 vs SN2 in (R)-2-bromobutane",
+  "intent": "comparison",
+  "subject": "chemistry",
+  "language": "english",
+  "nodes": [
+    {
+      "id": "node-head-1",
+      "type": "heading",
+      "content": {
+        "text": "Comparison of SN1 and SN2 Mechanisms for (R)-2-bromobutane",
+        "level": 1,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-comp-1",
+      "type": "comparison",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "SN1 vs SN2 Reaction Profile",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": "SN1 Mechanism (Unimolecular)",
+        "left_points": [
+          "Kinetics: Rate = k[Substrate], first-order overall.",
+          "Steps: Two-step process via a planar carbocation intermediate.",
+          "Carbocation Rearrangement: Possible (hydride or alkyl shifts to form more stable carbocation).",
+          "Stereochemical Outcome: Racemization (with partial inversion due to ion-pairing effects)."
+        ],
+        "right_title": "SN2 Mechanism (Bimolecular)",
+        "right_points": [
+          "Kinetics: Rate = k[Substrate][Nucleophile], second-order overall.",
+          "Steps: Concerted one-step process via a pentavalent transition state.",
+          "Carbocation Rearrangement: None, as no carbocation is formed.",
+          "Stereochemical Outcome: Complete Walden Inversion (100% inversion of configuration)."
+        ],
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-def-1",
+      "type": "definition",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "SN1 Reaction of (R)-2-bromobutane",
+        "latex": "CH_3CH(Br)CH_2CH_3 \\xrightarrow{\\text{Polar Protic Solvent}} [CH_3C^+CH_2CH_3] + Br^- \\xrightarrow{Nu^-} \\text{Racemic Product}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": "Formation of planar carbocation allows attack from both top and bottom faces.",
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "supporting",
+      "layout_preference": "split_left"
+    },
+    {
+      "id": "node-def-2",
+      "type": "definition",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "SN2 Reaction of (R)-2-bromobutane",
+        "latex": "Nu^- + (R)\\text{-}CH_3CH(Br)CH_2CH_3 \\rightarrow [Nu \\cdots CH(CH_3)CH_2CH_3 \\cdots Br]^{\\ddagger} \\rightarrow (S)\\text{-}Product + Br^-",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": "Backside attack results in inversion of stereochemical configuration.",
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "supporting",
+      "layout_preference": "split_right"
+    },
+    {
+      "id": "node-callout-1",
+      "type": "callout",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "Important concept regarding trap.",
+        "description": null,
+        "subtitle": null,
+        "title": "trap",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": "trap",
+        "canvas_type": null,
+        "purpose": "Common JEE Trap on Stereochemistry and Rearrangement in SN1/SN2 substrates secondary alkyl halides like 2-bromobutane can exhibit mixed kinetics depending on solvent and nucleophile strength (e.g., strong base/nucleophile like NaOH promotes SN2, while weak nucleophile like H2O/EtOH in polar protic media promotes SN1)."
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "node-head-1",
+      "to": "node-comp-1",
+      "type": "explains",
+      "label": null
+    },
+    {
+      "from": "node-comp-1",
+      "to": "node-def-1",
+      "type": "references",
+      "label": null
+    },
+    {
+      "from": "node-comp-1",
+      "to": "node-def-2",
+      "type": "references",
+      "label": null
+    },
+    {
+      "from": "node-comp-1",
+      "to": "node-callout-1",
+      "type": "highlights",
+      "label": null
+    }
+  ],
+  "layout_hints": {
+    "recommended_layout": "comparison_split",
+    "primary_channel_nodes": [
+      "node-head-1",
+      "node-comp-1"
+    ],
+    "context_channel_nodes": [
+      "node-def-1",
+      "node-def-2",
+      "node-callout-1"
+    ],
+    "sticky_header_nodes": null
+  },
+  "validation": {
+    "math_verified": false,
+    "domain_verified": false,
+    "verifier_used": "semantic_validator_phase4a",
+    "flagged_issues": []
+  },
+  "source_metadata": {
+    "provider": "google",
+    "model": "gemini-3.5-flash-lite",
+    "generation_time_ms": 4309,
+    "prompt_version": "v1.0"
+  }
+}

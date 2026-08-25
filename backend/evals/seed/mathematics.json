@@ -1,0 +1,275 @@
+[
+  {
+    "id": "eval-math-001",
+    "subject": "mathematics",
+    "category": "conceptual",
+    "question": "Explain the geometric and physical meaning of the derivative f'(a) and why continuity is a necessary but not sufficient condition for differentiability.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Derivative as Tangent Slope", "Instantaneous Rate of Change", "Continuity vs Differentiability", "Left Hand and Right Hand Derivatives", "Sharp Corner / Cusp Counterexample"],
+    "critical_relationships": ["defines", "explains", "highlights"],
+    "known_traps": ["Assuming all continuous functions are differentiable", "Using f(x) = |x| at x=0 without showing LHD != RHD"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["limit of difference quotient", "tangent slope", "LHD = RHD", "f(x)=|x| at x=0 counterexample", "continuity necessary but not sufficient"],
+      "forbidden_misconceptions": ["continuity implies differentiability", "derivative is simply dy/dx algebraic ratio without limit"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "explains", "highlights"]
+    }
+  },
+  {
+    "id": "eval-math-002",
+    "subject": "mathematics",
+    "category": "conceptual",
+    "question": "What are the exact hypotheses and geometric meaning of Lagrange's Mean Value Theorem (LMVT)?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Lagrange Mean Value Theorem", "Continuity on Closed Interval [a,b]", "Differentiability on Open Interval (a,b)", "Secant Slope Equals Tangent Slope", "Rolle's Theorem Generalization"],
+    "critical_relationships": ["defines", "explains", "derives_from"],
+    "known_traps": ["Requiring differentiability at endpoints a and b", "Assuming c is unique in (a,b)"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["continuous on [a,b]", "differentiable on (a,b)", "f'(c) = \\frac{f(b)-f(a)}{b-a}", "c \\in (a,b)", "tangent parallel to secant chord"],
+      "forbidden_misconceptions": ["differentiability is required on closed interval [a,b]", "there exists only one such point c"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "explains", "derives_from"]
+    }
+  },
+  {
+    "id": "eval-math-003",
+    "subject": "mathematics",
+    "category": "conceptual",
+    "question": "What constitutes a bijective function and why is bijectivity the essential condition for the existence of an inverse function f^{-1}(x)?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Injective (One-to-One)", "Surjective (Onto)", "Bijective Function", "Inverse Function Existence", "Horizontal Line Test", "Range Equals Codomain"],
+    "critical_relationships": ["defines", "explains", "depends_on"],
+    "known_traps": ["Confusing codomain with range", "Assuming one-to-one alone is sufficient without onto"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["one-to-one (injection)", "onto (surjection)", "range = codomain", "unique pre-image for every element", "f^{-1}(f(x)) = x"],
+      "forbidden_misconceptions": ["injective function is automatically invertible on entire codomain", "inverse function is 1/f(x)"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "explains", "depends_on"]
+    }
+  },
+  {
+    "id": "eval-math-004",
+    "subject": "mathematics",
+    "category": "conceptual",
+    "question": "Explain Part 1 and Part 2 of the Fundamental Theorem of Calculus and how differentiation and integration act as inverse operations.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Fundamental Theorem of Calculus", "Accumulation Function", "d/dx int_a^x f(t) dt = f(x)", "Definite Integral Evaluation int_a^b f(x) dx = F(b) - F(a)", "Antiderivative"],
+    "critical_relationships": ["defines", "derives_from", "explains"],
+    "known_traps": ["Confusing variable of integration t with upper limit x", "Omitting continuity requirement on f(t)"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["accumulation function F(x) = \\int_a^x f(t)dt", "F'(x) = f(x)", "\\int_a^b f(x)dx = F(b)-F(a)", "differentiation and integration as inverse processes"],
+      "forbidden_misconceptions": ["FTC holds for discontinuous functions without modification", "integration is merely Riemann summation without antiderivative connection"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "derives_from", "explains"]
+    }
+  },
+  {
+    "id": "eval-math-005",
+    "subject": "mathematics",
+    "category": "conceptual",
+    "question": "What is the geometric and algebraic meaning of the vector triple product a x (b x c) and how does Lagrange's vector formula BAC-CAB expand it?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Vector Triple Product", "BAC-CAB Formula", "Coplanarity with Vectors b and c", "Orthogonality to Vector a", "Non-associativity of Cross Product"],
+    "critical_relationships": ["defines", "derives_from", "explains"],
+    "known_traps": ["Assuming cross product is associative (a x b) x c = a x (b x c)", "Writing (a.c)b + (a.b)c with positive sign"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["a \\times (b \\times c) = (a \\cdot c)b - (a \\cdot b)c", "lies in plane of b and c", "perpendicular to a", "cross product is not associative"],
+      "forbidden_misconceptions": ["vector triple product is a scalar quantity", "(a x b) x c equals a x (b x c)"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "derives_from", "explains"]
+    }
+  },
+  {
+    "id": "eval-math-006",
+    "subject": "mathematics",
+    "category": "derivation",
+    "question": "Derive the formula for Integration by Parts from the product rule of differentiation and explain the ILATE priority rule.",
+    "expected_intent": "derivation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Integration by Parts", "Product Rule d(uv)/dx", "int u v' dx = u v - int u' v dx", "ILATE Rule (Inverse, Log, Algebraic, Trig, Exponential)", "Choice of First Function"],
+    "critical_relationships": ["derives_from", "substitutes_into", "explains"],
+    "known_traps": ["Differentiating the second function instead of integrating it", "Treating ILATE as an inviolable mathematical theorem rather than a heuristic"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["d(uv)/dx = u dv/dx + v du/dx", "\\int u \\, dv = uv - \\int v \\, du", "ILATE heuristic selection", "integrability of chosen dv"],
+      "forbidden_misconceptions": ["ILATE is a strict mathematical law that never fails", "integration by parts can only be applied once per integral"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["derives_from", "substitutes_into", "explains"]
+    }
+  },
+  {
+    "id": "eval-math-007",
+    "subject": "mathematics",
+    "category": "derivation",
+    "question": "Derive the standard focal equation of an ellipse x^2/a^2 + y^2/b^2 = 1 from the focal definition PF_1 + PF_2 = 2a.",
+    "expected_intent": "derivation",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Ellipse Definition", "Foci at (+/- ae, 0)", "Distance Formula", "Algebraic Squaring and Simplification", "Relation b^2 = a^2(1-e^2)"],
+    "critical_relationships": ["defines", "derives_from", "substitutes_into"],
+    "known_traps": ["Algebraic sign errors during double squaring", "Forgetting the definition b^2 = a^2 - c^2"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["\\sqrt{(x+c)^2+y^2} + \\sqrt{(x-c)^2+y^2} = 2a", "isolate radical and square", "b^2 = a^2 - c^2 = a^2(1-e^2)", "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1"],
+      "forbidden_misconceptions": ["eccentricity of ellipse is greater than 1", "sum of focal distances equals 2b for major horizontal axis"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["defines", "derives_from", "substitutes_into"]
+    }
+  },
+  {
+    "id": "eval-math-008",
+    "subject": "mathematics",
+    "category": "derivation",
+    "question": "Derive the formula for the sum of the first n terms of an Arithmetico-Geometric Progression (AGP): S_n = a + (a+d)r + (a+2d)r^2 + ... + [a+(n-1)d]r^{n-1}.",
+    "expected_intent": "derivation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Arithmetico-Geometric Progression", "Common Difference d", "Common Ratio r", "Multiplication by r and Subtraction S_n - r S_n", "Sum of Infinite AGP"],
+    "critical_relationships": ["derives_from", "substitutes_into", "explains"],
+    "known_traps": ["Missing the subtracted nth term [a+(n-1)d]r^n", "Dividing by (1-r) when r=1 without stating condition"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["(1-r)S_n = a + dr + dr^2 + ... + dr^{n-1} - [a+(n-1)d]r^n", "sum of finite GP", "S_\\infty = \\frac{a}{1-r} + \\frac{dr}{(1-r)^2} for |r|<1"],
+      "forbidden_misconceptions": ["infinite AGP sum converges for |r| >= 1", "subtracting shifted series cancels the final boundary term"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["derives_from", "substitutes_into", "explains"]
+    }
+  },
+  {
+    "id": "eval-math-009",
+    "subject": "mathematics",
+    "category": "derivation",
+    "question": "Derive the perpendicular distance of a point P(x_1, y_1, z_1) from a 3D plane Ax + By + Cz + D = 0 using vector projections.",
+    "expected_intent": "derivation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["3D Geometry", "Plane Normal Vector n = (A,B,C)", "Scalar Projection of Vector QP on n", "Point on Plane Q(x_0, y_0, z_0)", "Distance Formula d = |Ax_1+By_1+Cz_1+D| / sqrt(A^2+B^2+C^2)"],
+    "critical_relationships": ["defines", "derives_from", "substitutes_into"],
+    "known_traps": ["Omitting absolute value in numerator", "Dividing by A+B+C instead of sqrt(A^2+B^2+C^2)"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["normal vector \\vec{n} = A\\hat{i}+B\\hat{j}+C\\hat{k}", "projection of \\vec{QP} onto unit normal \\hat{n}", "Ax_0+By_0+Cz_0+D = 0 substitution", "d = \\frac{|Ax_1+By_1+Cz_1+D|}{\\sqrt{A^2+B^2+C^2}}"],
+      "forbidden_misconceptions": ["distance can be negative", "projection does not require unit normal vector normalization"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["defines", "derives_from", "substitutes_into"]
+    }
+  },
+  {
+    "id": "eval-math-010",
+    "subject": "mathematics",
+    "category": "derivation",
+    "question": "Derive the reduction formula for I_n = int sin^n(x) dx and use it to determine Wallis' integral for definite limits 0 to pi/2.",
+    "expected_intent": "derivation",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Reduction Formula", "Integration by Parts on sin^{n-1}(x) sin(x)", "Trigonometric Identity sin^2(x) = 1 - cos^2(x)", "Wallis' Formula for Even and Odd n", "Definite Integral Limits 0 to pi/2"],
+    "critical_relationships": ["derives_from", "substitutes_into", "follows_from"],
+    "known_traps": ["Forgetting multiplying factor pi/2 in Wallis' formula when n is even", "Incorrect sign during integration of cos(x) (-cos(x))"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["I_n = -\\frac{\\sin^{n-1}x \\cos x}{n} + \\frac{n-1}{n}I_{n-2}", "definite integral boundary terms vanish at 0 and \\pi/2", "I_n = \\frac{n-1}{n}I_{n-2}", "Wallis formula distinction between n even vs odd"],
+      "forbidden_misconceptions": ["odd power Wallis integral contains \\pi/2 factor", "reduction formula applies only to linear functions"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["derives_from", "substitutes_into", "follows_from"]
+    }
+  },
+  {
+    "id": "eval-math-011",
+    "subject": "mathematics",
+    "category": "diagram",
+    "question": "Analyze the sign and graphical behavior of a real quadratic expression f(x) = ax^2 + bx + c based on the leading coefficient 'a' and the discriminant D = b^2 - 4ac.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DIAGRAM_CENTRIC",
+    "visual_expected": "yes",
+    "key_concepts": ["Quadratic Function", "Parabola Vertex (-b/2a, -D/4a)", "Discriminant D > 0, D = 0, D < 0", "Upward vs Downward Parabola", "Strictly Positive f(x) > 0 Condition (a > 0, D < 0)"],
+    "critical_relationships": ["defines", "explains", "highlights"],
+    "known_traps": ["Claiming D < 0 means f(x) is negative", "Ignoring the sign of leading coefficient 'a'"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["vertex at (-b/2a, -D/4a)", "D > 0 gives two real distinct roots", "D < 0 parabola does not cut x-axis", "a > 0 and D < 0 implies f(x) > 0 for all real x"],
+      "forbidden_misconceptions": ["D < 0 means roots are real and equal", "a > 0 alone guarantees positive values everywhere"],
+      "visual_utility": "essential",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "explains", "highlights"]
+    }
+  },
+  {
+    "id": "eval-math-012",
+    "subject": "mathematics",
+    "category": "diagram",
+    "question": "Calculate the area enclosed between the parabolas y^2 = 4ax and x^2 = 4ay and explain the points of intersection geometrically.",
+    "expected_intent": "problem_solving",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DIAGRAM_CENTRIC",
+    "visual_expected": "yes",
+    "key_concepts": ["Area Under Curve", "Points of Intersection (0,0) and (4a,4a)", "Upper Curve minus Lower Curve", "Definite Integral int_0^{4a} [sqrt(4ax) - x^2/(4a)] dx", "Standard Result Area = 16 a^2 / 3"],
+    "critical_relationships": ["defines", "derives_from", "substitutes_into"],
+    "known_traps": ["Swapping upper and lower curves resulting in negative area", "Using 8a^2/3 instead of 16a^2/3"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["intersection at (0,0) and (4a,4a)", "y_{upper} = 2\\sqrt{a}\\sqrt{x}", "y_{lower} = \\frac{x^2}{4a}", "Area = \\int_0^{4a} (2\\sqrt{a}\\sqrt{x} - \\frac{x^2}{4a}) dx = \\frac{16}{3}a^2"],
+      "forbidden_misconceptions": ["enclosed region extends to infinity", "area depends on orientation rather than integrand subtraction"],
+      "visual_utility": "essential",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["defines", "derives_from", "substitutes_into"]
+    }
+  },
+  {
+    "id": "eval-math-013",
+    "subject": "mathematics",
+    "category": "diagram",
+    "question": "Analyze the critical points, local extrema, concavity, and point of inflection of the cubic polynomial f(x) = x^3 - 3x on the real line.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DIAGRAM_CENTRIC",
+    "visual_expected": "yes",
+    "key_concepts": ["First Derivative Test f'(x) = 3x^2 - 3", "Second Derivative Test f''(x) = 6x", "Local Maximum at x = -1", "Local Minimum at x = 1", "Point of Inflection at (0,0)", "Odd Function Symmetry"],
+    "critical_relationships": ["defines", "explains", "derives_from"],
+    "known_traps": ["Confusing inflection point (f''=0 with sign change) with stationary point", "Calling x=1 a maximum instead of minimum"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["f'(x) = 3(x-1)(x+1) = 0 at x = \\pm 1", "f''( -1) = -6 < 0 (local max at (-1, 2))", "f''(1) = 6 > 0 (local min at (1, -2))", "f''(0) = 0 with concavity change gives inflection point (0,0)"],
+      "forbidden_misconceptions": ["point of inflection requires f'(x)=0", "cubic polynomial can have two inflection points"],
+      "visual_utility": "essential",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "explains", "derives_from"]
+    }
+  }
+]

@@ -1,0 +1,1148 @@
+{
+  "run_id": "eval_run_20260825_064513",
+  "timestamp": "2026-08-25T06:45:26.912463Z",
+  "mode": "live_gemini",
+  "model_ids": [
+    "gemini-3.5-flash-lite"
+  ],
+  "prompt_version": "v1.0",
+  "total_cases_evaluated": 3,
+  "successful_cases": 3,
+  "failed_cases": 0,
+  "case_results": [
+    {
+      "case_id": "eval-chem-008",
+      "subject": "chemistry",
+      "category": "mechanism",
+      "question": "Compare the mechanism, carbocation rearrangement, and stereochemical outcome (inversion vs racemization) of (R)-2-bromobutane reacting via SN1 vs SN2.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-3481b5e1",
+        "session_id": "sess-eval-7e2edf31",
+        "title": "Comparison of SN1 vs SN2 Mechanisms for (R)-2-bromobutane",
+        "intent": "comparison",
+        "subject": "chemistry",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Comparison of SN1 and SN2 Reactions of (R)-2-bromobutane",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Substrate Overview",
+              "latex": "CH_3-CH(Br)-CH_2-CH_3",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "(R)-2-bromobutane is a secondary alkyl halide capable of reacting via both SN1 and SN2 pathways depending on nucleophile strength and solvent polarity.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-comp-1",
+            "type": "comparison",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "SN1 vs SN2 Mechanistic Comparison",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": "SN1 Mechanism (Substitution Nucleophilic Unimolecular)",
+              "left_points": [
+                "Kinetics: Rate = k[Substrate], first-order overall.",
+                "Steps: Two-step process via a planar, achiral carbocation intermediate.",
+                "Carbocation Rearrangement: Possible via 1,2-hydride or 1,2-methyl shifts if a more stable carbocation can form.",
+                "Stereochemical Outcome: Racemization (formation of both retention and inversion products, often with slight excess of inversion due to ion pairs)."
+              ],
+              "right_title": "SN2 Mechanism (Substitution Nucleophilic Bimolecular)",
+              "right_points": [
+                "Kinetics: Rate = k[Substrate][Nucleophile], second-order overall.",
+                "Steps: Concerted one-step process through a pentavalent transition state with backside attack.",
+                "Carbocation Rearrangement: None, since no carbocation intermediate is formed.",
+                "Stereochemical Outcome: Complete Walden inversion of configuration converting (R) to (S)."
+              ],
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "SN1 Rate Law",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "SN1 Rate Law",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding trap.",
+              "description": null,
+              "subtitle": null,
+              "title": "trap",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "trap",
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-head-1",
+            "to": "node-def-1",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-def-1",
+            "to": "node-comp-1",
+            "type": "contrasts_with",
+            "label": null
+          },
+          {
+            "from": "node-comp-1",
+            "to": "node-callout-1",
+            "type": "highlights",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "split_left",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-def-1",
+            "node-comp-1"
+          ],
+          "context_channel_nodes": [
+            "node-callout-1"
+          ],
+          "sticky_header_nodes": null
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 4553,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 5,
+          "relationship_count": 3,
+          "total_word_count": 167,
+          "equation_count": 1,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 1,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 4629.19,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1214,
+          "output_tokens": 1077,
+          "total_tokens": 2291
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "SN1 forms planar carbocation intermediate leading to racemization (with slight inversion due to leaving group shielding)",
+            "SN2 is concerted backside attack giving complete Walden inversion",
+            "polar protic solvent stabilizes carbocation for SN1",
+            "polar aprotic solvent favors SN2"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.43,
+          "prompt_prep_time_ms": 0.1,
+          "gemini_request_time_ms": 4627.52,
+          "response_parse_time_ms": 0.68,
+          "validation_time_ms": 0.18,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4629.19
+        }
+      },
+      "failures": [],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-math-006",
+      "subject": "mathematics",
+      "category": "derivation",
+      "question": "Derive the formula for Integration by Parts from the product rule of differentiation and explain the ILATE priority rule.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-39b8ab4c",
+        "session_id": "sess-eval-f526ab85",
+        "title": "Derivation of Integration by Parts and the ILATE Rule",
+        "intent": "derivation",
+        "subject": "mathematics",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Derivation of Integration by Parts",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-text-1",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Integration by parts is a fundamental technique in calculus used to integrate the product of two functions. It is derived directly from the product rule of differentiation.",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Product Rule of Differentiation",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "Product Rule of Differentiation",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-deriv-1",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "\\text{Step 1}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 1,
+              "explanation": "Algebraic derivation step 1",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-deriv-2",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "\\text{Step 2}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 2,
+              "explanation": "Algebraic derivation step 2",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Integration by Parts Formula",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-head-2",
+            "type": "heading",
+            "content": {
+              "text": "The ILATE Priority Rule",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-text-2",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "When applying the integration by parts formula, choosing the correct function as $u$ (which gets differentiated) and $dv$ (which gets integrated) is crucial. The **ILATE** acronym helps determine the priority order for choosing $u$.",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-table-1",
+            "type": "comparison",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "ILATE Priority Breakdown",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": "Letter & Category",
+              "left_points": [
+                "**I** - Inverse Trigonometric",
+                "**L** - Logarithmic",
+                "**A** - Algebraic",
+                "**T** - Trigonometric",
+                "**E** - Exponential"
+              ],
+              "right_title": "Examples",
+              "right_points": [
+                "$\\sin^{-1}x, \\tan^{-1}x$",
+                "$\\ln x, \\log_e(x+1)$",
+                "$x^2, 3x + 5$",
+                "$\\sin x, \\cos 2x$",
+                "$e^x, 2^x$"
+              ],
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding tip.",
+              "description": null,
+              "subtitle": null,
+              "title": "tip",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "tip",
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "note",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-eq-1",
+            "to": "node-deriv-1",
+            "type": "substitutes_into",
+            "label": "Integrate both sides"
+          },
+          {
+            "from": "node-deriv-1",
+            "to": "node-deriv-2",
+            "type": "derives_from",
+            "label": "Rearrange terms"
+          },
+          {
+            "from": "node-deriv-2",
+            "to": "node-conc-1",
+            "type": "derives_from",
+            "label": "Final substitution"
+          },
+          {
+            "from": "node-conc-1",
+            "to": "node-text-2",
+            "type": "follows_from",
+            "label": "Application strategy"
+          },
+          {
+            "from": "node-text-2",
+            "to": "node-table-1",
+            "type": "explains",
+            "label": "Defines priority"
+          },
+          {
+            "from": "node-table-1",
+            "to": "node-callout-1",
+            "type": "highlights",
+            "label": "Best practice tip"
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "linear_flow",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-text-1",
+            "node-eq-1",
+            "node-deriv-1",
+            "node-deriv-2",
+            "node-conc-1",
+            "node-head-2",
+            "node-text-2",
+            "node-table-1",
+            "node-callout-1"
+          ],
+          "context_channel_nodes": [],
+          "sticky_header_nodes": [
+            "node-head-1"
+          ]
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 4756,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "appropriate",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 10,
+          "relationship_count": 6,
+          "total_word_count": 144,
+          "equation_count": 1,
+          "diagram_count": 0,
+          "derivation_step_count": 2,
+          "comparison_count": 1,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 4759.28,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1203,
+          "output_tokens": 1567,
+          "total_tokens": 2770
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "d(uv)/dx = u dv/dx + v du/dx",
+            "\\int u \\, dv = uv - \\int v \\, du",
+            "ILATE heuristic selection"
+          ],
+          "missing_concepts": [
+            "integrability of chosen dv"
+          ],
+          "concept_coverage_rate": 0.75,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.38,
+          "prompt_prep_time_ms": 0.07,
+          "gemini_request_time_ms": 4757.63,
+          "response_parse_time_ms": 0.71,
+          "validation_time_ms": 0.22,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4759.28
+        }
+      },
+      "failures": [],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-006",
+      "subject": "physics",
+      "category": "derivation",
+      "question": "Derive the escape velocity from the surface of a spherical planet of mass M and radius R using gravitational potential energy.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-30db4aa4",
+        "session_id": "sess-eval-bcd260e9",
+        "title": "Derivation of Escape Velocity Using Gravitational Potential Energy",
+        "intent": "derivation",
+        "subject": "physics",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Derivation of Escape Velocity",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Escape Velocity",
+              "latex": "v_e = \\sqrt{\\frac{2GM}{R}}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "The minimum speed required for an object to break free from the gravitational attraction of a celestial body without any further propulsion.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Gravitational Potential Energy at Distance r",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "Gravitational Potential Energy at Distance r",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-deriv-1",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "\\text{Step 1}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 1,
+              "explanation": "Algebraic derivation step 1",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-deriv-2",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "\\text{Step 2}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 2,
+              "explanation": "Algebraic derivation step 2",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding trap.",
+              "description": null,
+              "subtitle": null,
+              "title": "trap",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "trap",
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "note",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Final Formula for Escape Velocity",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-def-1",
+            "to": "node-eq-1",
+            "type": "defines",
+            "label": null
+          },
+          {
+            "from": "node-eq-1",
+            "to": "node-deriv-1",
+            "type": "substitutes_into",
+            "label": null
+          },
+          {
+            "from": "node-deriv-1",
+            "to": "node-deriv-2",
+            "type": "derives_from",
+            "label": null
+          },
+          {
+            "from": "node-deriv-2",
+            "to": "node-conc-1",
+            "type": "derives_from",
+            "label": null
+          },
+          {
+            "from": "node-conc-1",
+            "to": "node-callout-1",
+            "type": "highlights",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "vertical_flow",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-def-1",
+            "node-eq-1",
+            "node-deriv-1",
+            "node-deriv-2",
+            "node-conc-1"
+          ],
+          "context_channel_nodes": [
+            "node-callout-1"
+          ],
+          "sticky_header_nodes": [
+            "node-head-1"
+          ]
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 3802,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 7,
+          "relationship_count": 5,
+          "total_word_count": 72,
+          "equation_count": 1,
+          "diagram_count": 0,
+          "derivation_step_count": 2,
+          "comparison_count": 0,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 3804.89,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1202,
+          "output_tokens": 1055,
+          "total_tokens": 2257
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "gravitational potential energy",
+            "conservation of energy",
+            "v_e = \\sqrt{\\frac{2GM}{R}}",
+            "infinity kinetic energy zero"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.33,
+          "prompt_prep_time_ms": 0.06,
+          "gemini_request_time_ms": 3802.96,
+          "response_parse_time_ms": 1.01,
+          "validation_time_ms": 0.31,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 3804.89
+        }
+      },
+      "failures": [],
+      "human_scorecard": null
+    }
+  ],
+  "model_summaries": [
+    {
+      "model_id": "gemini-3.5-flash-lite",
+      "total_cases": 3,
+      "success_count": 3,
+      "failure_count": 0,
+      "avg_latency_ms": 4397.79,
+      "avg_node_count": 7.33,
+      "avg_relationship_count": 4.67,
+      "avg_concept_coverage_rate": 0.92,
+      "unnecessary_visual_count": 0,
+      "missing_visual_count": 0,
+      "critical_error_count": 0
+    }
+  ],
+  "latency_summary": {
+    "avg_total_ms": 4397.79,
+    "avg_gemini_request_ms": 4396.04,
+    "avg_preprocessing_ms": 0.38
+  },
+  "failure_distribution": {}
+}

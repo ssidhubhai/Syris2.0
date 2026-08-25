@@ -1,0 +1,234 @@
+{
+  "case_id": "case-1-compact",
+  "title": "Centripetal Acceleration Definition",
+  "subject": "physics",
+  "category": "compact",
+  "query": "What is centripetal acceleration? Define it and state its magnitude and directional relationship with velocity vector.",
+  "model_id": "gemini-3.5-flash-lite",
+  "prompt_version": "v1.0",
+  "status": "PASS",
+  "error_message": null,
+  "token_usage": {
+    "input_tokens": 1202,
+    "output_tokens": 684,
+    "total_tokens": 1886
+  },
+  "latency_breakdown": {
+    "preprocessing_time_ms": 0.54,
+    "prompt_prep_time_ms": 0.11,
+    "gemini_request_time_ms": 3869.12,
+    "response_parse_time_ms": 0.62,
+    "validation_time_ms": 0.26,
+    "persistence_time_ms": 0.0,
+    "total_pipeline_time_ms": 3871.75
+  },
+  "document": {
+    "document_id": "doc-0df91b42",
+    "session_id": "sess-p4c-73bdd1f7",
+    "title": "Centripetal Acceleration",
+    "intent": "definition",
+    "subject": "physics",
+    "language": "english",
+    "nodes": [
+      {
+        "id": "node-head-1",
+        "type": "heading",
+        "content": {
+          "text": "Centripetal Acceleration",
+          "level": 1,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": null,
+          "latex": null,
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "auto"
+      },
+      {
+        "id": "node-def-1",
+        "type": "definition",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": "Centripetal Acceleration Definition",
+          "latex": "a_c = \\frac{v^2}{r} = \\omega^2 r",
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": "The acceleration experienced by an object moving in a circular path, directed towards the center of the curvature.",
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "critical",
+        "layout_preference": "auto"
+      },
+      {
+        "id": "node-text-1",
+        "type": "text",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": "Even if an object moves at a constant speed $v$ along a circular path of radius $r$, its velocity vector is continuously changing direction. This change in direction gives rise to an acceleration known as centripetal acceleration.",
+          "description": null,
+          "subtitle": null,
+          "title": null,
+          "latex": null,
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": null
+        },
+        "importance": "supporting",
+        "layout_preference": "auto"
+      },
+      {
+        "id": "node-eq-1",
+        "type": "equation",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": null,
+          "description": null,
+          "subtitle": null,
+          "title": null,
+          "latex": "Magnitude of Centripetal Acceleration",
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": "Eq. (1)",
+          "label": "Magnitude of Centripetal Acceleration",
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": null,
+          "canvas_type": null,
+          "purpose": "core formula expression for centripetal acceleration in terms of linear speed and radius or angular velocity and radius"
+        },
+        "importance": "critical",
+        "layout_preference": "auto"
+      },
+      {
+        "id": "node-callout-1",
+        "type": "callout",
+        "content": {
+          "text": null,
+          "level": null,
+          "markdown": "Important concept regarding info.",
+          "description": null,
+          "subtitle": null,
+          "title": "info",
+          "latex": null,
+          "equation": null,
+          "formula": null,
+          "expression": null,
+          "annotation": null,
+          "id_tag": null,
+          "label": null,
+          "highlight": null,
+          "step_number": null,
+          "explanation": null,
+          "left_title": null,
+          "left_points": null,
+          "right_title": null,
+          "right_points": null,
+          "callout_type": "info",
+          "canvas_type": null,
+          "purpose": "Directional relationship clarification for JEE aspirants"
+        },
+        "importance": "critical",
+        "layout_preference": "auto"
+      }
+    ],
+    "relationships": [
+      {
+        "from": "node-head-1",
+        "to": "node-def-1",
+        "type": "defines",
+        "label": null
+      },
+      {
+        "from": "node-def-1",
+        "to": "node-text-1",
+        "type": "explains",
+        "label": null
+      },
+      {
+        "from": "node-text-1",
+        "to": "node-eq-1",
+        "type": "uses",
+        "label": null
+      },
+      {
+        "from": "node-eq-1",
+        "to": "node-callout-1",
+        "type": "highlights",
+        "label": null
+      }
+    ],
+    "layout_hints": {
+      "recommended_layout": "auto",
+      "primary_channel_nodes": null,
+      "context_channel_nodes": null,
+      "sticky_header_nodes": null
+    },
+    "validation": {
+      "math_verified": false,
+      "domain_verified": false,
+      "verifier_used": "semantic_validator_phase4a",
+      "flagged_issues": []
+    },
+    "source_metadata": {
+      "provider": "google",
+      "model": "gemini-3.5-flash-lite",
+      "generation_time_ms": 3749,
+      "prompt_version": "v1.0"
+    }
+  }
+}

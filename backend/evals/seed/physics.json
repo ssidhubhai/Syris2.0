@@ -1,0 +1,317 @@
+[
+  {
+    "id": "eval-phy-001",
+    "subject": "physics",
+    "category": "conceptual",
+    "question": "Why does Lenz's Law naturally follow from the principle of conservation of energy?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Lenz's Law", "Faraday's Law", "Conservation of Energy", "Induced EMF", "Opposing Magnetic Flux", "Mechanical Work Done"],
+    "critical_relationships": ["explains", "causes", "depends_on"],
+    "known_traps": ["Claiming induced current aids the flux change", "Violating perpetual motion / energy creation", "Omitting negative sign rationale in Faraday-Lenz equation"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["induced emf", "conservation of energy", "opposes", "magnetic flux", "work done"],
+      "forbidden_misconceptions": ["induced current supports flux change without work", "energy is created by magnetic field"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["explains", "causes", "depends_on", "highlights"]
+    }
+  },
+  {
+    "id": "eval-phy-002",
+    "subject": "physics",
+    "category": "conceptual",
+    "question": "What is the physical difference between conservative and non-conservative forces in mechanics?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Conservative Force", "Path Independence", "Potential Energy", "Closed Loop Work Zero", "Non-conservative Dissipation"],
+    "critical_relationships": ["contrasts_with", "defines", "explains"],
+    "known_traps": ["Confusing path independence with velocity independence", "Defining potential energy for non-conservative force"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["path independent", "closed path", "work done zero", "potential energy", "friction dissipation"],
+      "forbidden_misconceptions": ["potential energy exists for friction", "conservative force work depends on path taken"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "contrasts_with", "explains"]
+    }
+  },
+  {
+    "id": "eval-phy-003",
+    "subject": "physics",
+    "category": "conceptual",
+    "question": "Why does static friction self-adjust up to a limiting value whereas kinetic friction remains approximately constant?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Static Friction", "Limiting Friction", "Kinetic Friction", "Interlocking of Asperities", "Cold Welding", "Normal Force"],
+    "critical_relationships": ["explains", "defines", "contrasts_with"],
+    "known_traps": ["Assuming static friction is always equal to mu_s * N", "Ignoring that static friction matches applied force until threshold"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["self-adjusting", "limiting friction", "microscopic contact", "applied force balance", "kinetic friction"],
+      "forbidden_misconceptions": ["static friction is always mu_s * N", "friction always opposes motion rather than relative motion"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "explains", "contrasts_with", "highlights"]
+    }
+  },
+  {
+    "id": "eval-phy-004",
+    "subject": "physics",
+    "category": "conceptual",
+    "question": "What is the microscopic origin of surface tension in liquids and why does a liquid surface behave like a stretched membrane?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Surface Tension", "Cohesive Intermolecular Forces", "Net Inward Force", "Surface Energy Minimization", "Spherical Geometry"],
+    "critical_relationships": ["explains", "causes", "defines"],
+    "known_traps": ["Confusing surface tension with viscosity", "Claiming bulk molecules experience net force"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["cohesive forces", "unbalanced inward force", "surface energy", "minimizing surface area"],
+      "forbidden_misconceptions": ["bulk molecules experience net downward pull", "surface tension is a simple gravitational effect"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["explains", "causes", "defines"]
+    }
+  },
+  {
+    "id": "eval-phy-005",
+    "subject": "physics",
+    "category": "conceptual",
+    "question": "How does the Doppler effect for sound differ from the Doppler effect for light, and why is an acoustic medium required?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "no",
+    "key_concepts": ["Doppler Effect", "Acoustic Medium", "Source Motion vs Observer Motion Asymmetry", "Relativistic Invariance of Light", "Wave Velocity"],
+    "critical_relationships": ["contrasts_with", "explains", "depends_on"],
+    "known_traps": ["Assuming sound Doppler formula is symmetric for source and observer motion", "Applying classical Galilean transform to light speed"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["medium frame of reference", "asymmetric sound Doppler", "speed of light constancy", "relativistic Doppler"],
+      "forbidden_misconceptions": ["moving source and moving observer have identical formulas in sound", "light Doppler requires an ether medium"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "explains", "depends_on"]
+    }
+  },
+  {
+    "id": "eval-phy-006",
+    "subject": "physics",
+    "category": "derivation",
+    "question": "Derive the escape velocity from the surface of a spherical planet of mass M and radius R using gravitational potential energy.",
+    "expected_intent": "derivation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Escape Velocity", "Gravitational Potential Energy", "Kinetic Energy", "Conservation of Mechanical Energy", "Infinity Boundary Condition"],
+    "critical_relationships": ["derives_from", "substitutes_into", "follows_from"],
+    "known_traps": ["Using +GMm/R instead of -GMm/R for potential energy", "Assuming mass of projectile affects escape velocity"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["gravitational potential energy", "conservation of energy", "v_e = \\sqrt{\\frac{2GM}{R}}", "infinity kinetic energy zero"],
+      "forbidden_misconceptions": ["escape velocity depends on projectile mass", "potential energy is positive at finite distance"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["derives_from", "substitutes_into", "follows_from"]
+    }
+  },
+  {
+    "id": "eval-phy-007",
+    "subject": "physics",
+    "category": "derivation",
+    "question": "Derive the formula for terminal velocity of a small spherical ball of radius r and density rho falling through a fluid of viscosity eta and density sigma.",
+    "expected_intent": "derivation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Terminal Velocity", "Stokes' Law", "Viscous Drag", "Buoyant Force", "Gravity Equilibrium", "Zero Net Acceleration"],
+    "critical_relationships": ["uses", "derives_from", "substitutes_into"],
+    "known_traps": ["Omitting the buoyant force term", "Using r instead of r^2 in final terminal velocity expression"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["Stokes' Law 6\\pi\\eta r v", "buoyant force", "terminal velocity v_t", "r^2 dependence", "net force zero"],
+      "forbidden_misconceptions": ["viscous force is constant", "terminal velocity depends linearly on r"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["uses", "derives_from", "substitutes_into"]
+    }
+  },
+  {
+    "id": "eval-phy-008",
+    "subject": "physics",
+    "category": "derivation",
+    "question": "Derive the optimum banking angle theta for a curved road of radius R without relying on friction, and determine the safe speed range when static friction mu is present.",
+    "expected_intent": "derivation",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "yes",
+    "key_concepts": ["Banking of Roads", "Centripetal Acceleration", "Normal Force Components", "Friction Direction", "tan theta = v^2 / (Rg)", "Maximum/Minimum Safe Speed"],
+    "critical_relationships": ["explains", "derives_from", "substitutes_into"],
+    "known_traps": ["Resolving gravity instead of normal force along horizontal plane", "Assuming friction always acts downwards along incline"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["N \\sin\\theta = \\frac{mv^2}{R}", "N \\cos\\theta = mg", "\\tan\\theta = \\frac{v^2}{Rg}", "maximum safe speed with friction"],
+      "forbidden_misconceptions": ["centripetal force is a separate physical entity from normal/friction", "friction always points up the incline"],
+      "visual_utility": "essential",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["explains", "derives_from", "substitutes_into"]
+    }
+  },
+  {
+    "id": "eval-phy-009",
+    "subject": "physics",
+    "category": "derivation",
+    "question": "Derive the time-dependent charge equation q(t) during the charging of a capacitor C through a resistor R connected to battery EMF V_0.",
+    "expected_intent": "derivation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["RC Circuit", "Kirchhoff's Voltage Law", "Differential Equation", "Capacitor Charging", "Time Constant tau = RC", "Exponential Saturation"],
+    "critical_relationships": ["uses", "derives_from", "substitutes_into"],
+    "known_traps": ["Using q(t) = Q_0 e^{-t/RC} for charging instead of discharging", "Incorrect integration limits from 0 to q"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["KVL: V_0 - iR - q/C = 0", "i = dq/dt", "q(t) = CV_0(1 - e^{-t/RC})", "time constant \\tau = RC"],
+      "forbidden_misconceptions": ["charging follows exponential decay to zero", "initial current is zero at t=0"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["uses", "derives_from", "substitutes_into"]
+    }
+  },
+  {
+    "id": "eval-phy-010",
+    "subject": "physics",
+    "category": "derivation",
+    "question": "Derive the moment of inertia of a uniform solid right circular cone of mass M, base radius R, and height H about its central axis of symmetry.",
+    "expected_intent": "derivation",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "DERIVATION_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["Moment of Inertia", "Elemental Circular Disc", "Density of Cone", "Integration Along Axis", "I = (3/10) M R^2"],
+    "critical_relationships": ["defines", "derives_from", "substitutes_into"],
+    "known_traps": ["Using cylinder formula (1/2 M R^2) directly", "Integrating with incorrect volume element dV = pi r^2 dz"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["elemental disc of radius r and thickness dz", "dI = \\frac{1}{2} dm r^2", "similarity ratio r/R = z/H", "I = \\frac{3}{10}MR^2"],
+      "forbidden_misconceptions": ["moment of inertia depends on cone height H", "cone moment of inertia is 1/2 MR^2"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["defines", "derives_from", "substitutes_into"]
+    }
+  },
+  {
+    "id": "eval-phy-011",
+    "subject": "physics",
+    "category": "diagram",
+    "question": "A block of mass m rests on a smooth wedge of mass M and angle theta on a horizontal table. What horizontal force F must be applied to the wedge so that the block does not slide?",
+    "expected_intent": "problem_solving",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "DIAGRAM_CENTRIC",
+    "visual_expected": "yes",
+    "key_concepts": ["Pseudo Force", "Non-inertial Reference Frame", "Normal Reaction", "Constraint Motion", "F = (M+m)g tan theta"],
+    "critical_relationships": ["explains", "derives_from", "substitutes_into"],
+    "known_traps": ["Applying pseudo force in the direction of acceleration", "Forgetting to add block mass m to system mass (M+m)"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["acceleration a = g \\tan\\theta", "pseudo force ma leftwards", "normal reaction balance", "F = (M+m)g\\tan\\theta"],
+      "forbidden_misconceptions": ["block can remain stationary without wedge accelerating", "normal force is mg cos theta during horizontal acceleration"],
+      "visual_utility": "essential",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["explains", "derives_from", "substitutes_into"]
+    }
+  },
+  {
+    "id": "eval-phy-012",
+    "subject": "physics",
+    "category": "diagram",
+    "question": "Derive the null-deflection balance condition for a Wheatstone bridge circuit with four resistors P, Q, R, S and a galvanometer.",
+    "expected_intent": "derivation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "DIAGRAM_CENTRIC",
+    "visual_expected": "yes",
+    "key_concepts": ["Wheatstone Bridge", "Kirchhoff's Current Law", "Kirchhoff's Voltage Law", "Galvanometer Zero Deflection", "P/Q = R/S Ratio"],
+    "critical_relationships": ["defines", "derives_from", "explains"],
+    "known_traps": ["Assuming current flows through galvanometer at balance", "Misidentifying adjacent vs opposite resistor pairs"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["potential at node B equals node D", "I_g = 0", "P/Q = R/S or P/R = Q/S", "KVL loops"],
+      "forbidden_misconceptions": ["galvanometer resistance affects balance condition", "current flows through galvanometer when balanced"],
+      "visual_utility": "essential",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "derives_from", "explains"]
+    }
+  },
+  {
+    "id": "eval-phy-013",
+    "subject": "physics",
+    "category": "diagram",
+    "question": "Explain image formation by a convex lens when an object is placed between the optical center and the principal focus F using ray tracing.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "DIAGRAM_CENTRIC",
+    "visual_expected": "yes",
+    "key_concepts": ["Convex Lens", "Principal Focus", "Virtual Image", "Erect and Magnified", "Ray Tracing", "Magnifying Glass"],
+    "critical_relationships": ["explains", "defines", "highlights"],
+    "known_traps": ["Claiming real inverted image is formed", "Tracing refracted rays converging on opposite side"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["virtual image", "erect and enlarged", "same side as object", "rays appear to diverge from behind object"],
+      "forbidden_misconceptions": ["convex lens always forms real inverted images", "virtual rays can be projected onto a screen"],
+      "visual_utility": "essential",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["explains", "defines", "highlights"]
+    }
+  },
+  {
+    "id": "eval-phy-014",
+    "subject": "physics",
+    "category": "comparison",
+    "question": "Compare perfectly elastic collision and perfectly inelastic collision in 1D mechanics with respect to momentum, kinetic energy, and coefficient of restitution.",
+    "expected_intent": "comparison",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "no",
+    "key_concepts": ["Elastic Collision", "Inelastic Collision", "Linear Momentum Conservation", "Kinetic Energy Loss", "Coefficient of Restitution e"],
+    "critical_relationships": ["contrasts_with", "defines", "explains"],
+    "known_traps": ["Claiming linear momentum is lost in inelastic collisions", "Confusing e=1 with e=0"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["momentum conserved in both", "KE conserved in elastic (e=1)", "KE lost in inelastic (e=0)", "bodies stick together in perfectly inelastic"],
+      "forbidden_misconceptions": ["momentum is not conserved in inelastic collisions", "kinetic energy is conserved during deformation in inelastic collision"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "defines", "explains"]
+    }
+  },
+  {
+    "id": "eval-phy-015",
+    "subject": "physics",
+    "category": "comparison",
+    "question": "Compare Series RLC resonance and Parallel RLC resonance in AC circuits in terms of impedance, current amplitude, and frequency response.",
+    "expected_intent": "comparison",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "no",
+    "key_concepts": ["Series Resonance", "Parallel Resonance", "Impedance Minimum vs Maximum", "Current Magnification vs Rejection", "Resonant Frequency omega = 1/sqrt(LC)", "Q-Factor"],
+    "critical_relationships": ["contrasts_with", "explains", "defines"],
+    "known_traps": ["Claiming parallel RLC has minimum impedance at resonance", "Assuming resonance frequency is different when R is small"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["series resonance minimum impedance Z=R", "parallel resonance maximum impedance (antiresonance)", "series current maximum", "parallel current minimum"],
+      "forbidden_misconceptions": ["series RLC rejects resonant frequency", "parallel RLC draws infinite current at resonance"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "explains", "defines"]
+    }
+  }
+]

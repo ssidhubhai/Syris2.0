@@ -1,0 +1,264 @@
+{
+  "document_id": "doc-f5d45c4e",
+  "session_id": "sess-eval-079b0de8",
+  "title": "Geometry, Hybridization, and See-Saw Shape of Sulfur Tetrafluoride (SF4)",
+  "intent": "comparison",
+  "subject": "chemistry",
+  "language": "english",
+  "nodes": [
+    {
+      "id": "node-head-1",
+      "type": "heading",
+      "content": {
+        "text": "Molecular Structure and VSEPR Analysis of SF4",
+        "level": 1,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-def-1",
+      "type": "definition",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Steric Number Calculation",
+        "latex": "SN = \\text{Valence electrons of S} + \\text{Monovalent atoms} - \\text{Cation charge} + \\text{Anion charge} / 2",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": "For SF4: SN = (6 + 4)/2 = 5",
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-eq-1",
+      "type": "equation",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": "Electron Pair Geometry",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": "Eq. (1)",
+        "label": "Electron Pair Geometry",
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-comp-1",
+      "type": "comparison",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Ideal Trigonal Bipyramidal vs. Actual See-Saw Geometry",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": "Ideal Geometry (Trigonal Bipyramidal)",
+        "left_points": [
+          "All bond positions considered equivalent in absence of lone pairs",
+          "Equatorial-equatorial bond angle: 120 degrees",
+          "Axial-axial bond angle: 180 degrees"
+        ],
+        "right_title": "Actual Shape (See-Saw)",
+        "right_points": [
+          "One equatorial position occupied by a lone pair",
+          "Axial S-F bonds bend away due to lone pair-bond pair repulsion",
+          "Actual axial angle: ~173 degrees, equatorial angle: ~102 degrees"
+        ],
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-call-1",
+      "type": "callout",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "Important concept regarding trap.",
+        "description": null,
+        "subtitle": null,
+        "title": "trap",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": "trap",
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-conc-1",
+      "type": "conclusion",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Final Hybridization and Shape Summary",
+        "latex": "\\text{Hybridization} = \\text{sp}^3\\text{d}, \\quad \\text{Shape} = \\text{See-Saw}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": true,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "node-head-1",
+      "to": "node-def-1",
+      "type": "explains",
+      "label": null
+    },
+    {
+      "from": "node-def-1",
+      "to": "node-eq-1",
+      "type": "derives_from",
+      "label": null
+    },
+    {
+      "from": "node-eq-1",
+      "to": "node-comp-1",
+      "type": "contrasts_with",
+      "label": null
+    },
+    {
+      "from": "node-comp-1",
+      "to": "node-call-1",
+      "type": "highlights",
+      "label": null
+    },
+    {
+      "from": "node-call-1",
+      "to": "node-conc-1",
+      "type": "follows_from",
+      "label": null
+    }
+  ],
+  "layout_hints": {
+    "recommended_layout": "vertical_flow",
+    "primary_channel_nodes": [
+      "node-head-1",
+      "node-def-1",
+      "node-eq-1",
+      "node-comp-1",
+      "node-conc-1"
+    ],
+    "context_channel_nodes": [
+      "node-call-1"
+    ],
+    "sticky_header_nodes": [
+      "node-head-1"
+    ]
+  },
+  "validation": {
+    "math_verified": false,
+    "domain_verified": false,
+    "verifier_used": "semantic_validator_phase4a",
+    "flagged_issues": []
+  },
+  "source_metadata": {
+    "provider": "google",
+    "model": "gemini-3.5-flash-lite",
+    "generation_time_ms": 4741,
+    "prompt_version": "v1.0"
+  }
+}

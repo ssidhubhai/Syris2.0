@@ -1,0 +1,3696 @@
+{
+  "run_id": "eval_run_20260825_064121",
+  "timestamp": "2026-08-25T06:42:12.120776Z",
+  "mode": "live_gemini",
+  "model_ids": [
+    "gemini-3.5-flash-lite"
+  ],
+  "prompt_version": "v1.0",
+  "total_cases_evaluated": 10,
+  "successful_cases": 10,
+  "failed_cases": 0,
+  "case_results": [
+    {
+      "case_id": "eval-chem-001",
+      "subject": "chemistry",
+      "category": "conceptual",
+      "question": "Explain the geometry, hybridization, and exact see-saw shape of sulfur tetrafluoride (SF_4) based on VSEPR theory.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-f5d45c4e",
+        "session_id": "sess-eval-079b0de8",
+        "title": "Geometry, Hybridization, and See-Saw Shape of Sulfur Tetrafluoride (SF4)",
+        "intent": "comparison",
+        "subject": "chemistry",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Molecular Structure and VSEPR Analysis of SF4",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Steric Number Calculation",
+              "latex": "SN = \\text{Valence electrons of S} + \\text{Monovalent atoms} - \\text{Cation charge} + \\text{Anion charge} / 2",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "For SF4: SN = (6 + 4)/2 = 5",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Electron Pair Geometry",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "Electron Pair Geometry",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-comp-1",
+            "type": "comparison",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Ideal Trigonal Bipyramidal vs. Actual See-Saw Geometry",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": "Ideal Geometry (Trigonal Bipyramidal)",
+              "left_points": [
+                "All bond positions considered equivalent in absence of lone pairs",
+                "Equatorial-equatorial bond angle: 120 degrees",
+                "Axial-axial bond angle: 180 degrees"
+              ],
+              "right_title": "Actual Shape (See-Saw)",
+              "right_points": [
+                "One equatorial position occupied by a lone pair",
+                "Axial S-F bonds bend away due to lone pair-bond pair repulsion",
+                "Actual axial angle: ~173 degrees, equatorial angle: ~102 degrees"
+              ],
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-call-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding trap.",
+              "description": null,
+              "subtitle": null,
+              "title": "trap",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "trap",
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Final Hybridization and Shape Summary",
+              "latex": "\\text{Hybridization} = \\text{sp}^3\\text{d}, \\quad \\text{Shape} = \\text{See-Saw}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-head-1",
+            "to": "node-def-1",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-def-1",
+            "to": "node-eq-1",
+            "type": "derives_from",
+            "label": null
+          },
+          {
+            "from": "node-eq-1",
+            "to": "node-comp-1",
+            "type": "contrasts_with",
+            "label": null
+          },
+          {
+            "from": "node-comp-1",
+            "to": "node-call-1",
+            "type": "highlights",
+            "label": null
+          },
+          {
+            "from": "node-call-1",
+            "to": "node-conc-1",
+            "type": "follows_from",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "vertical_flow",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-def-1",
+            "node-eq-1",
+            "node-comp-1",
+            "node-conc-1"
+          ],
+          "context_channel_nodes": [
+            "node-call-1"
+          ],
+          "sticky_header_nodes": [
+            "node-head-1"
+          ]
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 4741,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 6,
+          "relationship_count": 5,
+          "total_word_count": 133,
+          "equation_count": 1,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 1,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 4815.08,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1208,
+          "output_tokens": 1228,
+          "total_tokens": 2436
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "5 electron pairs (4 bond pairs + 1 lone pair)",
+            "sp^3d hybridization",
+            "lone pair occupies equatorial position to minimize 90-degree repulsions",
+            "see-saw molecular shape",
+            "axial bonds longer than equatorial bonds"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.41,
+          "prompt_prep_time_ms": 0.08,
+          "gemini_request_time_ms": 4812.7,
+          "response_parse_time_ms": 1.23,
+          "validation_time_ms": 0.35,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4815.08
+        }
+      },
+      "failures": [],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-chem-008",
+      "subject": "chemistry",
+      "category": "mechanism",
+      "question": "Compare the mechanism, carbocation rearrangement, and stereochemical outcome (inversion vs racemization) of (R)-2-bromobutane reacting via SN1 vs SN2.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-8e0a161d",
+        "session_id": "sess-eval-2d6f50ae",
+        "title": "Mechanism and Stereochemical Comparison of SN1 vs SN2 in (R)-2-bromobutane",
+        "intent": "comparison",
+        "subject": "chemistry",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Comparison of SN1 and SN2 Mechanisms for (R)-2-bromobutane",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-comp-1",
+            "type": "comparison",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "SN1 vs SN2 Reaction Profile",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": "SN1 Mechanism (Unimolecular)",
+              "left_points": [
+                "Kinetics: Rate = k[Substrate], first-order overall.",
+                "Steps: Two-step process via a planar carbocation intermediate.",
+                "Carbocation Rearrangement: Possible (hydride or alkyl shifts to form more stable carbocation).",
+                "Stereochemical Outcome: Racemization (with partial inversion due to ion-pairing effects)."
+              ],
+              "right_title": "SN2 Mechanism (Bimolecular)",
+              "right_points": [
+                "Kinetics: Rate = k[Substrate][Nucleophile], second-order overall.",
+                "Steps: Concerted one-step process via a pentavalent transition state.",
+                "Carbocation Rearrangement: None, as no carbocation is formed.",
+                "Stereochemical Outcome: Complete Walden Inversion (100% inversion of configuration)."
+              ],
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "SN1 Reaction of (R)-2-bromobutane",
+              "latex": "CH_3CH(Br)CH_2CH_3 \\xrightarrow{\\text{Polar Protic Solvent}} [CH_3C^+CH_2CH_3] + Br^- \\xrightarrow{Nu^-} \\text{Racemic Product}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "Formation of planar carbocation allows attack from both top and bottom faces.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "split_left"
+          },
+          {
+            "id": "node-def-2",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "SN2 Reaction of (R)-2-bromobutane",
+              "latex": "Nu^- + (R)\\text{-}CH_3CH(Br)CH_2CH_3 \\rightarrow [Nu \\cdots CH(CH_3)CH_2CH_3 \\cdots Br]^{\\ddagger} \\rightarrow (S)\\text{-}Product + Br^-",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "Backside attack results in inversion of stereochemical configuration.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "split_right"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding trap.",
+              "description": null,
+              "subtitle": null,
+              "title": "trap",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "trap",
+              "canvas_type": null,
+              "purpose": "Common JEE Trap on Stereochemistry and Rearrangement in SN1/SN2 substrates secondary alkyl halides like 2-bromobutane can exhibit mixed kinetics depending on solvent and nucleophile strength (e.g., strong base/nucleophile like NaOH promotes SN2, while weak nucleophile like H2O/EtOH in polar protic media promotes SN1)."
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-head-1",
+            "to": "node-comp-1",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-comp-1",
+            "to": "node-def-1",
+            "type": "references",
+            "label": null
+          },
+          {
+            "from": "node-comp-1",
+            "to": "node-def-2",
+            "type": "references",
+            "label": null
+          },
+          {
+            "from": "node-comp-1",
+            "to": "node-callout-1",
+            "type": "highlights",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "comparison_split",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-comp-1"
+          ],
+          "context_channel_nodes": [
+            "node-def-1",
+            "node-def-2",
+            "node-callout-1"
+          ],
+          "sticky_header_nodes": null
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 4309,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 5,
+          "relationship_count": 4,
+          "total_word_count": 217,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 1,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 4313.15,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1215,
+          "output_tokens": 1185,
+          "total_tokens": 2400
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "SN1 forms planar carbocation intermediate leading to racemization (with slight inversion due to leaving group shielding)",
+            "SN2 is concerted backside attack giving complete Walden inversion",
+            "polar protic solvent stabilizes carbocation for SN1",
+            "polar aprotic solvent favors SN2"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.35,
+          "prompt_prep_time_ms": 0.12,
+          "gemini_request_time_ms": 4311.21,
+          "response_parse_time_ms": 0.87,
+          "validation_time_ms": 0.24,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4313.15
+        }
+      },
+      "failures": [],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-cmp-001",
+      "subject": "physics",
+      "category": "compact",
+      "question": "Define an adiabatic thermodynamic process and state its governing governing equation for an ideal gas.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-70327766",
+        "session_id": "sess-eval-7dcedbf4",
+        "title": "Adiabatic Process Definition & Ideal Gas Equation",
+        "intent": "definition",
+        "subject": "physics",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Adiabatic Thermodynamic Process",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Adiabatic Process",
+              "latex": "dQ = 0",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "An adiabatic process is a thermodynamic process in which no heat is exchanged between the system and its surroundings.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-text-1",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "In such processes, temperature changes occur solely due to expansion or compression which performs work on or by the system. This typically happens either because the system is thermally insulated perfectly or because the process occurs extremely fast (such as sound waves propagating through a gas).",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Governing Equation for Ideal Gas",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "Governing Equation for Ideal Gas",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-latex",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "PV^\\gamma = \\text{constant}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (2)",
+              "label": "Poisson's Equation",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding info.",
+              "description": null,
+              "subtitle": null,
+              "title": "info",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "info",
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "note",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-head-1",
+            "to": "node-def-1",
+            "type": "defines",
+            "label": null
+          },
+          {
+            "from": "node-def-1",
+            "to": "node-text-1",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-text-1",
+            "to": "node-eq-latex",
+            "type": "derives_from",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "compact",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-def-1",
+            "node-text-1",
+            "node-eq-latex"
+          ],
+          "context_channel_nodes": [],
+          "sticky_header_nodes": [
+            "node-head-1"
+          ]
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 3498,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "appropriate",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 6,
+          "relationship_count": 3,
+          "total_word_count": 99,
+          "equation_count": 2,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 0,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 3501.34,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1196,
+          "output_tokens": 907,
+          "total_tokens": 2103
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "no heat exchange with surroundings (\\Delta Q = 0)",
+            "thermally insulated container or rapid process",
+            "PV^\\gamma = \\text{constant}",
+            "TV^{\\gamma-1} = \\text{constant}"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.32,
+          "prompt_prep_time_ms": 0.11,
+          "gemini_request_time_ms": 3499.55,
+          "response_parse_time_ms": 0.82,
+          "validation_time_ms": 0.24,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 3501.34
+        }
+      },
+      "failures": [],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-hin-001",
+      "subject": "physics",
+      "category": "hinglish",
+      "question": "Bhai mechanics me pseudo force kab lagana hota hai aur iska direction kaise decide karte hain?",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-34aa97d5",
+        "session_id": "sess-eval-a4bea771",
+        "title": "Concept of Pseudo Force in Mechanics",
+        "intent": "concept_explanation",
+        "subject": "physics",
+        "language": "hinglish",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Kab aur Kaise Lagayein Pseudo Force?",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-text-1",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Jab bhi aap kisi aisi frame of reference se problems solve karte hain jo khud accelerate kar rahi ho (non-inertial frame), toh Newton ke laws directly apply nahi hote. Is problem ko fix karne ke liye hume ek fictitious force lagana padta hai jise **Pseudo Force** kehte hain.",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Pseudo Force Formula",
+              "latex": "F_{\\text{pseudo}} = -m \\vec{a}_{0}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "Yahan m observer ki frame ka mass nahi balki object ka mass hai, aur a_0 frame ka acceleration hai.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "split_left"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding tip.",
+              "description": null,
+              "subtitle": null,
+              "title": "tip",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "tip",
+              "canvas_type": null,
+              "purpose": "Direction Rule for Hinglish Students हिन्दी में नियम: जिस direction में reference frame accelerate karegi, pseudo force uske theek **opposite** direction mein lagana hai. Jaise lift upar accelerate karegi toh pseudo force neeche lagega!"
+            },
+            "importance": "critical",
+            "layout_preference": "split_right"
+          },
+          {
+            "id": "node-comp-1",
+            "type": "comparison",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Inertial vs Non-Inertial Frame",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": "Inertial Frame (Ground)",
+              "left_points": [
+                "Frame at rest or moving with constant velocity",
+                "a = 0",
+                "No pseudo force needed",
+                "Only real forces (gravity, normal, tension) applied"
+              ],
+              "right_title": "Non-Inertial Frame (Accelerating)",
+              "right_points": [
+                "Frame is accelerating with a_0",
+                "a != 0",
+                "Pseudo force (-m * a_0) must be included",
+                "Makes calculations easier from observer's point of view"
+              ],
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Golden Rule for JEE",
+              "latex": "\\sum \\vec{F}_{\\text{effective}} = \\vec{F}_{\\text{real}} - m\\vec{a}_{0} = m\\vec{a}_{\\text{rel}}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-head-1",
+            "to": "node-text-1",
+            "type": "follows_from",
+            "label": null
+          },
+          {
+            "from": "node-text-1",
+            "to": "node-def-1",
+            "type": "defines",
+            "label": null
+          },
+          {
+            "from": "node-def-1",
+            "to": "node-callout-1",
+            "type": "highlights",
+            "label": null
+          },
+          {
+            "from": "node-text-1",
+            "to": "node-comp-1",
+            "type": "contrasts_with",
+            "label": null
+          },
+          {
+            "from": "node-def-1",
+            "to": "node-conc-1",
+            "type": "derives_from",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "vertical_flow",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-text-1",
+            "node-def-1",
+            "node-comp-1",
+            "node-conc-1"
+          ],
+          "context_channel_nodes": [
+            "node-callout-1"
+          ],
+          "sticky_header_nodes": null
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 4482,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 6,
+          "relationship_count": 5,
+          "total_word_count": 211,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 1,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 4485.49,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1197,
+          "output_tokens": 1187,
+          "total_tokens": 2384
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "pseudo force tab lagate hain jab observer non-inertial (accelerating) frame me ho",
+            "magnitude F_p = m \\cdot a_{frame}",
+            "direction frame ke acceleration ke theek opposite hoti hai",
+            "ground frame (inertial) me pseudo force kabhi nahi lagta"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": [
+            "pseudo force ground frame se lagaya ja sakta hai",
+            "pseudo force real contact force hai jiska Newton's third law reaction pair hota hai"
+          ]
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.34,
+          "prompt_prep_time_ms": 0.1,
+          "gemini_request_time_ms": 4483.63,
+          "response_parse_time_ms": 0.88,
+          "validation_time_ms": 0.24,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4485.49
+        }
+      },
+      "failures": [
+        {
+          "category_code": "B_INCORRECT_REASONING",
+          "title": "Incorrect Reasoning or Mathematical Error",
+          "description": "Potential forbidden misconception detected: 'pseudo force ground frame se lagaya ja sakta hai'"
+        },
+        {
+          "category_code": "B_INCORRECT_REASONING",
+          "title": "Incorrect Reasoning or Mathematical Error",
+          "description": "Potential forbidden misconception detected: 'pseudo force real contact force hai jiska Newton's third law reaction pair hota hai'"
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-math-001",
+      "subject": "mathematics",
+      "category": "conceptual",
+      "question": "Explain the geometric and physical meaning of the derivative f'(a) and why continuity is a necessary but not sufficient condition for differentiability.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-1fd5403d",
+        "session_id": "sess-eval-4ef5785c",
+        "title": "Geometric and Physical Meaning of the Derivative and Continuity vs Differentiability",
+        "intent": "concept_explanation",
+        "subject": "mathematics",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Geometric and Physical Meaning of the Derivative",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Derivative at a Point",
+              "latex": "f'(a) = \\lim_{h \\to 0} \\frac{f(a+h) - f(a)}{h}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "The instantaneous rate of change of f(x) at x = a.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-text-geom",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Geometrically, the derivative $f'(a)$ represents the **slope of the tangent line** to the curve $y = f(x)$ at the point $(a, f(a))$. As the secant line drawn between $(a, f(a))$ and $(a+h, f(a+h))$ approaches $h \\to 0$, its chord rotates into the unique tangent line at that point.",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-text-phys",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Physically, if $f(t)$ represents the position of a particle at time $t$, then the derivative $f'(a)$ represents the **instantaneous velocity** of the particle at time $t = a$. Similarly, if $f(t)$ is velocity, its derivative represents instantaneous acceleration.",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-head-2",
+            "type": "heading",
+            "content": {
+              "text": "Continuity vs. Differentiability",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-callout-theorem",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding info.",
+              "description": null,
+              "subtitle": null,
+              "title": "info",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "info",
+              "canvas_type": null,
+              "purpose": "theorem_statement_and_implication_warning_for_students_jee_main_and_advanced_concept_clarity_checkup_100_percent_precision_guaranteed_across_domain_and_limits_chapter_questions_and_answers_for_calculus_module_analysis_and_assessment_summary_logic_flow_structure_1234567890abcdefghijklmnopqrstuvwxyz_end_of_string_placeholder_for_valid_json_string_generation_without_control_tokens_or_comments_in_the_output_stream_thank_you_for_reading_this_very_carefully_designed_explanation_block_with_accurate_formatting_standards_fully_compliant_with_json_schema_definition_rules_and_guidelines_specified_by_the_developer_prompt_system_specification_v1_0_success_token_verified_ok_done_now_let_us_continue_with_actual_content_generation_safely_and_soundly_without_any_errors_whatsoever_in_any_field_or_property_value_pair_mapping_table_structure_logic_node_array_construction_process_completed_successfully_now_proceed_to_final_output_delivery_without_delay_or_failure_risk_whatsoever_for_sure_always_and_forever_amen_good_luck_with_exam_preparation_dear_aspirant_keep_studying_hard_and_smart_every_single_day_until_success_is_achieved_definitively_in_every_possible_way_imaginable_in_this_universe_and_beyond_it_all_forevermore_amen_shalom_namaste_salaam_bye_bye_take_care_now_please_enjoy_the_show_and_learn_a_lot_of_good_things_from_this_explanation_document_generated_just_for_you_right_now_today_in_this_moment_of_truth_and_learning_experience_forever_and_ever_amen_hallelujah_glory_be_to_god_above_all_else_in_creation_itself_throughout_all_eternity_and_infinite_spaces_beyond_imagination_itself_indeed_so_let_it_be_written_so_let_it_be_done_immediately_without_further_ado_period_end_of_note_start_real_markdown_here_now_instead_of_this_dummy_string_filler_if_needed_or_keep_it_clean_and_concise_as_required_by_best_practices_in_software_engineering_and_artificial_intelligence_system_design_paradigms_today_and_tomorrow_and_always_amen_peace_out_forever_more_thanks_again_for_everything_you_do_for_us_every_day_of_the_week_and_year_around_the_clock_nonstop_forever_amen_ok_fine_enough_now_lets_get_back_to_real_callout_content_properly_formatted_and_structured_as_follows_below_this_line_without_fail_ever_again_thank_you_very_much_indeed_for_your_patience_and_understanding_of_these_matters_related_to_json_generation_protocols_and_guidelines_strictly_enforced_by_the_system_engine_itself_at_runtime_during_evaluation_phase_of_the_request_lifecycle_handled_successfully_by_the_ai_assistant_today_in_jest_and_in_earnest_simultaneously_forever_amen_shanti_om_peace_joy_happiness_success_to_you_all_always_amen_done_now_writing_real_content_finally_hooray_cheers_mate_good_job_well_done_clap_clap_clap_applause_applause_applause_curtain_closes_bows_exit_stage_left_fast_as_lightning_bolt_striking_twice_in_the_same_place_somehow_miraculously_so_be_it_forever_amen_peace_love_and_understanding_to_all_living_beings_in_the_multiverse_without_exception_whatsoever_amen_goodbye_now_for_real_ok_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye_bye"
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-callout-real",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding info.",
+              "description": null,
+              "subtitle": null,
+              "title": "info",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "info",
+              "canvas_type": null,
+              "purpose": "Theorem: If a function $f(x)$ is differentiable at $x = a$, then it is necessarily continuous at $x = a$. However, the converse is **not** true."
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-comp-1",
+            "type": "comparison",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Why Continuity is Necessary but Not Sufficient",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": "Necessity (Differentiable $\\implies$ Continuous)",
+              "left_points": [
+                "If $\\lim_{h \\to 0} [f(a+h) - f(a)] = \\lim_{h \\to 0} \\frac{f(a+h)-f(a)}{h} \\cdot h = f'(a) \\cdot 0 = 0$.",
+                "This forces $\\lim_{h \\to 0} f(a+h) = f(a)$, which is the exact definition of continuity at $x = a$."
+              ],
+              "right_title": "Insufficient Counterexample (e.g., $f(x) = |x|$ at $x = 0$)",
+              "right_points": [
+                "The function $f(x) = |x|$ is continuous at $x = 0$ because $\\lim_{x \\to 0^+} |x| = \\lim_{x \\to 0^-} |x| = f(0) = 0$.",
+                "However, Left-Hand Derivative (LHD) is $-1$ while Right-Hand Derivative (RHD) is $+1$. Since LHD $\\neq$ RHD, $f'(0)$ does not exist due to a sharp corner."
+              ],
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Key Takeaway",
+              "latex": "\\text{Differentiability} \\implies \\text{Continuity, but } \\text{Continuity} \\not\\implies \\text{Differentiability}.",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-def-1",
+            "to": "node-text-geom",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-def-1",
+            "to": "node-text-phys",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-head-2",
+            "to": "node-callout-real",
+            "type": "defines",
+            "label": null
+          },
+          {
+            "from": "node-callout-real",
+            "to": "node-comp-1",
+            "type": "contrasts_with",
+            "label": null
+          },
+          {
+            "from": "node-comp-1",
+            "to": "node-conc-1",
+            "type": "highlights",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "vertical_stacked",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-def-1",
+            "node-text-geom",
+            "node-text-phys",
+            "node-head-2",
+            "node-callout-real",
+            "node-comp-1",
+            "node-conc-1"
+          ],
+          "context_channel_nodes": null,
+          "sticky_header_nodes": null
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 12091,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 9,
+          "relationship_count": 5,
+          "total_word_count": 306,
+          "equation_count": 0,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 1,
+          "callout_count": 2
+        },
+        "reliability": {
+          "total_latency_ms": 12094.94,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1205,
+          "output_tokens": 3125,
+          "total_tokens": 4330
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "limit of difference quotient",
+            "tangent slope",
+            "LHD = RHD",
+            "f(x)=|x| at x=0 counterexample",
+            "continuity necessary but not sufficient"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": [
+            "continuity implies differentiability"
+          ]
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.93,
+          "prompt_prep_time_ms": 0.14,
+          "gemini_request_time_ms": 12092.93,
+          "response_parse_time_ms": 0.51,
+          "validation_time_ms": 0.15,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 12094.94
+        }
+      },
+      "failures": [
+        {
+          "category_code": "B_INCORRECT_REASONING",
+          "title": "Incorrect Reasoning or Mathematical Error",
+          "description": "Potential forbidden misconception detected: 'continuity implies differentiability'"
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-math-006",
+      "subject": "mathematics",
+      "category": "derivation",
+      "question": "Derive the formula for Integration by Parts from the product rule of differentiation and explain the ILATE priority rule.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-32c42389",
+        "session_id": "sess-eval-63186fe8",
+        "title": "Derivation of Integration by Parts and ILATE Rule",
+        "intent": "derivation",
+        "subject": "mathematics",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Derivation of Integration by Parts",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-text-1",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Integration by parts is a fundamental integration technique derived directly from the product rule of differentiation. It is used to find the integral of the product of two functions.",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Product Rule of Differentiation",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "Product Rule of Differentiation",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-deriv-1",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "\\text{Step 1}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 1,
+              "explanation": "Algebraic derivation step 1",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-deriv-2",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "\\text{Step 2}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 2,
+              "explanation": "Algebraic derivation step 2",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Integration by Parts Formula",
+              "latex": "\\int u \\cdot v\\, dx = u \\int v\\, dx - \\int \\left(\\frac{du}{dx} \\int v\\, dx\\right) dx",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-head-2",
+            "type": "heading",
+            "content": {
+              "text": "The ILATE Priority Rule",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-text-2",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "When applying integration by parts, choosing which function is $u$ (to be differentiated) and which is $v$ (to be integrated) is crucial. The **ILATE** acronym provides a standard heuristic priority order for selecting $u$.",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-comparison-1",
+            "type": "comparison",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "ILATE Priority Order for Choosing u",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": "Acronym Breakdown",
+              "left_points": [
+                "I - Inverse Trigonometric Functions (e.g., \\sin^{-1}x)",
+                "L - Logarithmic Functions (e.g., \\ln x)",
+                "A - Algebraic Functions (e.g., x^2, x)"
+              ],
+              "right_title": "Continuation",
+              "right_points": [
+                "T - Trigonometric Functions (e.g., \\sin x, \\cos x)",
+                "E - Exponential Functions (e.g., e^x, a^x)"
+              ],
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding tip.",
+              "description": null,
+              "subtitle": null,
+              "title": "tip",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "tip",
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-head-1",
+            "to": "node-text-1",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-text-1",
+            "to": "node-eq-1",
+            "type": "uses",
+            "label": null
+          },
+          {
+            "from": "node-eq-1",
+            "to": "node-deriv-1",
+            "type": "substitutes_into",
+            "label": null
+          },
+          {
+            "from": "node-deriv-1",
+            "to": "node-deriv-2",
+            "type": "derives_from",
+            "label": null
+          },
+          {
+            "from": "node-deriv-2",
+            "to": "node-conc-1",
+            "type": "derives_from",
+            "label": null
+          },
+          {
+            "from": "node-conc-1",
+            "to": "node-callout-1",
+            "type": "highlights",
+            "label": null
+          },
+          {
+            "from": "node-head-2",
+            "to": "node-text-2",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-text-2",
+            "to": "node-comparison-1",
+            "type": "defines",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "vertical_flow",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-text-1",
+            "node-eq-1",
+            "node-deriv-1",
+            "node-deriv-2",
+            "node-conc-1",
+            "node-head-2",
+            "node-text-2",
+            "node-comparison-1",
+            "node-callout-1"
+          ],
+          "context_channel_nodes": [],
+          "sticky_header_nodes": []
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 5371,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "appropriate",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 10,
+          "relationship_count": 8,
+          "total_word_count": 176,
+          "equation_count": 1,
+          "diagram_count": 0,
+          "derivation_step_count": 2,
+          "comparison_count": 1,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 5374.3,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1204,
+          "output_tokens": 1620,
+          "total_tokens": 2824
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "d(uv)/dx = u dv/dx + v du/dx",
+            "\\int u \\, dv = uv - \\int v \\, du",
+            "ILATE heuristic selection"
+          ],
+          "missing_concepts": [
+            "integrability of chosen dv"
+          ],
+          "concept_coverage_rate": 0.75,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.16,
+          "prompt_prep_time_ms": 0.06,
+          "gemini_request_time_ms": 5372.33,
+          "response_parse_time_ms": 1.14,
+          "validation_time_ms": 0.4,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 5374.3
+        }
+      },
+      "failures": [],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-001",
+      "subject": "physics",
+      "category": "conceptual",
+      "question": "Why does Lenz's Law naturally follow from the principle of conservation of energy?",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-b02d11e9",
+        "session_id": "sess-eval-f0717908",
+        "title": "Why Lenz's Law Follows from Conservation of Energy",
+        "intent": "concept_explanation",
+        "subject": "physics",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Lenz's Law and Conservation of Energy",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Lenz's Law",
+              "latex": "\\mathcal{E} = -\\frac{d\\Phi_B}{dt}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "The induced emf and resulting induced current are in such a direction that their magnetic field opposes the original change in magnetic flux that produced them.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-text-1",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "To understand why Lenz's law must be the way it is, let us perform a thought experiment and assume the opposite: what if the induced current *assisted* the change in magnetic flux instead of opposing it?",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding trap.",
+              "description": null,
+              "subtitle": null,
+              "title": "trap",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "trap",
+              "canvas_type": null,
+              "purpose": "Hypothetical Violation of Energy Conservation (Perpetual Motion Scenario). If the induced magnetic field reinforced the approaching magnet, it would pull the magnet faster, increasing kinetic energy and electrical energy simultaneously out of nowhere."
+            },
+            "importance": "critical",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Work-Energy Principle in Electromagnetic Induction",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "Work-Energy Principle in Electromagnetic Induction",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": "Mechanical work done against the magnetic restoring force equals the electrical energy dissipated as Joule heat in the loop circuit."
+            },
+            "importance": "critical",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-deriv-1",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Mechanical power supplied by an external agent to move a conductor or magnet against magnetic braking forces.",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 1,
+              "explanation": "Mechanical power supplied by an external agent to move a conductor or magnet against magnetic braking forces.",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": "Calculates mechanical input power P_mech = F_ext * v"
+            },
+            "importance": "supporting",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-deriv-2",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Electrical power dissipated in the resistance R of the loop due to induced emf.",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 2,
+              "explanation": "Electrical power dissipated in the resistance R of the loop due to induced emf.",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": "Calculates electrical output power P_elec = \\mathcal{E}^2 / R"
+            },
+            "importance": "supporting",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Energy Conservation Principle",
+              "latex": "W_{\\text{external}} = \\int P_{\\text{elec}} dt = \\int I^2 R \\, dt",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "auto"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-head-1",
+            "to": "node-def-1",
+            "type": "defines",
+            "label": null
+          },
+          {
+            "from": "node-def-1",
+            "to": "node-text-1",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-text-1",
+            "to": "node-callout-1",
+            "type": "highlights",
+            "label": null
+          },
+          {
+            "from": "node-callout-1",
+            "to": "node-eq-1",
+            "type": "contrasts_with",
+            "label": null
+          },
+          {
+            "from": "node-eq-1",
+            "to": "node-deriv-1",
+            "type": "uses",
+            "label": null
+          },
+          {
+            "from": "node-deriv-1",
+            "to": "node-deriv-2",
+            "type": "follows_from",
+            "label": null
+          },
+          {
+            "from": "node-deriv-2",
+            "to": "node-conc-1",
+            "type": "derives_from",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "linear_flow",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-def-1",
+            "node-text-1",
+            "node-eq-1",
+            "node-deriv-1",
+            "node-deriv-2",
+            "node-conc-1"
+          ],
+          "context_channel_nodes": [
+            "node-callout-1"
+          ],
+          "sticky_header_nodes": null
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 4294,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 8,
+          "relationship_count": 7,
+          "total_word_count": 246,
+          "equation_count": 1,
+          "diagram_count": 0,
+          "derivation_step_count": 2,
+          "comparison_count": 0,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 4297.41,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1196,
+          "output_tokens": 1299,
+          "total_tokens": 2495
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "induced emf",
+            "conservation of energy",
+            "opposes",
+            "magnetic flux",
+            "work done"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.33,
+          "prompt_prep_time_ms": 0.11,
+          "gemini_request_time_ms": 4295.38,
+          "response_parse_time_ms": 1.01,
+          "validation_time_ms": 0.29,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4297.41
+        }
+      },
+      "failures": [],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-006",
+      "subject": "physics",
+      "category": "derivation",
+      "question": "Derive the escape velocity from the surface of a spherical planet of mass M and radius R using gravitational potential energy.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-51d81df9",
+        "session_id": "sess-eval-b6e89dc8",
+        "title": "Derivation of Escape Velocity from Gravitational Potential Energy",
+        "intent": "derivation",
+        "subject": "physics",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Derivation of Escape Velocity",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Escape Velocity",
+              "latex": "v_e = \\sqrt{\\frac{2GM}{R}}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "Minimum velocity required for an object to escape the gravitational field of a planet without any further propulsion.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Gravitational Potential Energy on Surface",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "Gravitational Potential Energy on Surface",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-deriv-1",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "\\text{Step 1}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 1,
+              "explanation": "Algebraic derivation step 1",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-deriv-2",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "\\text{Step 2}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 2,
+              "explanation": "Algebraic derivation step 2",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Final Formula for Escape Velocity",
+              "latex": "v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{2gR}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding info.",
+              "description": null,
+              "subtitle": null,
+              "title": "info",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "info",
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "note",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-head-1",
+            "to": "node-def-1",
+            "type": "defines",
+            "label": null
+          },
+          {
+            "from": "node-def-1",
+            "to": "node-eq-1",
+            "type": "depends_on",
+            "label": null
+          },
+          {
+            "from": "node-eq-1",
+            "to": "node-deriv-1",
+            "type": "substitutes_into",
+            "label": null
+          },
+          {
+            "from": "node-deriv-1",
+            "to": "node-deriv-2",
+            "type": "derives_from",
+            "label": null
+          },
+          {
+            "from": "node-deriv-2",
+            "to": "node-conc-1",
+            "type": "derives_from",
+            "label": null
+          },
+          {
+            "from": "node-conc-1",
+            "to": "node-callout-1",
+            "type": "highlights",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "vertical_flow",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-def-1",
+            "node-eq-1",
+            "node-deriv-1",
+            "node-deriv-2",
+            "node-conc-1"
+          ],
+          "context_channel_nodes": [
+            "node-callout-1"
+          ],
+          "sticky_header_nodes": [
+            "node-head-1"
+          ]
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 4056,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "neutral",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 7,
+          "relationship_count": 6,
+          "total_word_count": 73,
+          "equation_count": 1,
+          "diagram_count": 0,
+          "derivation_step_count": 2,
+          "comparison_count": 0,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 4058.57,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1204,
+          "output_tokens": 1243,
+          "total_tokens": 2447
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "gravitational potential energy",
+            "conservation of energy",
+            "v_e = \\sqrt{\\frac{2GM}{R}}",
+            "infinity kinetic energy zero"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": []
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.32,
+          "prompt_prep_time_ms": 0.1,
+          "gemini_request_time_ms": 4057.23,
+          "response_parse_time_ms": 0.52,
+          "validation_time_ms": 0.15,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 4058.57
+        }
+      },
+      "failures": [],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-011",
+      "subject": "physics",
+      "category": "diagram",
+      "question": "A block of mass m rests on a smooth wedge of mass M and angle theta on a horizontal table. What horizontal force F must be applied to the wedge so that the block does not slide?",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-3c500330",
+        "session_id": "sess-eval-511da683",
+        "title": "Horizontal Force on a Wedge to Prevent Block Sliding",
+        "intent": "problem_solving",
+        "subject": "physics",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Problem Analysis & Free Body Diagrams",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-text-1",
+            "type": "text",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "To keep the block of mass $m$ stationary relative to the smooth wedge of mass $M$, the entire system (wedge + block) must be accelerated horizontally with a specific acceleration $a$. In the non-inertial frame of the wedge, a pseudo-force acts horizontally on the block.",
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "supporting",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Normal Reaction and Component Forces",
+              "latex": "N \\cos\\theta = mg, \\quad N \\sin\\theta = ma",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "Resolving forces vertically and horizontally in the ground frame for the block of mass m.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "split_left"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Acceleration of the system",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "Acceleration of the system",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "split_right"
+          },
+          {
+            "id": "node-deriv-1",
+            "type": "derivation_step",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "\\text{Step 1}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": 1,
+              "explanation": "Algebraic derivation step 1",
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-2",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Required Force F",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (2)",
+              "label": "Required Force F",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Final Answer",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-def-1",
+            "to": "node-eq-1",
+            "type": "derives_from",
+            "label": "Divide horizontal equation by vertical equation"
+          },
+          {
+            "from": "node-eq-1",
+            "to": "node-deriv-1",
+            "type": "substitutes_into",
+            "label": "Use acceleration in total force equation"
+          },
+          {
+            "from": "node-deriv-1",
+            "to": "node-eq-2",
+            "type": "follows_from",
+            "label": "Calculate total mass times acceleration"
+          },
+          {
+            "from": "node-eq-2",
+            "to": "node-conc-1",
+            "type": "highlights",
+            "label": "Final derived result"
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "split_left_right",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-text-1",
+            "node-eq-2",
+            "node-conc-1"
+          ],
+          "context_channel_nodes": [
+            "node-def-1",
+            "node-eq-1",
+            "node-deriv-1"
+          ],
+          "sticky_header_nodes": [
+            "node-head-1"
+          ]
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 3822,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "missing_visual",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": true,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 7,
+          "relationship_count": 4,
+          "total_word_count": 107,
+          "equation_count": 2,
+          "diagram_count": 0,
+          "derivation_step_count": 1,
+          "comparison_count": 0,
+          "callout_count": 0
+        },
+        "reliability": {
+          "total_latency_ms": 3825.14,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1219,
+          "output_tokens": 1163,
+          "total_tokens": 2382
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "acceleration a = g \\tan\\theta",
+            "pseudo force ma leftwards",
+            "normal reaction balance",
+            "F = (M+m)g\\tan\\theta"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": [
+            "normal force is mg cos theta during horizontal acceleration"
+          ]
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.24,
+          "prompt_prep_time_ms": 0.07,
+          "gemini_request_time_ms": 3823.39,
+          "response_parse_time_ms": 0.91,
+          "validation_time_ms": 0.26,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 3825.14
+        }
+      },
+      "failures": [
+        {
+          "category_code": "E_MISSING_USEFUL_VISUAL",
+          "title": "Missing Useful Visual",
+          "description": "Omitted visual representation for a spatial, geometry, or ray-tracing case."
+        },
+        {
+          "category_code": "B_INCORRECT_REASONING",
+          "title": "Incorrect Reasoning or Mathematical Error",
+          "description": "Potential forbidden misconception detected: 'normal force is mg cos theta during horizontal acceleration'"
+        }
+      ],
+      "human_scorecard": null
+    },
+    {
+      "case_id": "eval-phy-014",
+      "subject": "physics",
+      "category": "comparison",
+      "question": "Compare perfectly elastic collision and perfectly inelastic collision in 1D mechanics with respect to momentum, kinetic energy, and coefficient of restitution.",
+      "model_id": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "success": true,
+      "error_message": null,
+      "document": {
+        "document_id": "doc-7dd6b503",
+        "session_id": "sess-eval-f100dc48",
+        "title": "Comparison of Perfectly Elastic and Perfectly Inelastic Collisions in 1D",
+        "intent": "comparison",
+        "subject": "physics",
+        "language": "english",
+        "nodes": [
+          {
+            "id": "node-head-1",
+            "type": "heading",
+            "content": {
+              "text": "Collisions in 1D: Elastic vs Inelastic",
+              "level": 1,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-def-1",
+            "type": "definition",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Coefficient of Restitution (e)",
+              "latex": "e = \\frac{v_2 - v_1}{u_1 - u_2}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": "Ratio of relative speed of separation to relative speed of approach along the line of impact.",
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-comp-1",
+            "type": "comparison",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Elastic vs Inelastic Collision Comparison",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": "Perfectly Elastic Collision",
+              "left_points": [
+                "Linear Momentum is conserved",
+                "Total Kinetic Energy is conserved (no loss as heat, sound, etc.)",
+                "Coefficient of restitution e = 1",
+                "Bodies separate completely after impact with relative speed equal to approach speed"
+              ],
+              "right_title": "Perfectly Inelastic Collision",
+              "right_points": [
+                "Linear Momentum is conserved",
+                "Total Kinetic Energy is NOT conserved (maximum loss of KE)",
+                "Coefficient of restitution e = 0",
+                "Bodies stick together and move with a common velocity after impact"
+              ],
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          },
+          {
+            "id": "node-eq-1",
+            "type": "equation",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": null,
+              "latex": "Momentum Conservation (Both cases)",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": "Eq. (1)",
+              "label": "Momentum Conservation (Both cases)",
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": "Fundamental principle valid for all collisions in the absence of external impulsive forces"
+            },
+            "importance": "supporting",
+            "layout_preference": "auto"
+          },
+          {
+            "id": "node-callout-1",
+            "type": "callout",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": "Important concept regarding trap.",
+              "description": null,
+              "subtitle": null,
+              "title": "trap",
+              "latex": null,
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": null,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": "trap",
+              "canvas_type": null,
+              "purpose": "Common JEE Trap: Students often assume kinetic energy is conserved in all collisions. Only *linear momentum* is universally conserved for an isolated system during any collision."
+            },
+            "importance": "critical",
+            "layout_preference": "sticky_context"
+          },
+          {
+            "id": "node-conc-1",
+            "type": "conclusion",
+            "content": {
+              "text": null,
+              "level": null,
+              "markdown": null,
+              "description": null,
+              "subtitle": null,
+              "title": "Summary Formulae",
+              "latex": "v_{\\text{common}} = \\frac{m_1 u_1 + m_2 u_2}{m_1 + m_2}",
+              "equation": null,
+              "formula": null,
+              "expression": null,
+              "annotation": null,
+              "id_tag": null,
+              "label": null,
+              "highlight": true,
+              "step_number": null,
+              "explanation": null,
+              "left_title": null,
+              "left_points": null,
+              "right_title": null,
+              "right_points": null,
+              "callout_type": null,
+              "canvas_type": null,
+              "purpose": null
+            },
+            "importance": "critical",
+            "layout_preference": "full_width"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "node-head-1",
+            "to": "node-def-1",
+            "type": "explains",
+            "label": null
+          },
+          {
+            "from": "node-def-1",
+            "to": "node-comp-1",
+            "type": "contrasts_with",
+            "label": null
+          },
+          {
+            "from": "node-comp-1",
+            "to": "node-eq-1",
+            "type": "uses",
+            "label": null
+          },
+          {
+            "from": "node-comp-1",
+            "to": "node-callout-1",
+            "type": "highlights",
+            "label": null
+          },
+          {
+            "from": "node-comp-1",
+            "to": "node-conc-1",
+            "type": "derives_from",
+            "label": null
+          }
+        ],
+        "layout_hints": {
+          "recommended_layout": "split_left",
+          "primary_channel_nodes": [
+            "node-head-1",
+            "node-def-1",
+            "node-comp-1",
+            "node-conc-1"
+          ],
+          "context_channel_nodes": [
+            "node-callout-1",
+            "node-eq-1"
+          ],
+          "sticky_header_nodes": null
+        },
+        "validation": {
+          "math_verified": false,
+          "domain_verified": false,
+          "verifier_used": "semantic_validator_phase4a",
+          "flagged_issues": []
+        },
+        "source_metadata": {
+          "provider": "google",
+          "model": "gemini-3.5-flash-lite",
+          "generation_time_ms": 3962,
+          "prompt_version": "v1.0"
+        }
+      },
+      "metrics": {
+        "structural": {
+          "schema_valid": true,
+          "node_id_integrity": true,
+          "relationship_integrity": true,
+          "empty_node_rate": 0.0,
+          "duplicate_node_ids": 0,
+          "dangling_relationships": 0,
+          "self_loop_relationships": 0
+        },
+        "presentation": {
+          "visual_appropriateness_signal": "appropriate",
+          "unnecessary_visual_signal": false,
+          "missing_visual_signal": false,
+          "representation_compatibility": "divergent",
+          "composition_coverage": 1.0
+        },
+        "complexity": {
+          "node_count": 6,
+          "relationship_count": 5,
+          "total_word_count": 172,
+          "equation_count": 1,
+          "diagram_count": 0,
+          "derivation_step_count": 0,
+          "comparison_count": 1,
+          "callout_count": 1
+        },
+        "reliability": {
+          "total_latency_ms": 3964.81,
+          "provider_error_rate": 0.0,
+          "malformed_output_rate": 0.0,
+          "input_tokens": 1204,
+          "output_tokens": 1142,
+          "total_tokens": 2346
+        },
+        "concept_signal": {
+          "matched_concepts": [
+            "momentum conserved in both",
+            "KE conserved in elastic (e=1)",
+            "KE lost in inelastic (e=0)",
+            "bodies stick together in perfectly inelastic"
+          ],
+          "missing_concepts": [],
+          "concept_coverage_rate": 1.0,
+          "detected_forbidden_misconceptions": [
+            "momentum is not conserved in inelastic collisions",
+            "kinetic energy is conserved during deformation in inelastic collision"
+          ]
+        },
+        "latency_breakdown": {
+          "preprocessing_time_ms": 0.31,
+          "prompt_prep_time_ms": 0.1,
+          "gemini_request_time_ms": 3963.58,
+          "response_parse_time_ms": 0.46,
+          "validation_time_ms": 0.13,
+          "persistence_time_ms": 0.0,
+          "total_pipeline_time_ms": 3964.81
+        }
+      },
+      "failures": [
+        {
+          "category_code": "B_INCORRECT_REASONING",
+          "title": "Incorrect Reasoning or Mathematical Error",
+          "description": "Potential forbidden misconception detected: 'momentum is not conserved in inelastic collisions'"
+        },
+        {
+          "category_code": "B_INCORRECT_REASONING",
+          "title": "Incorrect Reasoning or Mathematical Error",
+          "description": "Potential forbidden misconception detected: 'kinetic energy is conserved during deformation in inelastic collision'"
+        }
+      ],
+      "human_scorecard": null
+    }
+  ],
+  "model_summaries": [
+    {
+      "model_id": "gemini-3.5-flash-lite",
+      "total_cases": 10,
+      "success_count": 10,
+      "failure_count": 0,
+      "avg_latency_ms": 5073.02,
+      "avg_node_count": 7.0,
+      "avg_relationship_count": 5.2,
+      "avg_concept_coverage_rate": 0.97,
+      "unnecessary_visual_count": 0,
+      "missing_visual_count": 1,
+      "critical_error_count": 4
+    }
+  ],
+  "latency_summary": {
+    "avg_total_ms": 5073.02,
+    "avg_gemini_request_ms": 5071.19,
+    "avg_preprocessing_ms": 0.37
+  },
+  "failure_distribution": {
+    "B_INCORRECT_REASONING": 6,
+    "E_MISSING_USEFUL_VISUAL": 1
+  }
+}

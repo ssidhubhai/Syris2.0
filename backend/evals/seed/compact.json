@@ -1,0 +1,107 @@
+[
+  {
+    "id": "eval-cmp-001",
+    "subject": "physics",
+    "category": "compact",
+    "question": "Define an adiabatic thermodynamic process and state its governing governing equation for an ideal gas.",
+    "expected_intent": "definition",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "COMPACT_EXPLANATION",
+    "visual_expected": "no",
+    "key_concepts": ["Adiabatic Process", "Zero Heat Exchange dQ = 0", "First Law dU = -dW", "Poisson's Law PV^gamma = constant"],
+    "critical_relationships": ["defines", "explains"],
+    "known_traps": ["Confusing adiabatic (dQ=0) with isothermal (dT=0)", "Assuming temperature remains constant during adiabatic expansion"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["no heat exchange with surroundings (\\Delta Q = 0)", "thermally insulated container or rapid process", "PV^\\gamma = \\text{constant}", "TV^{\\gamma-1} = \\text{constant}"],
+      "forbidden_misconceptions": ["adiabatic process has zero temperature change", "isothermal and adiabatic are synonymous"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "concise",
+      "expected_relationship_types": ["defines", "explains"]
+    }
+  },
+  {
+    "id": "eval-cmp-002",
+    "subject": "physics",
+    "category": "compact",
+    "question": "State Hooke's Law for elastic materials within the proportional limit and define Young's Modulus.",
+    "expected_intent": "definition",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "COMPACT_EXPLANATION",
+    "visual_expected": "no",
+    "key_concepts": ["Hooke's Law", "Stress proportional to Strain", "Proportional Limit", "Young's Modulus Y = Longitudinal Stress / Longitudinal Strain", "Elastic Limit Boundary"],
+    "critical_relationships": ["defines", "explains"],
+    "known_traps": ["Claiming Hooke's law applies indefinitely beyond elastic limit", "Confusing shear modulus with Young's modulus"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["within proportional limit, stress is directly proportional to strain", "\\sigma = Y \\epsilon", "Young's Modulus Y = \\frac{\\text{Stress}}{\\text{Strain}} = \\frac{F/A}{\\Delta L/L}", "units in N/m^2 or Pascal"],
+      "forbidden_misconceptions": ["Hooke's law holds up to the breaking point of the wire", "Young's modulus depends on the dimensions of the wire"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "concise",
+      "expected_relationship_types": ["defines", "explains"]
+    }
+  },
+  {
+    "id": "eval-cmp-003",
+    "subject": "chemistry",
+    "category": "compact",
+    "question": "What is an amphoteric oxide? Give two chemical reaction equations demonstrating how aluminum oxide (Al_2O_3) behaves amphoterically.",
+    "expected_intent": "definition",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "COMPACT_EXPLANATION",
+    "visual_expected": "no",
+    "key_concepts": ["Amphoteric Oxide", "Reaction with Acid (Acts as Base)", "Reaction with Base (Acts as Acid)", "Al_2O_3 + 6HCl -> 2AlCl_3 + 3H_2O", "Al_2O_3 + 2NaOH + 3H_2O -> 2Na[Al(OH)_4]"],
+    "critical_relationships": ["defines", "explains"],
+    "known_traps": ["Confusing neutral oxide (e.g. CO, NO) with amphoteric oxide", "Writing unbalanced equations for sodium aluminate formation"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["oxide that reacts with both acids and strong bases to form salt and water", "acid reaction: Al_2O_3 + 6HCl \\to 2AlCl_3 + 3H_2O", "base reaction: Al_2O_3 + 2NaOH + 3H_2O \\to 2Na[Al(OH)_4]", "dual acidic and basic character"],
+      "forbidden_misconceptions": ["amphoteric oxide is inert and does not react with either acid or base", "Al2O3 is purely basic like Na2O"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "concise",
+      "expected_relationship_types": ["defines", "explains"]
+    }
+  },
+  {
+    "id": "eval-cmp-004",
+    "subject": "mathematics",
+    "category": "compact",
+    "question": "Define collinear vectors in vector algebra and state the necessary and sufficient algebraic condition for two non-zero vectors a and b to be collinear.",
+    "expected_intent": "definition",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "COMPACT_EXPLANATION",
+    "visual_expected": "no",
+    "key_concepts": ["Collinear Vectors", "Parallel or Anti-parallel Lines of Action", "Scalar Multiplier b = lambda a", "Cross Product Condition a x b = 0", "Proportional Components a_1/b_1 = a_2/b_2 = a_3/b_3"],
+    "critical_relationships": ["defines", "explains"],
+    "known_traps": ["Assuming collinear vectors must have the same magnitude or same initial point", "Confusing collinearity with coplanarity"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["vectors having parallel or anti-parallel lines of action regardless of magnitude", "\\vec{b} = \\lambda \\vec{a} for scalar \\lambda \\neq 0", "cross product \\vec{a} \\times \\vec{b} = \\vec{0}", "proportional direction ratios"],
+      "forbidden_misconceptions": ["collinear vectors must lie along the exact same physical line segment", "collinear vectors must point in the exact same direction"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "concise",
+      "expected_relationship_types": ["defines", "explains"]
+    }
+  },
+  {
+    "id": "eval-cmp-005",
+    "subject": "physics",
+    "category": "compact",
+    "question": "Define electric dipole moment (p) of an electric dipole and specify its SI unit and conventional direction.",
+    "expected_intent": "definition",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "COMPACT_EXPLANATION",
+    "visual_expected": "no",
+    "key_concepts": ["Electric Dipole", "Dipole Moment Vector p = q * 2a", "Direction from Negative Charge to Positive Charge", "SI Unit Coulomb-meter (C.m)", "Torque in Uniform Electric Field tau = p x E"],
+    "critical_relationships": ["defines", "explains"],
+    "known_traps": ["Assuming direction is positive to negative in physics (it is negative to positive in physics, chemistry often uses positive to negative)", "Confusing C.m (Coulomb meter) with cm (centimeter)"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["product of charge magnitude q and separation distance 2a", "\\vec{p} = q(2\\vec{a})", "vector direction from negative charge (-q) to positive charge (+q) in physics", "SI unit is Coulomb-meter (C \\cdot m)"],
+      "forbidden_misconceptions": ["dipole moment is a scalar quantity", "direction in physics points from positive to negative charge"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "concise",
+      "expected_relationship_types": ["defines", "explains"]
+    }
+  }
+]

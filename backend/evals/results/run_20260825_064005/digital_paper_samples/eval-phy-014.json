@@ -1,0 +1,228 @@
+{
+  "document_id": "doc-de8c8ebc",
+  "session_id": "sess-eval-415507c4",
+  "title": "Comparison of Perfectly Elastic and Perfectly Inelastic Collisions in 1D",
+  "intent": "comparison",
+  "subject": "physics",
+  "language": "english",
+  "nodes": [
+    {
+      "id": "node-head-1",
+      "type": "heading",
+      "content": {
+        "text": "Comparison: Perfectly Elastic vs. Perfectly Inelastic Collisions",
+        "level": 1,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": null,
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-comp-1",
+      "type": "comparison",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Collisions in 1D Mechanics",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": "Perfectly Elastic Collision",
+        "left_points": [
+          "Linear Momentum is conserved: \\sum P_i = \\sum P_f",
+          "Total Kinetic Energy is conserved: \\sum KE_i = \\sum KE_f",
+          "Coefficient of Restitution (e) = 1",
+          "No permanent deformation or generation of heat/sound"
+        ],
+        "right_title": "Perfectly Inelastic Collision",
+        "right_points": [
+          "Linear Momentum is conserved: \\sum P_i = \\sum P_f",
+          "Total Kinetic Energy is NOT conserved (maximum energy loss)",
+          "Coefficient of Restitution (e) = 0",
+          "Bodies stick together after collision and move with a common velocity"
+        ],
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-def-1",
+      "type": "definition",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Coefficient of Restitution (e)",
+        "latex": "e = \\frac{v_2 - v_1}{u_1 - u_2}",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": "Ratio of relative speed of separation to relative speed of approach.",
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "supporting",
+      "layout_preference": "split_left"
+    },
+    {
+      "id": "node-callout-1",
+      "type": "callout",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": "Important concept regarding trap.",
+        "description": null,
+        "subtitle": null,
+        "title": "trap",
+        "latex": null,
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": null,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": "trap",
+        "canvas_type": null,
+        "purpose": "exam warning for JEE aspirants regarding momentum and energy conservation laws in collisions during numerical problems involving springs or ballistic pendulums."
+      },
+      "importance": "critical",
+      "layout_preference": "split_right"
+    },
+    {
+      "id": "node-conc-1",
+      "type": "conclusion",
+      "content": {
+        "text": null,
+        "level": null,
+        "markdown": null,
+        "description": null,
+        "subtitle": null,
+        "title": "Key Takeaway",
+        "latex": "0 \\le e \\le 1",
+        "equation": null,
+        "formula": null,
+        "expression": null,
+        "annotation": null,
+        "id_tag": null,
+        "label": null,
+        "highlight": true,
+        "step_number": null,
+        "explanation": null,
+        "left_title": null,
+        "left_points": null,
+        "right_title": null,
+        "right_points": null,
+        "callout_type": null,
+        "canvas_type": null,
+        "purpose": null
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "node-head-1",
+      "to": "node-comp-1",
+      "type": "explains",
+      "label": null
+    },
+    {
+      "from": "node-comp-1",
+      "to": "node-def-1",
+      "type": "references",
+      "label": null
+    },
+    {
+      "from": "node-def-1",
+      "to": "node-callout-1",
+      "type": "highlights",
+      "label": null
+    },
+    {
+      "from": "node-comp-1",
+      "to": "node-conc-1",
+      "type": "derives_from",
+      "label": null
+    }
+  ],
+  "layout_hints": {
+    "recommended_layout": "comparison",
+    "primary_channel_nodes": [
+      "node-head-1",
+      "node-comp-1"
+    ],
+    "context_channel_nodes": [
+      "node-def-1",
+      "node-callout-1",
+      "node-conc-1"
+    ],
+    "sticky_header_nodes": [
+      "node-head-1"
+    ]
+  },
+  "validation": {
+    "math_verified": false,
+    "domain_verified": false,
+    "verifier_used": "semantic_validator_phase4a",
+    "flagged_issues": []
+  },
+  "source_metadata": {
+    "provider": "google",
+    "model": "gemini-3.5-flash-lite",
+    "generation_time_ms": 3271,
+    "prompt_version": "v1.0"
+  }
+}

@@ -1,0 +1,31 @@
+# This is an example schema, not a claim that these model IDs are permanently current.
+# Verify provider availability before populating production values.
+
+providers:
+  google:
+    enabled: true
+    api_version: "v1"
+    models:
+      - id: "VERIFY_CURRENT_MODEL_ID"
+        status: "candidate"
+        roles: ["teacher"]
+        modalities: ["text", "image"]
+        structured_output: true
+        tools: true
+        streaming: true
+        last_verified_at: null
+
+  mistral:
+    enabled: false
+    models: []
+
+  nvidia:
+    enabled: false
+    models: []
+
+router_defaults:
+  max_model_attempts_per_request: 2
+  max_verification_attempts: 1
+  timeout_ms: 30000
+  circuit_breaker_failure_threshold: 5
+  circuit_breaker_cooldown_ms: 30000

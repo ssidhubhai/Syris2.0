@@ -1,0 +1,275 @@
+[
+  {
+    "id": "eval-chem-001",
+    "subject": "chemistry",
+    "category": "conceptual",
+    "question": "Explain the geometry, hybridization, and exact see-saw shape of sulfur tetrafluoride (SF_4) based on VSEPR theory.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "maybe",
+    "key_concepts": ["VSEPR Theory", "sp^3d Hybridization", "Trigonal Bipyramidal Electron Geometry", "Equatorial Lone Pair Placement", "See-saw Molecular Shape", "Bent Axial F-S-F Angle"],
+    "critical_relationships": ["defines", "explains", "highlights"],
+    "known_traps": ["Placing the lone pair in an axial position rather than equatorial", "Claiming axial and equatorial bond lengths are equal in SF_4"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["5 electron pairs (4 bond pairs + 1 lone pair)", "sp^3d hybridization", "lone pair occupies equatorial position to minimize 90-degree repulsions", "see-saw molecular shape", "axial bonds longer than equatorial bonds"],
+      "forbidden_misconceptions": ["lone pair occupies axial position", "SF_4 is tetrahedral", "all S-F bond lengths are identical"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["defines", "explains", "highlights"]
+    }
+  },
+  {
+    "id": "eval-chem-002",
+    "subject": "chemistry",
+    "category": "conceptual",
+    "question": "How does Le Chatelier's principle explain the effect of increasing pressure and temperature on the Haber synthesis of ammonia: N_2(g) + 3H_2(g) <=> 2NH_3(g) (Delta H = -92 kJ/mol)?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Le Chatelier's Principle", "Gaseous Equilibrium", "Mole Reduction under Pressure", "Exothermic Reaction", "Temperature Shift", "Equilibrium Constant vs Reaction Rate Compromise"],
+    "critical_relationships": ["explains", "causes", "highlights"],
+    "known_traps": ["Claiming catalyst shifts equilibrium position", "Assuming increasing temperature increases equilibrium yield of exothermic reaction"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["4 moles reactant to 2 moles product", "increasing pressure shifts forward (fewer moles)", "exothermic reaction (Delta H < 0)", "increasing temperature shifts backward (decreases K_p)", "optimum temperature compromise with catalyst rate"],
+      "forbidden_misconceptions": ["catalyst shifts equilibrium to product side", "temperature increase increases yield of exothermic reactions"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["explains", "causes", "highlights"]
+    }
+  },
+  {
+    "id": "eval-chem-003",
+    "subject": "chemistry",
+    "category": "conceptual",
+    "question": "What is the inert pair effect in heavy p-block elements (Group 14 and 15) and why is Pb(II) more stable than Pb(IV)?",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Inert Pair Effect", "Relativistic Contraction & Poor Shielding of d/f Orbitals", "High Effective Nuclear Charge on 6s Electrons", "Bond Energy vs Promotion Energy Deficit", "Pb(II) vs Pb(IV) Stability"],
+    "critical_relationships": ["explains", "causes", "defines"],
+    "known_traps": ["Attributing inert pair effect to noble gas core stability alone", "Calling Pb(IV) a reducing agent instead of a strong oxidizing agent"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["reluctance of valence s-electrons (6s^2) to participate in bonding", "poor shielding by inner 4f and 5d electrons", "high effective nuclear charge", "Pb(II) more stable than Pb(IV)", "PbO_2 is a strong oxidizing agent"],
+      "forbidden_misconceptions": ["Pb(IV) is more stable than Pb(II)", "inert pair effect affects light elements like Carbon"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["explains", "causes", "defines"]
+    }
+  },
+  {
+    "id": "eval-chem-004",
+    "subject": "chemistry",
+    "category": "conceptual",
+    "question": "Explain the difference between kinetic and thermodynamic control in organic reactions using the addition of HBr to 1,3-butadiene.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "maybe",
+    "key_concepts": ["Kinetic Control vs Thermodynamic Control", "1,2-Addition vs 1,4-Addition", "Allylic Carbocation Resonance", "Activation Energy Barrier vs Product Stability", "Low Temperature vs High Temperature Equilibrium"],
+    "critical_relationships": ["contrasts_with", "explains", "defines"],
+    "known_traps": ["Claiming 1,2-product is more stable because it forms faster", "Ignoring hyperconjugation/alkene substitution stability in the 1,4-product"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["1,2-adduct formed faster (kinetic product, lower activation energy, proximity effect)", "1,4-adduct more stable (thermodynamic product, more substituted disubstituted alkene)", "low temp (-80 C) favors kinetic product", "high temp (40 C) favors thermodynamic equilibrium"],
+      "forbidden_misconceptions": ["kinetic product is always the more thermodynamically stable product", "1,2-adduct has a more stable alkene double bond"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "explains", "defines"]
+    }
+  },
+  {
+    "id": "eval-chem-005",
+    "subject": "chemistry",
+    "category": "conceptual",
+    "question": "Explain the physical origin of Hund's Rule of Maximum Multiplicity in terms of electron spin correlation and exchange energy.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "CONCEPT_CENTRIC",
+    "visual_expected": "no",
+    "key_concepts": ["Hund's Rule", "Degenerate Orbitals", "Parallel Spins", "Exchange Energy K", "Reduced Coulombic Inter-electronic Repulsion", "Quantum Mechanical Pauli Principle"],
+    "critical_relationships": ["explains", "defines", "highlights"],
+    "known_traps": ["Claiming electrons pair up immediately to neutralize magnetic fields", "Ignoring exchange energy between electrons of parallel spin"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["electrons enter degenerate orbitals singly with parallel spins", "maximum exchange energy for parallel spins", "electrons with parallel spin stay further apart (Fermi hole)", "lower inter-electronic Coulombic repulsion"],
+      "forbidden_misconceptions": ["pairing electrons lowers energy in degenerate orbitals", "Hund's rule is purely a classical electrostatic phenomenon"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["explains", "defines", "highlights"]
+    }
+  },
+  {
+    "id": "eval-chem-006",
+    "subject": "chemistry",
+    "category": "mechanism",
+    "question": "Explain the step-by-step mechanism of acid-catalyzed aldol condensation of acetaldehyde (ethanal) to form crotonaldehyde (but-2-enal).",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "SEQUENTIAL_TRANSFORMATION",
+    "visual_expected": "maybe",
+    "key_concepts": ["Acid-Catalyzed Aldol", "Protonation of Carbonyl Oxygen", "Enol Tautomer Formation", "Nucleophilic Addition to Carbonyl", "Proton Transfer", "Acid-Catalyzed Dehydration to Conjugated Enone"],
+    "critical_relationships": ["derives_from", "substitutes_into", "follows_from"],
+    "known_traps": ["Using enolate anion in acid catalysis instead of neutral enol intermediate", "Omitting conjugation as the thermodynamic driving force for dehydration"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["protonation of ethanal carbonyl oxygen", "formation of enol nucleophile (CH_2=CH-OH)", "attack of enol on protonated carbonyl carbon", "formation of beta-hydroxy aldehyde (aldol)", "dehydration to conjugated but-2-enal"],
+      "forbidden_misconceptions": ["free enolate anion CH2=CH-O(-) exists in strong acidic medium", "aldol dehydration cannot occur under acidic conditions"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["derives_from", "substitutes_into", "follows_from"]
+    }
+  },
+  {
+    "id": "eval-chem-007",
+    "subject": "chemistry",
+    "category": "mechanism",
+    "question": "Describe the mechanism of electrophilic aromatic substitution for the nitration of benzene with conc. HNO_3 and conc. H_2SO_4.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "SEQUENTIAL_TRANSFORMATION",
+    "visual_expected": "maybe",
+    "key_concepts": ["Electrophilic Aromatic Substitution (EAS)", "Generation of Nitronium Ion (NO_2^+)", "Arenium Ion (sigma-complex / Wheland Intermediate) Resonance", "Aromaticity Loss in RDS", "Deprotonation and Rearomatization"],
+    "critical_relationships": ["defines", "derives_from", "explains"],
+    "known_traps": ["Treating HNO_3 as an acid rather than a base when reacting with H_2SO_4", "Believing the rate-determining step is deprotonation rather than sigma-complex formation"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["generation of active electrophile NO_2^+ by protonation of HNO_3 by H_2SO_4", "attack of benzene pi-system on NO_2^+ (rate-determining step)", "resonance stabilized arenium ion (sigma complex)", "loss of proton to restore 6-pi aromaticity"],
+      "forbidden_misconceptions": ["NO_3(-) is the active electrophile", "nitration of benzene exhibits a strong primary kinetic isotope effect under normal conditions"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["defines", "derives_from", "explains"]
+    }
+  },
+  {
+    "id": "eval-chem-008",
+    "subject": "chemistry",
+    "category": "mechanism",
+    "question": "Compare the mechanism, carbocation rearrangement, and stereochemical outcome (inversion vs racemization) of (R)-2-bromobutane reacting via SN1 vs SN2.",
+    "expected_intent": "comparison",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "maybe",
+    "key_concepts": ["Nucleophilic Substitution", "SN1 Mechanism (Carbocation intermediate, partial racemization)", "SN2 Mechanism (Concerted backside attack, Walden inversion)", "Polar Protic vs Polar Aprotic Solvents", "Substrate Kinetics"],
+    "critical_relationships": ["contrasts_with", "explains", "defines"],
+    "known_traps": ["Claiming SN1 gives 100% complete racemization without mentioning ion-pair shielding", "Confusing R/S configuration inversion with optical rotation sign"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["SN1 forms planar carbocation intermediate leading to racemization (with slight inversion due to leaving group shielding)", "SN2 is concerted backside attack giving complete Walden inversion", "polar protic solvent stabilizes carbocation for SN1", "polar aprotic solvent favors SN2"],
+      "forbidden_misconceptions": ["SN2 proceeds through a carbocation intermediate", "SN1 exhibits second-order bimolecular kinetics"],
+      "visual_utility": "helpful",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "explains", "defines"]
+    }
+  },
+  {
+    "id": "eval-chem-009",
+    "subject": "chemistry",
+    "category": "mechanism",
+    "question": "Explain the mechanism of the Reimer-Tiemann reaction of phenol with chloroform and aqueous KOH to form salicylaldehyde, identifying the active electrophile.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "SEQUENTIAL_TRANSFORMATION",
+    "visual_expected": "maybe",
+    "key_concepts": ["Reimer-Tiemann Reaction", "Generation of Dichlorocarbene (:CCl_2)", "Alpha-Elimination", "Phenoxide Ion Nucleophilic Attack at Ortho Position", "Hydrolysis of Dichloromethyl Group", "Salicylaldehyde (2-hydroxybenzaldehyde)"],
+    "critical_relationships": ["defines", "derives_from", "explains"],
+    "known_traps": ["Identifying CCl_3(+) or CCl_3(-) as the electrophile instead of neutral singlet :CCl_2", "Claiming para isomer is always major without accounting for intramolecular H-bonding in salicylaldehyde"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["alpha-elimination of chloroform by base generates neutral dichlorocarbene :CCl_2", "dichlorocarbene acts as an electrophile with vacant p-orbital", "phenoxide ion attacks at ortho position", "hydrolysis of -CHCl_2 to aldehyde group", "salicylaldehyde stabilized by intramolecular hydrogen bonding"],
+      "forbidden_misconceptions": ["active electrophile is a positively charged carbocation", "dichlorocarbene is a nucleophile"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["defines", "derives_from", "explains"]
+    }
+  },
+  {
+    "id": "eval-chem-010",
+    "subject": "chemistry",
+    "category": "mechanism",
+    "question": "Explain the anti-Markovnikov hydroboration-oxidation mechanism of propene with BH_3:THF followed by alkaline H_2O_2 to yield propan-1-ol.",
+    "expected_intent": "concept_explanation",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "SEQUENTIAL_TRANSFORMATION",
+    "visual_expected": "maybe",
+    "key_concepts": ["Hydroboration-Oxidation", "Anti-Markovnikov Regioselectivity", "Syn-Addition Stereospecificity", "Four-Membered Cyclic Transition State", "Trialkylborane Intermediate", "Alkaline Hydroperoxide Oxidation with Retention of Configuration"],
+    "critical_relationships": ["defines", "derives_from", "explains"],
+    "known_traps": ["Believing anti-Markovnikov addition involves free radicals (it is concerted syn-addition)", "Assuming boron attaches to the more substituted carbon"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["concerted syn-addition via 4-membered cyclic transition state", "boron attaches to less hindered terminal carbon (steric and electronic factors)", "formation of tripropylborane (CH_3CH_2CH_2)_3B", "oxidation by alkaline H_2O_2 replaces B with OH with retention of configuration", "net anti-Markovnikov hydration yielding propan-1-ol"],
+      "forbidden_misconceptions": ["hydroboration oxidation involves free radical peroxide effect", "addition of BH3 occurs with anti-stereochemistry"],
+      "visual_utility": "helpful",
+      "expected_depth": "deep_derivation",
+      "expected_relationship_types": ["defines", "derives_from", "explains"]
+    }
+  },
+  {
+    "id": "eval-chem-011",
+    "subject": "chemistry",
+    "category": "comparison",
+    "question": "Compare Galvanic (Voltaic) cells and Electrolytic cells in electrochemistry regarding spontaneity, anode/cathode polarity, and direction of electron flow.",
+    "expected_intent": "comparison",
+    "expected_complexity": "foundational",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "no",
+    "key_concepts": ["Galvanic Cell vs Electrolytic Cell", "Spontaneous (Delta G < 0, E_cell > 0) vs Non-spontaneous (Delta G > 0)", "Anode (Oxidation, Negative in Galvanic, Positive in Electrolytic)", "Cathode (Reduction, Positive in Galvanic, Negative in Electrolytic)", "External Circuit Electron Flow"],
+    "critical_relationships": ["contrasts_with", "defines", "explains"],
+    "known_traps": ["Claiming reduction occurs at anode in electrolytic cells (oxidation ALWAYS occurs at anode)", "Confusing electrode sign polarity with half-reaction type"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["oxidation always occurs at anode, reduction at cathode in both cells", "galvanic cell produces electrical energy spontaneously (Delta G < 0)", "electrolytic cell consumes electrical energy (Delta G > 0)", "galvanic anode is negative; electrolytic anode is positive"],
+      "forbidden_misconceptions": ["anode in electrolytic cell undergoes reduction", "galvanic cell requires an external DC power supply to operate"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "defines", "explains"]
+    }
+  },
+  {
+    "id": "eval-chem-012",
+    "subject": "chemistry",
+    "category": "comparison",
+    "question": "Compare ideal gas behavior with real gas behavior using the van der Waals equation, explaining the physical significance of constants 'a' and 'b'.",
+    "expected_intent": "comparison",
+    "expected_complexity": "intermediate",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "no",
+    "key_concepts": ["Ideal Gas Law PV=nRT", "van der Waals Equation (P + an^2/V^2)(V - nb) = nRT", "Intermolecular Attractive Forces 'a'", "Co-volume / Excluded Volume 'b'", "Compressibility Factor Z", "High Pressure and Low Temperature Deviations"],
+    "critical_relationships": ["contrasts_with", "defines", "derives_from"],
+    "known_traps": ["Confusing constant 'a' (intermolecular attraction) with constant 'b' (molecular size)", "Assuming real gases behave ideally at high pressure"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["ideal gas assumes zero molecular volume and zero intermolecular forces", "van der Waals 'a' accounts for intermolecular attractive forces (pressure correction)", "van der Waals 'b' accounts for finite excluded volume (volume correction = 4 * molecular volume)", "real gases approach ideality at high temperature and low pressure"],
+      "forbidden_misconceptions": ["real gases approach ideality at high pressure and low temperature", "constant 'b' equals the exact single-molecule physical volume"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "defines", "derives_from"]
+    }
+  },
+  {
+    "id": "eval-chem-013",
+    "subject": "chemistry",
+    "category": "comparison",
+    "question": "Compare primary, secondary, and tertiary amines in terms of basicity in gaseous phase versus aqueous solution.",
+    "expected_intent": "comparison",
+    "expected_complexity": "advanced_jee",
+    "expected_representation_preference": "COMPARISON",
+    "visual_expected": "no",
+    "key_concepts": ["Amine Basicity", "Inductive Effect (+I)", "Hydration / Solvation Effect (H-bonding)", "Steric Hindrance", "Gaseous Basicity (3 > 2 > 1 > NH3)", "Aqueous Basicity for Methyl (2 > 1 > 3 > NH3) and Ethyl (2 > 3 > 1 > NH3)"],
+    "critical_relationships": ["contrasts_with", "explains", "defines"],
+    "known_traps": ["Applying gaseous phase +I trend directly to aqueous solution without hydration", "Forgetting the order difference between methyl and ethyl substituents"],
+    "expected_language": "english",
+    "golden": {
+      "min_required_concepts": ["gaseous phase basicity order strictly governed by +I effect: 3 > 2 > 1 > NH_3", "aqueous phase basicity is a combined balance of +I effect, hydration enthalpy, and steric hindrance", "methyl substituted aqueous order: (CH_3)_2NH > CH_3NH_2 > (CH_3)_3N > NH_3 (2 > 1 > 3)", "ethyl substituted aqueous order: (C_2H_5)_2NH > (C_2H_5)_3N > C_2H_5NH_2 > NH_3 (2 > 3 > 1)"],
+      "forbidden_misconceptions": ["tertiary amine is always the strongest base in aqueous medium", "basicity in water depends solely on electronegativity"],
+      "visual_utility": "redundant_decorative",
+      "expected_depth": "standard",
+      "expected_relationship_types": ["contrasts_with", "explains", "defines"]
+    }
+  }
+]

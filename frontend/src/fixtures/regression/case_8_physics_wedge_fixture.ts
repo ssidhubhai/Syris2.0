@@ -1,0 +1,190 @@
+import { ExplanationDocument } from '@/types/explanation';
+
+/**
+ * Frozen Real-AI Regression Fixture for Phase 4C
+ * Case: Block on Accelerating Wedge Problem (advanced_mixed)
+ * Query: "A block of mass m is placed on a smooth triangular wedge of mass M and inclination \theta. The wedge is accelerated horizontally with acceleration a such that the block remains stationary relative to the wedge. Find a and the normal force on the block."
+ * Model: gemini-3.5-flash-lite | Prompt: v1.0
+ */
+export const case_8_physics_wedge_fixture: ExplanationDocument = {
+  "document_id": "doc-wedge-accel-001",
+  "session_id": "sess-p4c-2606e3ff",
+  "title": "Block on an Accelerated Wedge in Equilibrium",
+  "intent": "problem_solving",
+  "subject": "physics",
+  "language": "english",
+  "nodes": [
+    {
+      "id": "node-head-1",
+      "type": "heading",
+      "content": {
+        "text": "Problem Statement & Analysis",
+        "level": 1
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-text-1",
+      "type": "text",
+      "content": {
+        "markdown": "We need to find the horizontal acceleration $a$ of a wedge of mass $M$ and inclination $\theta$ such that a block of mass $m$ placed on its smooth surface remains **stationary** relative to the wedge. We also need to determine the normal force exerted on the block."
+      },
+      "importance": "supporting",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-head-2",
+      "type": "heading",
+      "content": {
+        "text": "Free Body Diagram & Pseudo-Force Approach",
+        "level": 1
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-text-2",
+      "type": "text",
+      "content": {
+        "markdown": "Since we are observing the block from the non-inertial frame of reference of the accelerating wedge (acceleration $a$ to the right), a pseudo-force of magnitude $ma$ acts horizontally to the left on the block."
+      },
+      "importance": "supporting",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-eq-1",
+      "type": "equation",
+      "content": {
+        "latex": "Pseudo-force vector",
+        "id_tag": "Eq. (1)",
+        "label": "Pseudo-force vector",
+        "canvas_type": "latex",
+        "purpose": "Force balance in non-inertial frame"
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-deriv-1",
+      "type": "derivation_step",
+      "content": {
+        "latex": "Resolving forces perpendicular to the inclined plane. The normal force $N$ balances components of gravity and the pseudo-force.",
+        "step_number": 1,
+        "explanation": "Resolving forces perpendicular to the inclined plane. The normal force $N$ balances components of gravity and the pseudo-force.",
+        "canvas_type": "latex",
+        "purpose": "Normal force derivation"
+      },
+      "importance": "critical",
+      "layout_preference": "auto"
+    },
+    {
+      "id": "node-deriv-2",
+      "type": "derivation_step",
+      "content": {
+        "latex": "Resolving forces parallel to the inclined plane. For the block to remain stationary, the downslope component of gravity must exactly balance the upslope component of the pseudo-force.",
+        "step_number": 2,
+        "explanation": "Resolving forces parallel to the inclined plane. For the block to remain stationary, the downslope component of gravity must exactly balance the upslope component of the pseudo-force.",
+        "canvas_type": "latex",
+        "purpose": "Acceleration derivation"
+      },
+      "importance": "critical",
+      "layout_preference": "auto"
+    },
+    {
+      "id": "node-conc-1",
+      "type": "conclusion",
+      "content": {
+        "title": "Final Results",
+        "latex": "a = g \\tan\\theta, \\quad N = \\frac{mg}{\\cos\\theta}",
+        "highlight": true
+      },
+      "importance": "critical",
+      "layout_preference": "full_width"
+    },
+    {
+      "id": "node-callout-1",
+      "type": "callout",
+      "content": {
+        "markdown": "Important concept regarding tip.",
+        "title": "tip",
+        "callout_type": "tip"
+      },
+      "importance": "supporting",
+      "layout_preference": "full_width"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "node-head-1",
+      "to": "node-text-1",
+      "type": "explains"
+    },
+    {
+      "from": "node-text-1",
+      "to": "node-head-2",
+      "type": "follows_from"
+    },
+    {
+      "from": "node-head-2",
+      "to": "node-text-2",
+      "type": "explains"
+    },
+    {
+      "from": "node-text-2",
+      "to": "node-eq-1",
+      "type": "uses"
+    },
+    {
+      "from": "node-eq-1",
+      "to": "node-deriv-1",
+      "type": "substitutes_into"
+    },
+    {
+      "from": "node-deriv-1",
+      "to": "node-deriv-2",
+      "type": "derives_from"
+    },
+    {
+      "from": "node-deriv-2",
+      "to": "node-conc-1",
+      "type": "derives_from"
+    },
+    {
+      "from": "node-conc-1",
+      "to": "node-callout-1",
+      "type": "highlights"
+    }
+  ],
+  "layout_hints": {
+    "recommended_layout": "DIAGRAM_CENTRIC",
+    "primary_channel_nodes": [
+      "node-head-1",
+      "node-text-1",
+      "node-head-2",
+      "node-text-2",
+      "node-eq-1",
+      "node-conc-1"
+    ],
+    "context_channel_nodes": [
+      "node-deriv-1",
+      "node-deriv-2",
+      "node-callout-1"
+    ],
+    "sticky_header_nodes": [
+      "node-head-1"
+    ]
+  },
+  "validation": {
+    "math_verified": false,
+    "domain_verified": false,
+    "verifier_used": "semantic_validator_phase4a",
+    "flagged_issues": []
+  },
+  "source_metadata": {
+    "provider": "google",
+    "model": "gemini-3.5-flash-lite",
+    "generation_time_ms": 4351,
+    "prompt_version": "v1.0"
+  }
+};

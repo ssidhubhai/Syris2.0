@@ -79,22 +79,19 @@ export const WorkspaceSidebar: React.FC<WorkspaceSidebarProps> = ({
       {/* Sidebar Container */}
       <aside
         className={`
-          fixed md:sticky top-0 md:top-[49px] bottom-0 z-50 md:z-30
-          bg-white/95 md:bg-white/80 backdrop-blur-md border-r border-paper-300
+          fixed md:sticky top-0 md:top-[41px] bottom-0 z-50 md:z-30
+          bg-[#FDFCFB]/95 md:bg-[#FDFCFB]/80 backdrop-blur-md border-r border-[#E8E5DC]
           transition-all duration-200 ease-in-out flex flex-col justify-between
           ${isOpenMobile ? 'translate-x-0 w-64' : '-translate-x-full md:translate-x-0'}
-          ${isCollapsedDesktop ? 'md:w-14' : 'md:w-56'}
-          h-full md:h-[calc(100vh-49px)]
+          ${isCollapsedDesktop ? 'md:w-14' : 'md:w-52'}
+          h-full md:h-[calc(100vh-41px)]
         `}
         aria-label="Workspace Navigation"
       >
         {/* Top Header (Mobile only close button) */}
-        <div className="p-3 border-b border-paper-200 flex items-center justify-between md:hidden">
+        <div className="p-3 border-b border-[#E8E5DC] flex items-center justify-between md:hidden">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded bg-[#16202C] text-white flex items-center justify-center font-bold text-[10px] font-mono">
-              SY
-            </div>
-            <span className="text-xs font-bold text-ink-900 font-mono">WORKSPACE MENU</span>
+            <span className="font-bold text-xs font-mono text-ink-900">MENU</span>
           </div>
           <button
             type="button"
@@ -107,7 +104,7 @@ export const WorkspaceSidebar: React.FC<WorkspaceSidebarProps> = ({
         </div>
 
         {/* Navigation List */}
-        <div className="flex-1 py-3 px-2 space-y-1">
+        <div className="flex-1 py-3 px-2 space-y-0.5">
           {navItems.map((item) => {
             const Icon = item.icon;
             const isActive = currentSection === item.id;
@@ -117,22 +114,22 @@ export const WorkspaceSidebar: React.FC<WorkspaceSidebarProps> = ({
                 type="button"
                 onClick={() => handleNavClick(item.id)}
                 className={`
-                  w-full flex items-center gap-3 px-2.5 py-2 rounded-md text-xs font-medium transition-colors
+                  w-full flex items-center gap-3 px-2.5 py-1.5 rounded-md text-xs font-medium transition-colors
                   ${
                     isActive
-                      ? 'bg-sky-50 text-sky-900 font-semibold shadow-xs border border-sky-200/60'
-                      : 'text-ink-700 hover:bg-paper-100 hover:text-ink-900'
+                      ? 'bg-paper-200/80 text-ink-950 font-semibold border border-[#D5D2C7]'
+                      : 'text-ink-600 hover:bg-paper-100 hover:text-ink-900 border border-transparent'
                   }
                   ${isCollapsedDesktop ? 'md:justify-center md:px-0' : ''}
                 `}
                 title={`${item.label} ${item.badge ? `(${item.badge})` : ''} — ${item.description}`}
               >
-                <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-sky-700' : 'text-ink-500'}`} />
+                <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-ink-900' : 'text-ink-500'}`} />
                 {(!isCollapsedDesktop || isOpenMobile) && (
                   <div className="flex-1 flex items-center justify-between min-w-0">
                     <span className="truncate">{item.label}</span>
                     {item.badge && (
-                      <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-paper-200 text-ink-500 border border-paper-300 font-semibold">
+                      <span className="text-[9px] font-mono px-1 py-0.2 rounded bg-paper-100 text-ink-400 border border-[#E5E3D8]">
                         {item.badge}
                       </span>
                     )}

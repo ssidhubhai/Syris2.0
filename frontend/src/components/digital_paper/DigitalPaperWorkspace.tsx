@@ -36,7 +36,19 @@ export const DigitalPaperWorkspace: React.FC<DigitalPaperWorkspaceProps> = ({
   const [isSidebarOpenMobile, setIsSidebarOpenMobile] = useState<boolean>(false);
   const [isSidebarCollapsedDesktop, setIsSidebarCollapsedDesktop] = useState<boolean>(false);
   const [isInspectorOpen, setIsInspectorOpen] = useState<boolean>(false);
+  const [isDevMode, setIsDevMode] = useState<boolean>(false);
   const [focusedNodeId, setFocusedNodeId] = useState<string | null>(null);
+
+  React.useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      setIsDevMode(params.get('dev') === 'true' || params.get('debug') === 'true');
+      const fixtureParam = params.get('fixture') || params.get('case');
+      if (fixtureParam) {
+        selectFixture(fixtureParam);
+      }
+    }
+  }, [selectFixture]);
 
   const { targetNodeId, jumpToNode } = useJumpToReference();
   const { zoomScale, zoomIn, zoomOut, resetZoom } = usePaperZoom();
@@ -67,6 +79,7 @@ export const DigitalPaperWorkspace: React.FC<DigitalPaperWorkspaceProps> = ({
         isHistoryOpen={isHistoryOpen}
         onToggleSidebar={() => setIsSidebarOpenMobile((prev) => !prev)}
         onOpenInspector={() => setIsInspectorOpen(true)}
+        isDevMode={isDevMode}
       />
 
       {/* Main Workspace Layout (Sidebar + Canvas + Input) */}

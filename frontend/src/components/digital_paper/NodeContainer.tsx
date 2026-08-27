@@ -39,15 +39,15 @@ export const NodeContainer: React.FC<NodeContainerProps> = ({
       onMouseEnter={() => onHover?.(node.id)}
       onMouseLeave={() => onHover?.(null)}
       onClick={() => onClick?.(node.id)}
-      className={`node-paper-block relative transition-all duration-300 rounded-lg ${
+      className={`node-paper-block relative transition-all duration-200 ${
         isTarget
-          ? 'ring-3 ring-academic-chem-accent shadow-paper-glow-target bg-amber-50/30'
+          ? 'bg-amber-50/50 rounded-md -mx-1 sm:-mx-2 px-1 sm:px-2 shadow-xs'
           : isFocused
-          ? 'ring-2 ring-academic-physics-accent shadow-paper-glow bg-blue-50/20'
+          ? 'bg-sky-50/40 rounded-md -mx-1 sm:-mx-2 px-1 sm:px-2 shadow-xs'
           : isRelated
-          ? 'ring-1 ring-academic-physics-border'
+          ? 'bg-sky-50/20 rounded-md -mx-1 sm:-mx-2 px-1 sm:px-2'
           : ''
-      } ${isDimmed ? 'opacity-30 grayscale-[30%]' : 'opacity-100'}`}
+      } ${isDimmed ? 'opacity-35 transition-opacity duration-200' : 'opacity-100'}`}
     >
       {renderNodeContent(node, onJump)}
     </div>

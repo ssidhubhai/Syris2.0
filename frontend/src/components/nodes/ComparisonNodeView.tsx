@@ -10,25 +10,22 @@ interface ComparisonNodeViewProps {
 
 export const ComparisonNodeView: React.FC<ComparisonNodeViewProps> = ({ content, onJump }) => {
   return (
-    <div className="my-4 p-4 rounded-lg bg-[#FAF9F5] border border-paper-300 text-ink-900" data-testid="comparison-node-view">
-      <div className="flex items-center gap-2 mb-3 pb-2 border-b border-paper-200">
-        <GitCompare className="w-4 h-4 text-academic-chem-accent" />
-        <h3 className="text-xs font-bold uppercase tracking-wider text-ink-800 font-mono">
-          {content.title}
-        </h3>
+    <div className="my-6 py-2 text-ink-900" data-testid="comparison-node-view">
+      <div className="text-xs font-mono font-bold uppercase tracking-wider text-ink-700 pb-2 mb-4 border-b border-[#E5E3D8]">
+        {content.title}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Left Column */}
-        <div className="p-3 bg-white rounded border border-paper-200">
-          <div className="text-xs font-bold uppercase tracking-wider text-academic-physics-ink mb-2 pb-1 border-b border-paper-200 font-mono">
+        <div className="md:pr-4 md:border-r md:border-[#E5E3D8]/80">
+          <h3 className="text-sm font-mono font-bold text-ink-900 mb-3 pb-1 border-b border-[#E5E3D8]/50">
             {content.left_title}
-          </div>
-          <ul className="space-y-2 text-xs sm:text-sm text-ink-800">
+          </h3>
+          <ul className="space-y-2 text-sm text-ink-800 leading-relaxed font-sans">
             {content.left_points.map((pt, idx) => (
-              <li key={idx} className="flex items-start gap-1.5">
-                <span className="text-academic-physics-accent mt-0.5">•</span>
-                <div>
+              <li key={idx} className="flex items-start gap-2">
+                <span className="text-ink-400 font-bold select-none">•</span>
+                <div className="flex-1">
                   <InlineMarkdown content={pt} onJump={onJump} />
                 </div>
               </li>
@@ -37,15 +34,15 @@ export const ComparisonNodeView: React.FC<ComparisonNodeViewProps> = ({ content,
         </div>
 
         {/* Right Column */}
-        <div className="p-3 bg-white rounded border border-paper-200">
-          <div className="text-xs font-bold uppercase tracking-wider text-academic-chem-ink mb-2 pb-1 border-b border-paper-200 font-mono">
+        <div className="md:pl-2">
+          <h3 className="text-sm font-mono font-bold text-ink-900 mb-3 pb-1 border-b border-[#E5E3D8]/50">
             {content.right_title}
-          </div>
-          <ul className="space-y-2 text-xs sm:text-sm text-ink-800">
+          </h3>
+          <ul className="space-y-2 text-sm text-ink-800 leading-relaxed font-sans">
             {content.right_points.map((pt, idx) => (
-              <li key={idx} className="flex items-start gap-1.5">
-                <span className="text-academic-chem-accent mt-0.5">•</span>
-                <div>
+              <li key={idx} className="flex items-start gap-2">
+                <span className="text-ink-400 font-bold select-none">•</span>
+                <div className="flex-1">
                   <InlineMarkdown content={pt} onJump={onJump} />
                 </div>
               </li>

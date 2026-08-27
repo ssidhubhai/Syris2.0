@@ -61,16 +61,12 @@ export const RelationshipOverlay: React.FC<RelationshipOverlayProps> = ({
           viewBox="0 0 10 10"
           refX="6"
           refY="5"
-          markerWidth="6"
-          markerHeight="6"
+          markerWidth="5"
+          markerHeight="5"
           orient="auto-start-reverse"
         >
-          <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#0284C7" />
+          <path d="M 0 2 L 8 5 L 0 8 z" fill="#0284C7" />
         </marker>
-        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-          <feGaussianBlur stdDeviation="3" result="blur" />
-          <feComposite in="SourceGraphic" in2="blur" operator="over" />
-        </filter>
       </defs>
 
       {curves.map(({ rel, curve }, idx) => (
@@ -78,40 +74,35 @@ export const RelationshipOverlay: React.FC<RelationshipOverlayProps> = ({
           <path
             d={curve.path}
             fill="none"
-            stroke="#BAE0FD"
-            strokeWidth="6"
-            strokeOpacity="0.8"
-            filter="url(#glow)"
-          />
-          <path
-            d={curve.path}
-            fill="none"
             stroke="#0284C7"
-            strokeWidth="2.5"
-            strokeDasharray="6 4"
+            strokeWidth="1.5"
+            strokeDasharray="4 3"
             markerEnd="url(#rel-arrow)"
+            opacity="0.85"
           />
-          <circle cx={curve.start.x} cy={curve.start.y} r="4" fill="#0284C7" />
-          <circle cx={curve.end.x} cy={curve.end.y} r="4" fill="#0284C7" />
+          <circle cx={curve.start.x} cy={curve.start.y} r="3" fill="#0284C7" opacity="0.85" />
+          <circle cx={curve.end.x} cy={curve.end.y} r="3" fill="#0284C7" opacity="0.85" />
 
           {rel.label && (
             <g transform={`translate(${curve.labelPosition.x}, ${curve.labelPosition.y})`}>
               <rect
-                x="-50"
-                y="-10"
-                width="100"
-                height="20"
-                rx="10"
-                fill="#0369A1"
-                className="shadow-md"
+                x="-36"
+                y="-8"
+                width="72"
+                height="16"
+                rx="8"
+                fill="#F0F9FF"
+                stroke="#BAE0FD"
+                strokeWidth="1"
               />
               <text
                 x="0"
-                y="4"
+                y="3"
                 textAnchor="middle"
-                fontSize="10"
-                fontWeight="bold"
-                fill="#FFFFFF"
+                fontSize="9"
+                fontFamily="monospace"
+                fontWeight="600"
+                fill="#0369A1"
               >
                 {rel.type}
               </text>

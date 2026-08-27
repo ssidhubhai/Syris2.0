@@ -8,16 +8,21 @@ interface HeadingNodeViewProps {
 }
 
 export const HeadingNodeView: React.FC<HeadingNodeViewProps> = ({ content, onJump }) => {
-  return (
-    <div className="pb-3 mb-2 border-b border-paper-300">
-      <div className="flex items-center gap-2 mb-1.5 font-mono text-xs text-ink-500">
-        <span className="font-bold text-academic-physics-ink uppercase tracking-wider">
-          [ Academic Solution Sheet ]
-        </span>
+  if (content.level === 1) {
+    return (
+      <div className="pb-4 mb-5 border-b border-[#E8E5DC]">
+        <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink-900 tracking-tight leading-snug">
+          <InlineMarkdown content={content.text} onJump={onJump} />
+        </h1>
       </div>
-      <h1 className="text-xl sm:text-2xl font-serif font-bold text-ink-900 tracking-tight leading-snug">
+    );
+  }
+
+  return (
+    <div className="pt-4 pb-2 mb-3 border-b border-[#E8E5DC]/60">
+      <h2 className="text-lg sm:text-xl font-serif font-bold text-ink-900 tracking-tight leading-snug">
         <InlineMarkdown content={content.text} onJump={onJump} />
-      </h1>
+      </h2>
     </div>
   );
 };

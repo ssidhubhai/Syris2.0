@@ -87,12 +87,12 @@ export const UnifiedInputBar: React.FC<UnifiedInputBarProps> = ({
       )}
 
       {/* Main Unified Input Container */}
-      <div className="pointer-events-auto w-full max-w-3xl flex flex-col gap-1.5">
+      <div className="pointer-events-auto w-full max-w-2xl flex flex-col gap-1.5">
         {/* Suggestion Chips */}
         <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar px-1">
-          <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-ink-500 shrink-0 flex items-center gap-1">
+          <span className="text-[10px] font-mono font-semibold uppercase tracking-wider text-ink-500 shrink-0 flex items-center gap-1">
             <Sparkles className="w-2.5 h-2.5 text-sky-600" />
-            Suggested Topics:
+            Topics:
           </span>
           {sampleChips.map((chip, idx) => (
             <button
@@ -100,7 +100,7 @@ export const UnifiedInputBar: React.FC<UnifiedInputBarProps> = ({
               type="button"
               onClick={() => handleChipClick(chip.query)}
               disabled={isGenerating}
-              className="shrink-0 px-2.5 py-0.5 text-[11px] font-medium rounded-full bg-white/90 hover:bg-white text-ink-700 hover:text-sky-900 border border-paper-300 hover:border-sky-300 shadow-paper-sm transition-all hover:scale-[1.02] cursor-pointer disabled:opacity-50"
+              className="shrink-0 px-2.5 py-0.5 text-[11px] font-medium rounded-full bg-[#FDFCFB] hover:bg-white text-ink-700 hover:text-ink-950 border border-[#E5E3D8] hover:border-sky-300 shadow-2xs transition-all cursor-pointer disabled:opacity-50"
             >
               {chip.label}
             </button>
@@ -111,8 +111,8 @@ export const UnifiedInputBar: React.FC<UnifiedInputBarProps> = ({
         <form
           onSubmit={handleSubmit}
           className={`
-            relative bg-white/95 backdrop-blur-md rounded-2xl border border-paper-300/90 shadow-paper-lg p-1.5 sm:p-2 flex items-center gap-2
-            focus-within:border-sky-500 focus-within:ring-2 focus-within:ring-sky-500/20 transition-all
+            relative bg-[#FDFCFB]/95 backdrop-blur-md rounded-xl border border-[#D5D2C7] shadow-paper-sm p-1.5 sm:p-2 flex items-center gap-2
+            focus-within:border-sky-500/80 focus-within:ring-2 focus-within:ring-sky-500/10 transition-all
             ${isTransitioning || isGenerating ? 'opacity-90' : 'opacity-100'}
           `}
         >
@@ -125,15 +125,15 @@ export const UnifiedInputBar: React.FC<UnifiedInputBarProps> = ({
                 onClick={() => setActiveTooltip((prev) => (prev === 'image' ? null : 'image'))}
                 onMouseEnter={() => setActiveTooltip('image')}
                 onMouseLeave={() => setActiveTooltip(null)}
-                className="p-1.5 rounded-lg hover:bg-paper-100 text-ink-600 hover:text-ink-900 transition-colors cursor-pointer"
-                title="Attach question image (Multimodal in Phase 5)"
+                className="p-1.5 rounded-lg hover:bg-paper-100 text-ink-500 hover:text-ink-900 transition-colors cursor-pointer"
+                title="Attach question image"
                 aria-label="Attach question image"
               >
                 <ImageIcon className="w-4 h-4" />
               </button>
               {activeTooltip === 'image' && (
-                <div className="absolute bottom-full left-0 mb-2 px-2.5 py-1 text-[11px] font-mono text-white bg-ink-900 rounded shadow-md whitespace-nowrap z-50">
-                  Question Image Scan (Phase 5)
+                <div className="absolute bottom-full left-0 mb-2 px-2.5 py-1 text-[11px] font-sans text-white bg-ink-900 rounded shadow-md whitespace-nowrap z-50">
+                  Question Image Scan
                 </div>
               )}
             </div>
@@ -145,15 +145,15 @@ export const UnifiedInputBar: React.FC<UnifiedInputBarProps> = ({
                 onClick={() => setActiveTooltip((prev) => (prev === 'attempt' ? null : 'attempt'))}
                 onMouseEnter={() => setActiveTooltip('attempt')}
                 onMouseLeave={() => setActiveTooltip(null)}
-                className="p-1.5 rounded-lg hover:bg-paper-100 text-ink-600 hover:text-ink-900 transition-colors cursor-pointer"
-                title="Attach handwritten student attempt"
+                className="p-1.5 rounded-lg hover:bg-paper-100 text-ink-500 hover:text-ink-900 transition-colors cursor-pointer"
+                title="Attach handwritten attempt"
                 aria-label="Attach handwritten attempt"
               >
                 <FileEdit className="w-4 h-4" />
               </button>
               {activeTooltip === 'attempt' && (
-                <div className="absolute bottom-full left-0 mb-2 px-2.5 py-1 text-[11px] font-mono text-white bg-ink-900 rounded shadow-md whitespace-nowrap z-50">
-                  Attach Student Work (Phase 5)
+                <div className="absolute bottom-full left-0 mb-2 px-2.5 py-1 text-[11px] font-sans text-white bg-ink-900 rounded shadow-md whitespace-nowrap z-50">
+                  Attach Student Attempt
                 </div>
               )}
             </div>
@@ -168,34 +168,31 @@ export const UnifiedInputBar: React.FC<UnifiedInputBarProps> = ({
             disabled={isGenerating}
             placeholder={
               isGenerating
-                ? "Building your explanation…"
-                : "Ask anything you're stuck on... (e.g. 'why is friction acting downward', 'sn1 vs sn2')"
+                ? "Building your explanation..."
+                : "Ask anything you're stuck on..."
             }
-            className="flex-1 bg-transparent border-0 text-xs sm:text-sm text-ink-900 placeholder:text-ink-400 focus:outline-none focus:ring-0 py-1.5 px-1 font-sans disabled:text-ink-500"
+            className="flex-1 bg-transparent border-0 text-xs sm:text-sm text-ink-900 placeholder:text-ink-400 focus:outline-none focus:ring-0 py-1 px-1 font-sans disabled:text-ink-500"
             aria-label="Ask a JEE question"
           />
 
           {/* Right Actions: Voice + Submit */}
           <div className="flex items-center gap-1 shrink-0 pr-0.5">
-            {/* Voice Input (Disabled for Phase 1) */}
+            {/* Voice Input */}
             <div className="relative">
               <button
                 type="button"
                 onClick={() => setActiveTooltip((prev) => (prev === 'voice' ? null : 'voice'))}
                 onMouseEnter={() => setActiveTooltip('voice')}
                 onMouseLeave={() => setActiveTooltip(null)}
-                className="p-1.5 rounded-lg hover:bg-paper-100 text-ink-400 hover:text-ink-600 transition-colors relative cursor-pointer"
-                title="Voice interaction (Post-V1 capability)"
+                className="p-1.5 rounded-lg hover:bg-paper-100 text-ink-400 hover:text-ink-600 transition-colors cursor-pointer"
+                title="Voice question"
                 aria-label="Voice interaction"
               >
                 <Mic className="w-4 h-4" />
-                <span className="absolute -top-1 -right-1 text-[8px] font-mono font-bold px-1 rounded bg-paper-200 text-ink-500 border border-paper-300">
-                  V2
-                </span>
               </button>
               {activeTooltip === 'voice' && (
-                <div className="absolute bottom-full right-0 mb-2 px-2.5 py-1 text-[11px] font-mono text-white bg-ink-900 rounded shadow-md whitespace-nowrap z-50">
-                  Voice Interaction (Deferred to V2)
+                <div className="absolute bottom-full right-0 mb-2 px-2.5 py-1 text-[11px] font-sans text-white bg-ink-900 rounded shadow-md whitespace-nowrap z-50">
+                  Voice Interaction
                 </div>
               )}
             </div>
@@ -205,16 +202,16 @@ export const UnifiedInputBar: React.FC<UnifiedInputBarProps> = ({
               type="submit"
               disabled={isGenerating || !inputValue.trim()}
               className={`
-                p-2 rounded-xl flex items-center justify-center transition-all shadow-xs
+                p-1.5 sm:p-2 rounded-lg flex items-center justify-center transition-all
                 ${
                   isGenerating
-                    ? 'bg-sky-600 text-white cursor-wait'
+                    ? 'bg-sky-700 text-white cursor-wait'
                     : inputValue.trim()
-                    ? 'bg-sky-600 hover:bg-sky-700 text-white cursor-pointer hover:scale-105 active:scale-95'
+                    ? 'bg-ink-900 hover:bg-ink-950 text-white cursor-pointer hover:scale-105 active:scale-95'
                     : 'bg-paper-200 text-ink-400 cursor-not-allowed'
                 }
               `}
-              title={isGenerating ? "Building explanation..." : "Compose Digital Study Sheet"}
+              title={isGenerating ? "Building explanation..." : "Ask Question"}
               aria-label="Send Query"
             >
               {isGenerating ? (

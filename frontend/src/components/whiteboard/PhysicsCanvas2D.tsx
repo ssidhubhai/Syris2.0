@@ -61,14 +61,9 @@ export const PhysicsCanvas2D: React.FC<PhysicsCanvas2DProps> = ({ content }) => 
   ];
 
   return (
-    <div className="bg-[#FAF9F5] rounded-xl border border-paper-300/80 p-3" data-testid="physics-canvas-2d">
-      <div className="flex items-center justify-between text-xs font-mono text-ink-500 mb-1 pb-1 border-b border-paper-200">
-        <span className="font-semibold text-ink-700 uppercase tracking-wide">
-          {content.title || 'Free Body Diagram'}
-        </span>
-        <span className="text-[11px] text-academic-physics-ink font-bold">
-          Non-Inertial Frame
-        </span>
+    <div className="bg-paper-50/80 rounded-lg border border-[#E5E3D8] p-3" data-testid="physics-canvas-2d">
+      <div className="text-xs font-mono font-bold text-ink-700 uppercase tracking-wide mb-1 pb-1 border-b border-[#E5E3D8]/60">
+        {content.title || 'Free Body Diagram'}
       </div>
 
       <div className="relative flex justify-center items-center py-2">

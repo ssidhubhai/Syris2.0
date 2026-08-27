@@ -216,10 +216,7 @@ function renderCompositionGroup(
         </div>
 
         {/* Primary Mathematical Channel (Left on desktop, bottom on mobile) */}
-        <div className="order-2 lg:order-1 lg:col-span-7 space-y-3">
-          <div className="text-xs font-mono font-bold uppercase tracking-wider text-ink-400 pb-1 border-b border-paper-200">
-            Mathematical Derivation Progression
-          </div>
+        <div className="order-2 lg:order-1 lg:col-span-7 space-y-2">
           {derivationNodes.map((node) => (
             <NodeContainer
               key={node.id}

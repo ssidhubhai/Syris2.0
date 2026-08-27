@@ -10,12 +10,11 @@ interface ConclusionNodeViewProps {
 
 export const ConclusionNodeView: React.FC<ConclusionNodeViewProps> = ({ content }) => {
   return (
-    <div className="my-5 p-4 bg-emerald-50/40 border-y-2 border-emerald-500/80 rounded-md text-ink-900">
-      <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-emerald-800 mb-2 font-mono">
-        <Check className="w-4 h-4 text-emerald-600" />
-        <span><InlineMarkdown content={content.title} /></span>
+    <div className="my-6 py-4 px-2 border-y border-[#D5D2C7] bg-[#FAF9F5]/80 rounded text-ink-900">
+      <div className="text-xs font-mono font-bold uppercase tracking-wider text-ink-800 mb-2">
+        <InlineMarkdown content={content.title} />
       </div>
-      <div className="py-2 text-center overflow-x-auto text-base sm:text-lg font-semibold">
+      <div className="py-2 text-center overflow-x-auto text-lg sm:text-xl font-medium text-ink-950">
         <KaTeXMath math={content.latex} displayMode={true} />
       </div>
     </div>

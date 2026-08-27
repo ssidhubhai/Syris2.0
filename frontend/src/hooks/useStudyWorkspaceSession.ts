@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import { ExplanationDocument } from '@/types/explanation';
 import { DEV_FIXTURES, matchDemoFixture, FixtureEntry } from '@/fixtures';
+import { REGRESSION_FIXTURES } from '@/fixtures/regression';
 import { syrisApi } from '@/services/apiClient';
 
 export interface HistorySessionItem {
@@ -250,6 +251,18 @@ export function useStudyWorkspaceSession(initialFixtureKey = 'canonical_physics'
     const entry = DEV_FIXTURES[fixtureKey];
     if (entry) {
       applyFixture(entry);
+      return;
+    }
+    const regDoc = REGRESSION_FIXTURES[fixtureKey];
+    if (regDoc) {
+      setIsTransitioning(true);
+      setActiveFixtureKey(fixtureKey);
+      setActiveDocument(regDoc);
+      setCurrentQuery(regDoc.title || '');
+      setDemoNotice(null);
+      setTimeout(() => {
+        setIsTransitioning(false);
+      }, 150);
     }
   }, [applyFixture]);
 

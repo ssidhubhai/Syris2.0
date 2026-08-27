@@ -81,3 +81,10 @@ Thumbs.db
 .vscode/
 *.sublime-project
 *.sublime-workspace
+
+# Temporary Test & Screenshot Scripts
+screenshots/
+capture_*.py
+test_snap.py
+run_verify.py
+start_server_and_capture.py

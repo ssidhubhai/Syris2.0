@@ -15,25 +15,27 @@ export const DerivationStepView: React.FC<DerivationStepViewProps> = ({ content,
      content.latex.trim() === (content.title || '').trim());
 
   return (
-    <div className="my-3 pl-4 border-l-2 border-academic-physics-border relative group">
-      <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-paper-50 border-2 border-academic-physics-accent flex items-center justify-center text-[10px] font-bold text-academic-physics-ink">
-        {content.step_number}
+    <div className="my-4 pl-4 border-l-2 border-[#E5E3D8] hover:border-sky-400/80 transition-colors relative group">
+      {/* Step Indicator Node */}
+      <div className="flex items-center gap-2 mb-1.5">
+        <span className="w-5 h-5 rounded-full bg-paper-100 border border-[#D5D2C7] flex items-center justify-center text-[10px] font-mono font-bold text-ink-700">
+          <span>{content.step_number}</span>
+        </span>
+        {content.title && (
+          <span className="text-xs font-mono font-bold uppercase tracking-wider text-ink-800">
+            <InlineMarkdown content={content.title} onJump={onJump} />
+          </span>
+        )}
       </div>
 
-      {content.title && (
-        <div className="text-xs font-bold uppercase tracking-wider text-ink-700 font-mono mb-1">
-          <InlineMarkdown content={content.title} onJump={onJump} />
-        </div>
-      )}
-
       {content.explanation && (
-        <div className="text-sm text-ink-700 mb-2 leading-relaxed">
+        <div className="text-[14px] sm:text-[15px] text-ink-800 mb-2 leading-relaxed font-sans">
           <InlineMarkdown content={content.explanation} onJump={onJump} />
         </div>
       )}
 
       {content.latex && !isDuplicate && (
-        <div className="py-2 px-3 bg-paper-100/40 rounded text-center overflow-x-auto text-sm sm:text-base border border-paper-200/50">
+        <div className="py-2 text-center overflow-x-auto text-base sm:text-lg text-ink-900">
           <KaTeXMath math={content.latex} displayMode={true} />
         </div>
       )}

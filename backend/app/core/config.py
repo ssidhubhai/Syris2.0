@@ -24,6 +24,15 @@ class Settings(BaseSettings):
         "http://127.0.0.1:8000",
     ]
 
+    @field_validator("CORS_ORIGINS", mode="before")
+    @classmethod
+    def parse_cors_origins(cls, v: Union[str, List[str]]) -> List[str]:
+        if isinstance(v, str) and not v.startswith("["):
+            return [i.strip() for i in v.split(",") if i.strip()]
+        elif isinstance(v, list):
+            return v
+        return [v] if isinstance(v, str) else []
+
     # Security & limits
     MAX_PAYLOAD_SIZE_BYTES: int = 10 * 1024 * 1024  # 10 MB limit for JSON/media payloads
 
